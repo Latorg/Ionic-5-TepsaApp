@@ -1,6 +1,5 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
-
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -74,6 +73,24 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  //Tecno
+  --ion-color-tecno: #00856a;
+  --ion-color-tecno-rgb: 0,133,106;
+  --ion-color-tecno-contrast: #ffffff;
+  --ion-color-tecno-contrast-rgb: 255,255,255;
+  --ion-color-tecno-shade: #00755d;
+  --ion-color-tecno-tint: #1a9179;
+
+}
+
+.ion-color-tecno {
+  --ion-color-base: var(--ion-color-tecno) !important;
+  --ion-color-base-rgb: var(--ion-color-tecno-rgb) !important;
+  --ion-color-contrast: var(--ion-color-tecno-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-tecno-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-tecno-shade) !important;
+  --ion-color-tint: var(--ion-color-tecno-tint) !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -225,4 +242,6 @@
 
     --ion-tab-bar-background: #1f1f1f;
   }
+
+  
 }

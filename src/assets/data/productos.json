@@ -1,0 +1,446 @@
+{
+    "productos": [
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "CCL25",
+            "familia": {
+                "clave": "01",
+                "nombre": "ANCLO"
+            },
+            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/CCL25.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "PC500",
+            "familia": {
+                "clave": "01",
+                "nombre": "SOLA BASIC"
+            },
+            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/PC500.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO110",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo110.jpeg",
+            "publishedAt": ""
+        },
+        {
+            "codigo": "QO210",
+            "familia": {
+                "clave": "01",
+                "nombre": "SCHNEIDER"
+            },
+            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+            "caracteristicas": "",
+            "aplicaciones": "",
+            "urlToFichaTecnica": "",
+            "urlToImage": "/assets/productos-images/qo210.jpg",
+            "publishedAt": ""
+        }
+    ]
+}

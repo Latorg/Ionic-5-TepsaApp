@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-menu-color pt-1 pb-1" style="z-index: 999">
+  <a class="navbar-brand" routerLink="/">
+    <img src="/assets/custom-icons/isologo-tecno.svg" alt="Logo" style="width:120px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <div *ngFor="let c of componentes | async">
+        <li class="nav-item" *ngIf="c.type=='single'" >
+          <a class="nav-link" [routerLink]="c.redirectTo">{{ c.name }}</a>
+        </li>
+        <li class="nav-item dropdown"  *ngIf="c.type=='dropdown'" >
+          <a  class="nav-link dropdown-toggle" 
+              href="#" 
+              id="navbarDropdown" 
+              role="button" 
+              data-toggle="dropdown" 
+              aria-haspopup="true" 
+              aria-expanded="false">
+            Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="o.redirectTo" *ngFor="let o of c.options">{{ o.name }}</a>
+          </div>
+        </li>
+      </div>
+    </ul>
+    <div class="ml-auto p-1">
+      <form class="form-inline ">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+    
+  </div>
+</nav>

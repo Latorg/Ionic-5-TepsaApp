@@ -1,0 +1,37 @@
+<nav   class="navbar navbar-expand-lg navbar-light navbar-menu-color pt-1 pb-1 ion-justify-content-center" style="z-index: 999">
+
+  <ion-icon slot="start" name="call" class="header-size mr-1" *ngIf="!isMobileResolution"></ion-icon>
+  <ion-label class="m-0 header-size header-title" *ngIf="!isMobileResolution">44 48 48 21 01 con 10 lineas</ion-label>
+  <ion-icon slot="start" name="logo-whatsapp" class="header-size mr-1 ml-3"></ion-icon>
+  <ion-label class="m-0 header-size header-title">44 48 48 21 01</ion-label>
+  <ion-icon slot="start" name="time" class="header-size mr-1 ml-3" *ngIf="!isMobileResolution"></ion-icon>
+  <ion-label class="m-0 header-size header-title" *ngIf="!isMobileResolution">Lun-Vie 08:00 – 18:00 y Sáb 08:00 – 14:00</ion-label>
+</nav>
+
+<app-nav-bar-menu *ngIf="!isMobileResolution"></app-nav-bar-menu>
+
+<ion-header class="ion-no-border" [style.display]="displayMobile" >
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-menu-button color="tecno" menu="mainMenu" *ngIf="isMobileResolution"></ion-menu-button>
+      </ion-buttons>
+    <ion-title *ngIf="isMobileResolution" text-capitalize mode="md">{{ titulo }}</ion-title>
+    <ion-buttons [style.display]="displayMobile" slot="end">
+      <ion-searchbar  #mainSearchBar
+                      mode="md"
+                      [style.display]="displaySearchBar"
+                      animated=true 
+                      placeholder="Buscar" 
+                      (ionCancel)="closeSearchBar()" 
+                      (ionBlur)="closeSearchBar()"></ion-searchbar>
+      <ion-button icon-only 
+                  #mainSearchIcon   
+                  [style.display]="displaySearchIcon"
+                  (click)="openSearchBar()" 
+                  fill="clear" 
+                  shape="round">
+        <ion-icon name="search-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "home-sharp",
+        "name": "Inicio",
+        "redirectTo": "/inicio",
+        "type": "hidden-navbar"
+    },
+    {
+        "icon": "people-circle-sharp",
+        "name": "Nosotros",
+        "redirectTo": "/nosotros",
+        "type": "single"
+    },
+    {
+        "icon": "folder-open-sharp",
+        "name": "Productos",
+        "redirectTo": "/inicio",
+        "type": "dropdown",
+        "options": [
+            {
+                "icon": "folder-open-sharp",
+                "name": "Iluminación",
+                "redirectTo": "/inicio"
+            },
+            {
+                "icon": "folder-open-sharp",
+                "name": "Cables",
+                "redirectTo": "/inicio"
+            },
+            {
+                "icon": "folder-open-sharp",
+                "name": "Tubería",
+                "redirectTo": "/inicio"
+            }
+        ]
+        
+    },
+    {
+        "icon": "folder-open-sharp",
+        "name": "Servicios",
+        "redirectTo": "/servicios",
+        "type": "single"
+    },
+    {
+        "icon": "information-circle-sharp",
+        "name": "Contáctanos",
+        "redirectTo": "/contacto",
+        "type": "single"
+    }
+]

@@ -1,0 +1,7 @@
+<ion-grid fixed color="light">
+  <ion-row>
+    <ion-col size = "12" size-lg="2" size-md="3" size-sm="5" size-xs="6" *ngFor="let producto of productos">
+      <app-producto [producto] = "producto"></app-producto>
+    </ion-col>
+  </ion-row>
+</ion-grid>
