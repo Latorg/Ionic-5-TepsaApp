@@ -1,6 +1,10 @@
 <div id="carouselControls" class="carousel slide " data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselControls" *ngFor="let c of componentes | async" [class.active]="c.dataSlideTo === '0'" ></li>
+    <li data-target="#carouselControls" 
+        *ngFor="let c of componentes | async" 
+        [class.active]="c.dataSlideTo === '0'" 
+        [attr.data-slide-to] = "c.dataSlideTo">
+    </li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item" *ngFor="let c of componentes | async" [class.active]="c.dataSlideTo === '0'" >

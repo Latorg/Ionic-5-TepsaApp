@@ -2,37 +2,37 @@
     {
         "name": "Banner 01",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/banner-01.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS01.jpg",
         "dataSlideTo": "0"
     },
     {
         "name": "Banner 02",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/banner-02.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS02.jpg",
         "dataSlideTo": "1"
     },
     {
         "name": "Banner 03",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/banner-03.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS03.jpg",
         "dataSlideTo": "2"
     },
     {
         "name": "Banner 04",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/BANNERS 02 P2.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS04.jpg",
         "dataSlideTo": "3"
     },
     {
         "name": "Banner 05",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/BANNERS 02 P3.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS05.jpg",
         "dataSlideTo": "4"
     },
     {
         "name": "Banner 06",
         "redirectTo": "/inicio",
-        "urlToImage": "/assets/images/carousel/BANNERS 02 P4.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS06.jpg",
         "dataSlideTo": "5"
     }
 ]
