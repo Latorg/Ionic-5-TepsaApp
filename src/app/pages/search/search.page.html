@@ -3,8 +3,8 @@
 
 <ion-content color="light">
      <app-productos [productos] = "productos" ></app-productos>
-      <!--  <ion-infinite-scroll threshold="150px"  (ionInfinite)="loadData($event)">
-        <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="Cargando data...">
+      <ion-infinite-scroll threshold="15px"  (ionInfinite)="loadData($event)">
+        <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="Cargando más productos...">
         </ion-infinite-scroll-content>
-    </ion-infinite-scroll> --> 
+    </ion-infinite-scroll>
 </ion-content>
