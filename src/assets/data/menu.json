@@ -14,32 +14,31 @@
     {
         "icon": "folder-open-sharp",
         "name": "Productos",
-        "redirectTo": "/inicio",
-        "type": "dropdown",
-        "options": [
-            {
-                "icon": "folder-open-sharp",
-                "name": "Iluminación",
-                "redirectTo": "/inicio"
-            },
-            {
-                "icon": "folder-open-sharp",
-                "name": "Cables",
-                "redirectTo": "/inicio"
-            },
-            {
-                "icon": "folder-open-sharp",
-                "name": "Tubería",
-                "redirectTo": "/inicio"
-            }
-        ]
-        
+        "redirectTo": "/search",
+        "type": "single"        
     },
     {
         "icon": "folder-open-sharp",
         "name": "Servicios",
         "redirectTo": "/servicios",
-        "type": "single"
+        "type": "dropdown",
+        "options": [
+            {
+                "icon": "folder-open-sharp",
+                "name": "Iluminación",
+                "redirectTo": "/servicios"
+            },
+            {
+                "icon": "folder-open-sharp",
+                "name": "Cables",
+                "redirectTo": "/servicios"
+            },
+            {
+                "icon": "folder-open-sharp",
+                "name": "Tubería",
+                "redirectTo": "/servicios"
+            }
+        ]
     },
     {
         "icon": "information-circle-sharp",

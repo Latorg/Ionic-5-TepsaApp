@@ -11,35 +11,15 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 })
 export class InicioPage implements OnInit {
 
-  productos: Articulo[] = [];
+  
 
   constructor(private platform: Platform, 
-              private iab: InAppBrowser, 
-              private dataService: DataService) { }
+              private iab: InAppBrowser) { }
   ngOnInit() {
     // this.cargarProductos();
   }
 
-  loadData( event ) {
-    this.cargarProductos( event );
-  }
-
-  cargarProductos( event? ) {
-    this.dataService.getProductos()
-    .subscribe( resp => {
-      this.productos.push(...resp.productos);
-      // if (resp.productos.length === 0) {
-      //   if (event) {
-      //     event.target.disabled = true;
-      //   }
-      // } else {
-      //   this.productos.push(...resp.productos);
-      //   if (event) {
-      //     event.target.complete();
-      //   }
-      // }
-    });
-  }
+  
 
   enviarWhatsApp() {
     if (this.platform.is('cordova')) {

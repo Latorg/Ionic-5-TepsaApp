@@ -19,7 +19,7 @@
               data-toggle="dropdown" 
               aria-haspopup="true" 
               aria-expanded="false">
-            Productos
+            {{ c.name }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" [routerLink]="o.redirectTo" *ngFor="let o of c.options">{{ o.name }}</a>
