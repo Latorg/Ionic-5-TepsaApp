@@ -1,4 +1,4 @@
-<div id="carouselControls" class="carousel slide  slider-size" style="background-color: grey;" data-ride="carousel">
+<div id="carouselControls" class="carousel slide  " style="background-color: grey;" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselControls" 
         *ngFor="let c of componentes | async" 
@@ -6,9 +6,9 @@
         [attr.data-slide-to] = "c.dataSlideTo">
     </li>
   </ol>
-  <div class="carousel-inner slider-size">
+  <div class="carousel-inner">
     <div class="carousel-item" *ngFor="let c of componentes | async" [class.active]="c.dataSlideTo === '0'" >
-      <img class="d-block w-100 slider-size" [src]="c.urlToImage">
+      <img class="d-block w-100 slider-size" [ngStyle]="getMinHeightCarousel()" [src]="c.urlToImage">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">

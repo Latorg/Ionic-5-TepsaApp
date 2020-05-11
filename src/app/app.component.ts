@@ -18,10 +18,13 @@ export class AppComponent {
     this.initializeApp();
   }
 
+  static isMobileResolution: boolean = window.innerWidth < 992 ? true : false;
+
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
   }
+ 
 }

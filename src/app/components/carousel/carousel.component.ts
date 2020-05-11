@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { CarouselSlide } from '../../interfaces/interfaces';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-carousel',
@@ -14,7 +15,10 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit() {
     this.componentes = this.dataService.getCarousel();
-    console.log(this.componentes);
+  }
+  
+  getMinHeightCarousel() {
+    return AppComponent.isMobileResolution ? { 'min-height': '30vh'} : { 'min-height': '85vh'};
   }
 
 }

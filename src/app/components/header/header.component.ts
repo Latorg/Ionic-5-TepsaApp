@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, ViewChild, Injectable } from '@angular/core';
 import { IonSearchbar, IonButton, IonHeader } from '@ionic/angular';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-header',
@@ -16,9 +17,9 @@ export class HeaderComponent implements OnInit {
   public displayMobile: string;
   public isMobileResolution: boolean;
   
-  constructor() {
-    this.isMobileResolution = window.innerWidth < 992 ? true : false;
-    this.displayMobile = window.innerWidth < 992 ? '' : 'none';
+  constructor( ) {
+    this.isMobileResolution = AppComponent.isMobileResolution;
+    this.displayMobile = AppComponent.isMobileResolution ? '' : 'none';
   }
 
   ngOnInit() {
