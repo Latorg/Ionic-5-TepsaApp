@@ -1,7 +1,12 @@
 <ion-grid fixed color="light">
   <ion-row>
-    <ion-col size = "12" size-lg="2" size-md="3" size-sm="5" size-xs="6" *ngFor="let producto of productos">
+    <ion-col  size = "12" size-lg="2" size-md="3" size-sm="5" size-xs="6" 
+              *ngFor="let producto of productos | searchFilter: searchValue | infiniteScrollProducts: pageShown : searchValue">
       <app-producto [producto] = "producto"></app-producto>
     </ion-col>
   </ion-row>
 </ion-grid>
+<ion-infinite-scroll threshold="15px"  (ionInfinite)="loadData($event)">
+  <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="Cargando más productos...">
+  </ion-infinite-scroll-content>
+</ion-infinite-scroll>

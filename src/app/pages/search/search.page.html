@@ -2,9 +2,6 @@
 <app-header titulo="Tecno Eléctrica Potosí"></app-header>
 
 <ion-content color="light">
-     <app-productos [productos] = "productos" ></app-productos>
-      <ion-infinite-scroll threshold="15px"  (ionInfinite)="loadData($event)">
-        <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="Cargando más productos...">
-        </ion-infinite-scroll-content>
-    </ion-infinite-scroll>
+     <app-productos *ngIf="productos.length > 0" [productos] = "productos"></app-productos>
+      
 </ion-content>

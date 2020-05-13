@@ -13,15 +13,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { FormsModule } from '@angular/forms';
+import { SearchPageModule } from './pages/search/search.module';
+import { PipesModule } from './pipes/pipes.module';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
+    FormsModule,
     IonicModule.forRoot(),
     AppRoutingModule,
     ComponentsModule,
     HttpClientModule,
+    PipesModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [

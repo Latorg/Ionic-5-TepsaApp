@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Articulo } from '../../interfaces/interfaces';
 import { DataService } from '../../services/data.service';
-import { AppComponent } from '../../app.component';
+import { SubjectService } from '../../services/subject.service';
 
 @Component({
   selector: 'app-search',
@@ -10,46 +10,24 @@ import { AppComponent } from '../../app.component';
 })
 export class SearchPage implements OnInit {
 
-  productosRestantes: Articulo[] = [];
   productos: Articulo[] = [];
-  productosPerPage: number;
+  searchValue: string;
   
-  constructor( private dataService: DataService ) { }
-
-  ngOnInit() {
-    this.productosPerPage = AppComponent.isMobileResolution ? 8 : 18;
+  constructor(  private dataService: DataService,
+                private subjectService: SubjectService ) {
     this.loadAllProducts();
   }
 
-  loadData( event ) {
-    this.loadProductPage( event );
-  }
-
-  loadAllProducts( event? ) {
-    this.dataService.getProductos().subscribe( resp => {
-      if (resp.productos.length === 0) {
-        if (event) {
-          event.target.disabled = true;
-        }
-      } else {
-        this.productosRestantes.push(...resp.productos);
-        this.loadProductPage();
-      }
+  ngOnInit( search?: string) {
+    this.subjectService.currentSearch$.subscribe( res => {
+      this.searchValue = res;
     });
   }
 
-  loadProductPage( event? ) {
-    setTimeout(() => {
-      this.productos = this.productos.concat(
-        this.productosRestantes.splice(
-          0, this.productosPerPage));
-      if (event) {
-        event.target.complete();
-        if(this.productosRestantes.length === 0){
-          event.target.disabled = true;
-        }
-      }
-    }, 500 );
+  loadAllProducts( ) {
+    this.dataService.getProductos().subscribe( res => {
+      this.productos.push(...res);
+    });
   }
 
 }

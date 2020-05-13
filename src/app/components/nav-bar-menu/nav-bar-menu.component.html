@@ -28,9 +28,16 @@
       </div>
     </ul>
     <div class="ml-auto p-1">
-      <form class="form-inline ">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      <form class="form-inline" #searchForm="ngForm" >
+        <input  class="form-control mr-sm-2" 
+                type="search" 
+                placeholder="Buscar" 
+                ngModel 
+                name="searchInput" 
+                aria-label="Buscar" 
+                autocomplete="off"
+                #searchInput>
+        <a class="btn btn-outline-success my-2 my-sm-0" routerLink="/search" (click)="changeSearch(searchInput.value)">Buscar</a>
       </form>
     </div>
     

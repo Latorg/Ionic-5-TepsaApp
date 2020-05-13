@@ -1,654 +1,653 @@
-{
-    "productos": [
-        {
-            "codigo": "QO110",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo110.jpeg",
-            "publishedAt": ""
+
+[   
+    {
+        "codigo": "QO110",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO210",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo210.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO210",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "CCL25",
-            "familia": {
-                "clave": "01",
-                "nombre": "ANCLO"
-            },
-            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/CCL25.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo210.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "CCL25",
+        "familia": {
+            "clave": "01",
+            "nombre": "ANCLO"
         },
-        {
-            "codigo": "PC500",
-            "familia": {
-                "clave": "01",
-                "nombre": "SOLA BASIC"
-            },
-            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/PC500.jpg",
-            "publishedAt": ""
+        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/CCL25.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "PC500",
+        "familia": {
+            "clave": "01",
+            "nombre": "SOLA BASIC"
         },
-        {
-            "codigo": "LC1D40AM7",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-            "publishedAt": ""
+        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/PC500.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "LC1D40AM7",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "FS2",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/FS2.jpg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "FS2",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "DS100G",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/DS100G.jpg",
-            "publishedAt": ""
+        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/FS2.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "DS100G",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "ZB4BS844",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-            "publishedAt": ""
+        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/DS100G.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "ZB4BS844",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "TLIC13",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/TLIC13.jpg",
-            "publishedAt": ""
+        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "TLIC13",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "3RT20171AK61",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-            "publishedAt": ""
+        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/TLIC13.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO110",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo110.jpeg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO110",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO210",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo210.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO210",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "CCL25",
-            "familia": {
-                "clave": "01",
-                "nombre": "ANCLO"
-            },
-            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/CCL25.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo210.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "CCL25",
+        "familia": {
+            "clave": "01",
+            "nombre": "ANCLO"
         },
-        {
-            "codigo": "PC500",
-            "familia": {
-                "clave": "01",
-                "nombre": "SOLA BASIC"
-            },
-            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/PC500.jpg",
-            "publishedAt": ""
+        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/CCL25.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "PC500",
+        "familia": {
+            "clave": "01",
+            "nombre": "SOLA BASIC"
         },
-        {
-            "codigo": "LC1D40AM7",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-            "publishedAt": ""
+        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/PC500.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "LC1D40AM7",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "FS2",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/FS2.jpg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "FS2",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "DS100G",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/DS100G.jpg",
-            "publishedAt": ""
+        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/FS2.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "DS100G",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "ZB4BS844",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-            "publishedAt": ""
+        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/DS100G.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "ZB4BS844",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "TLIC13",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/TLIC13.jpg",
-            "publishedAt": ""
+        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "TLIC13",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "3RT20171AK61",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-            "publishedAt": ""
+        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/TLIC13.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO110",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo110.jpeg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO110",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO210",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo210.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO210",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "CCL25",
-            "familia": {
-                "clave": "01",
-                "nombre": "ANCLO"
-            },
-            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/CCL25.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo210.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "CCL25",
+        "familia": {
+            "clave": "01",
+            "nombre": "ANCLO"
         },
-        {
-            "codigo": "PC500",
-            "familia": {
-                "clave": "01",
-                "nombre": "SOLA BASIC"
-            },
-            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/PC500.jpg",
-            "publishedAt": ""
+        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/CCL25.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "PC500",
+        "familia": {
+            "clave": "01",
+            "nombre": "SOLA BASIC"
         },
-        {
-            "codigo": "LC1D40AM7",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-            "publishedAt": ""
+        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/PC500.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "LC1D40AM7",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "FS2",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/FS2.jpg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "FS2",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "DS100G",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/DS100G.jpg",
-            "publishedAt": ""
+        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/FS2.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "DS100G",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "ZB4BS844",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-            "publishedAt": ""
+        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/DS100G.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "ZB4BS844",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "TLIC13",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/TLIC13.jpg",
-            "publishedAt": ""
+        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "TLIC13",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "3RT20171AK61",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-            "publishedAt": ""
+        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/TLIC13.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO110",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo110.jpeg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO110",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO210",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo210.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO210",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "CCL25",
-            "familia": {
-                "clave": "01",
-                "nombre": "ANCLO"
-            },
-            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/CCL25.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo210.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "CCL25",
+        "familia": {
+            "clave": "01",
+            "nombre": "ANCLO"
         },
-        {
-            "codigo": "PC500",
-            "familia": {
-                "clave": "01",
-                "nombre": "SOLA BASIC"
-            },
-            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/PC500.jpg",
-            "publishedAt": ""
+        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/CCL25.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "PC500",
+        "familia": {
+            "clave": "01",
+            "nombre": "SOLA BASIC"
         },
-        {
-            "codigo": "LC1D40AM7",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-            "publishedAt": ""
+        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/PC500.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "LC1D40AM7",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "FS2",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/FS2.jpg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "FS2",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "DS100G",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/DS100G.jpg",
-            "publishedAt": ""
+        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/FS2.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "DS100G",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "ZB4BS844",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-            "publishedAt": ""
+        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/DS100G.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "ZB4BS844",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "TLIC13",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/TLIC13.jpg",
-            "publishedAt": ""
+        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "TLIC13",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "3RT20171AK61",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-            "publishedAt": ""
+        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/TLIC13.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO110",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo110.jpeg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO110",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "QO210",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/qo210.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "QO210",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "CCL25",
-            "familia": {
-                "clave": "01",
-                "nombre": "ANCLO"
-            },
-            "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/CCL25.jpg",
-            "publishedAt": ""
+        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/qo210.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "CCL25",
+        "familia": {
+            "clave": "01",
+            "nombre": "ANCLO"
         },
-        {
-            "codigo": "PC500",
-            "familia": {
-                "clave": "01",
-                "nombre": "SOLA BASIC"
-            },
-            "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/PC500.jpg",
-            "publishedAt": ""
+        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/CCL25.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "PC500",
+        "familia": {
+            "clave": "01",
+            "nombre": "SOLA BASIC"
         },
-        {
-            "codigo": "LC1D40AM7",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-            "publishedAt": ""
+        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/PC500.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "LC1D40AM7",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "FS2",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/FS2.jpg",
-            "publishedAt": ""
+        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "FS2",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "DS100G",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/DS100G.jpg",
-            "publishedAt": ""
+        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/FS2.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "DS100G",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "ZB4BS844",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-            "publishedAt": ""
+        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/DS100G.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "TLIC13",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/TLIC13.jpg",
-            "publishedAt": ""
+        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
         },
-        {
-            "codigo": "3RT20171AK61",
-            "familia": {
-                "clave": "01",
-                "nombre": "SCHNEIDER"
-            },
-            "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-            "caracteristicas": "",
-            "aplicaciones": "",
-            "urlToFichaTecnica": "",
-            "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-            "publishedAt": ""
-        }
-    ]
-}
+        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    },
+    {
+        "codigo": "3RT20171AK61",
+        "familia": {
+            "clave": "01",
+            "nombre": "SCHNEIDER"
+        },
+        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
+        "caracteristicas": "",
+        "aplicaciones": "",
+        "urlToFichaTecnica": "",
+        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
+        "publishedAt": ""
+    }
+]

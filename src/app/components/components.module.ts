@@ -8,6 +8,10 @@ import { NavBarMenuComponent } from './nav-bar-menu/nav-bar-menu.component';
 import { ProductoComponent } from './producto/producto.component';
 import { ProductosComponent } from './productos/productos.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { FormsModule } from '@angular/forms';
+import { SearchPageModule } from '../pages/search/search.module';
+import { SearchPage } from '../pages/search/search.page';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 
@@ -31,7 +35,9 @@ import { CarouselComponent } from './carousel/carousel.component';
   imports: [
     CommonModule,
     IonicModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    PipesModule
   ]
 })
 export class ComponentsModule { }

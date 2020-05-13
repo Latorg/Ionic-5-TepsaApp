@@ -22,6 +22,7 @@
                       [style.display]="displaySearchBar"
                       animated=true 
                       placeholder="Buscar" 
+                      (keyup.enter) = 'changeSearch()'
                       (ionCancel)="closeSearchBar()" 
                       (ionBlur)="closeSearchBar()"></ion-searchbar>
       <ion-button icon-only 

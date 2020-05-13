@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, Input, ElementRef } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { Componente } from '../../interfaces/interfaces';
+import { SearchPage } from '../../pages/search/search.page';
+import { SubjectService } from '../../services/subject.service';
+import { IonInput } from '@ionic/angular';
 
 @Component({
   selector: 'app-nav-bar-menu',
@@ -10,10 +13,24 @@ import { Componente } from '../../interfaces/interfaces';
 })
 export class NavBarMenuComponent implements OnInit {
   componentes: Observable<Componente[]>;
-  constructor( private dataService: DataService ) { }
+  searchValue: string;
+
+  @ViewChild('searchInput', {static: false}) searchIpt: any;
+
+  constructor(  private dataService: DataService,
+                private subjectService: SubjectService,
+                private el: ElementRef ) { }
 
   ngOnInit() {
     this.componentes = this.dataService.getMenuOpts();
+    this.subjectService.currentSearch$.subscribe( res => {
+      this.searchValue = res;
+    });
   }
 
+
+  changeSearch(search: string) {
+    this.subjectService.newSearch(search);
+    this.searchIpt.nativeElement.value = '';
+  }
 }

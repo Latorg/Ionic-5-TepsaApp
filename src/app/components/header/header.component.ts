@@ -1,6 +1,8 @@
 import { Component, OnInit, Input, ViewChild, Injectable } from '@angular/core';
 import { IonSearchbar, IonButton, IonHeader } from '@ionic/angular';
 import { AppComponent } from '../../app.component';
+import { SubjectService } from '../../services/subject.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -17,7 +19,8 @@ export class HeaderComponent implements OnInit {
   public displayMobile: string;
   public isMobileResolution: boolean;
   
-  constructor( ) {
+  constructor(  private subjectService: SubjectService,
+                private router: Router ) {
     this.isMobileResolution = AppComponent.isMobileResolution;
     this.displayMobile = AppComponent.isMobileResolution ? '' : 'none';
   }
@@ -35,5 +38,12 @@ export class HeaderComponent implements OnInit {
   closeSearchBar() {
     this.displaySearchBar = 'none';
     this.displaySearchIcon = '';
+  }
+
+  changeSearch() {
+    this.subjectService.newSearch(this.searchBar.value);
+    this.searchBar.value = '';
+    this.closeSearchBar();
+    this.router.navigate(['/search']);
   }
 }
