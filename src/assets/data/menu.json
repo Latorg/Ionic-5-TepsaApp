@@ -14,7 +14,7 @@
     {
         "icon": "folder-open-sharp",
         "name": "Productos",
-        "redirectTo": "/search",
+        "redirectTo": "/categorias",
         "type": "single"        
     },
     {

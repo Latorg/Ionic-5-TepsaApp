@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-nosotros',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NosotrosPage implements OnInit {
 
-  constructor() { }
+  urlImage: string;
+  
+  public isMobileResolution: boolean;
+  constructor() {
+    this.isMobileResolution = AppComponent.isMobileResolution;
+  }
 
   ngOnInit() {
+    this.urlImage = this.isMobileResolution ?
+      '/assets/images/headers/nosotros.png' : '/assets/images/headers/nosotros-large.png';
   }
 
 }

@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { SearchPageModule } from '../pages/search/search.module';
 import { SearchPage } from '../pages/search/search.page';
 import { PipesModule } from '../pipes/pipes.module';
+import { BannerHeaderComponent } from './banner-header/banner-header.component';
 
 
 
@@ -22,7 +23,8 @@ import { PipesModule } from '../pipes/pipes.module';
     NavBarMenuComponent,
     ProductoComponent,
     ProductosComponent,
-    CarouselComponent
+    CarouselComponent,
+    BannerHeaderComponent
   ],
   exports: [
     HeaderComponent,
@@ -30,7 +32,8 @@ import { PipesModule } from '../pipes/pipes.module';
     NavBarMenuComponent,
     ProductoComponent,
     ProductosComponent,
-    CarouselComponent
+    CarouselComponent,
+    BannerHeaderComponent
   ],
   imports: [
     CommonModule,
