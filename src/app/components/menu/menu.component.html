@@ -6,12 +6,31 @@
   </ion-header>
   <ion-content>
     <ion-list>
-      <ion-menu-toggle *ngFor="let c of componentes | async">
-        <ion-item [routerLink]="c.redirectTo" >
-          <ion-icon slot="start" [name]="c.icon"></ion-icon>
-          <ion-label>{{ c.name }}</ion-label>
+      <div *ngFor="let c of componentes | async">
+        <ion-menu-toggle *ngIf="c.type != 'dropdown'">
+          <ion-item [routerLink]="c.redirectTo" routerLinkActive="active" routerDirection="root" >
+            <ion-icon slot="start" [name]="c.icon"></ion-icon>
+            <ion-label>{{ c.name }}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+  
+        <ion-item button *ngIf="c.type == 'dropdown'" (click)="c.open = !c.open"
+                  [class.active-parent]="c.open" [detail]="!c.open">
+                  <ion-icon slot="start" name="folder" *ngIf="!c.open"></ion-icon>
+                  <ion-icon slot="start" name="folder-open" *ngIf="c.open"></ion-icon>
+                  <ion-label>{{ c.name }}</ion-label>
         </ion-item>
-      </ion-menu-toggle>
+
+        <ion-list *ngIf="c.open">
+          <ion-menu-toggle >
+            <ion-item class="sub-item" [routerLink]="o.redirectTo" *ngFor="let o of c.options"  routerLinkActive="active" routerDirection="root" >
+              <ion-icon slot="start" [name]="o.icon"></ion-icon>
+              <ion-label>{{ o.name }}</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+    
+        </ion-list>
+      </div>
     </ion-list>
   </ion-content>
 </ion-menu>

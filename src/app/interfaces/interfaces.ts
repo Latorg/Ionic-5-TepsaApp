@@ -3,6 +3,7 @@ export interface Componente {
     name: string;
     redirectTo: string;
     type: string;
+    open: boolean;
     options: Componente[];
 }
 

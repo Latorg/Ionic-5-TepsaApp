@@ -15,30 +15,40 @@
         "icon": "folder-open-sharp",
         "name": "Productos",
         "redirectTo": "/categorias",
-        "type": "single"        
+        "type": "dropdown",
+        "open": false,
+        "options": [
+            {
+                "icon": "grid",
+                "name": "Todas las categorías",
+                "redirectTo": "/categorias",
+                "type": "divider"
+            },
+            {
+                "icon": "flash",
+                "name": "Iluminación",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "git-branch",
+                "name": "Cables",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "construct",
+                "name": "Tubería",
+                "redirectTo": "/servicios",
+                "type": "single"
+            }
+        ]        
     },
     {
         "icon": "folder-open-sharp",
         "name": "Servicios",
         "redirectTo": "/servicios",
-        "type": "dropdown",
-        "options": [
-            {
-                "icon": "folder-open-sharp",
-                "name": "Iluminación",
-                "redirectTo": "/servicios"
-            },
-            {
-                "icon": "folder-open-sharp",
-                "name": "Cables",
-                "redirectTo": "/servicios"
-            },
-            {
-                "icon": "folder-open-sharp",
-                "name": "Tubería",
-                "redirectTo": "/servicios"
-            }
-        ]
+        "type": "single"
     },
     {
         "icon": "information-circle-sharp",

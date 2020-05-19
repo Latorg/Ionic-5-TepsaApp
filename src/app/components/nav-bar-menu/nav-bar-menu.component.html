@@ -22,7 +22,10 @@
             {{ c.name }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" [routerLink]="o.redirectTo" *ngFor="let o of c.options">{{ o.name }}</a>
+            <div *ngFor="let o of c.options">
+              <a class="dropdown-item" [routerLink]="o.redirectTo" >{{ o.name }}</a>
+              <div class="dropdown-divider" *ngIf="o.type == 'divider'"></div>
+            </div>
           </div>
         </li>
       </div>

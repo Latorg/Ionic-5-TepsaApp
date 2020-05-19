@@ -13,6 +13,7 @@ import { SearchPageModule } from '../pages/search/search.module';
 import { SearchPage } from '../pages/search/search.page';
 import { PipesModule } from '../pipes/pipes.module';
 import { BannerHeaderComponent } from './banner-header/banner-header.component';
+import { WhatsappFabComponent } from './whatsapp-fab/whatsapp-fab.component';
 
 
 
@@ -24,7 +25,8 @@ import { BannerHeaderComponent } from './banner-header/banner-header.component';
     ProductoComponent,
     ProductosComponent,
     CarouselComponent,
-    BannerHeaderComponent
+    BannerHeaderComponent,
+    WhatsappFabComponent
   ],
   exports: [
     HeaderComponent,
@@ -33,7 +35,8 @@ import { BannerHeaderComponent } from './banner-header/banner-header.component';
     ProductoComponent,
     ProductosComponent,
     CarouselComponent,
-    BannerHeaderComponent
+    BannerHeaderComponent,
+    WhatsappFabComponent
   ],
   imports: [
     CommonModule,
