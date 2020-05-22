@@ -3,6 +3,274 @@
 
 <ion-content>
 
+    <!-- Mobile Version -->
+    <div class="container" *ngIf="isMobileResolution">
+        <ion-grid class="mt-3 animate__animated animate__fadeInUp ">
+            <ion-row>
+            <ion-col  size = "12" class="pb-0 pl-0 pr-0 pt-2 content-center">
+                <h3>
+                    <b>¡Contáctanos!</b>
+                </h3>
+            </ion-col>
+            </ion-row>
+            <ion-row class="mt-2 ">
+                <ion-col  size = "12" class="p-0 pr-3">
+                    
+                    <ion-item > 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="1" >
+                                    <ion-icon size="default" name="time" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="11">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Lunes a Viernes 08:00 a 18:00 hrs.
+                                    </ion-label>
+                                    <br />
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Sábado 08:00 a 14:00 hrs.
+                                    </ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+
+                    <ion-item > 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="1" >
+                                    <ion-icon size="default" name="call" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="11">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">(444) 8 22 24 90 con 10 líneas</ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                    <ion-item class="ion-text-wrap"> 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="1" >
+                                    <ion-icon size="default" name="logo-whatsapp" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="11">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">44 48 48 21 02</ion-label>
+                                    <br />
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">44 48 48 21 03</ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                    <ion-item class="ion-text-wrap"> 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="1" >
+                                    <ion-icon size="default" name="location" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="11">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Av. Dr. Salvador Nava #456 
+                                    </ion-label><br />
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Fracc. Nuevo Paseo C.P. 78328
+                                    </ion-label><br />
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        San Luis Potosí, San Luis Potosí 
+                                    </ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                </ion-col>
+                <ion-col  size = "12" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.605006386669!2d-100.95912905011271!3d22.141030954182266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa23d4097e83d%3A0xf4035baf286cd95d!2sTecno%20El%C3%A9ctrica%20Potos%C3%AD%2C%20S.A.%20de%20C.V.!5e0!3m2!1ses-419!2smx!4v1590080042732!5m2!1ses-419!2smx" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        <div  class="mt-3 animate__animated animate__fadeInUp animate__delay-1s">
+            <h6 class="text-center">
+                <b>También puedes enviarnos un correo y nos ponemos en contacto contigo</b>
+            </h6>
+            <form onsubmit="processForm(event)" mode="md" class="pl-5 ml-2">
+                <ion-list lines="full" class="ion-no-margin ion-no-padding" mode="md">
+                    <ion-item mode="md"> 
+                        <ion-label position="stacked">Nombre Completo <ion-text color="danger">*</ion-text></ion-label>
+                        <ion-input mode="md" required type="text" oninput="handleFirstNameValue(event)"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label position="stacked">Correo Electrónico <ion-text color="danger">*</ion-text></ion-label>
+                        <ion-input required type="email" oninput="handleLastNameValue(event)"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label position="stacked">Telefono a 10 dígitos<ion-text color="danger">*</ion-text></ion-label>
+                        <ion-input required type="text" oninput="handleLastNameValue(event)"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label position="stacked">Empresa<ion-text color="danger">*</ion-text></ion-label>
+                        <ion-input required type="text" oninput="handleLastNameValue(event)"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label position="stacked">Estado<ion-text color="danger">*</ion-text></ion-label>
+                        <ion-select value="estado">
+                            <ion-select-option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</ion-select-option>
+                        </ion-select>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label position="stacked">Mensaje<ion-text color="danger">*</ion-text></ion-label>
+                        <ion-textarea rows="6" cols="20" ></ion-textarea>
+                      </ion-item>
+                </ion-list>
+                <ion-button type="submit" (click)="onClick()" expand="full" fill="solid" shape="round" color="tecno">
+                    Enviar
+                </ion-button>
+            </form>
+                            
+                            
+        </div>
+    </div>
+    <!-- Desktop Version -->
+    <div class="container" *ngIf="!isMobileResolution">
+        <ion-grid class="mt-3 animate__animated animate__fadeInUp ">
+            <ion-row>
+            <ion-col  size = "12" class="pb-0 pl-0 pr-0 pt-2 content-center">
+                <h3>
+                    <b>¡Contáctanos!</b>
+                </h3>
+            </ion-col>
+            </ion-row>
+            <ion-row class="mt-2 ">
+                <ion-col  size = "5" class="p-0 pr-3">
+                    
+                    <ion-item > 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="2" >
+                                    <ion-icon size="large" name="time" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="10">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Lunes a Viernes 08:00 a 18:00 hrs.
+                                    </ion-label>
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Sábado 08:00 a 14:00 hrs.
+                                    </ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+
+                    <ion-item > 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="2" >
+                                    <ion-icon size="large" name="call" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="10">
+                                    <ion-label>(444) 8 22 24 90 con 10 líneas</ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                    <ion-item > 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="2" >
+                                    <ion-icon size="large" name="logo-whatsapp" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="10">
+                                    <ion-label>44 48 48 21 02</ion-label>
+                                    <ion-label>44 48 48 21 03</ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                    <ion-item class="ion-text-wrap"> 
+                        <ion-grid fixed>
+                            <ion-row>
+                                <ion-col size="2" >
+                                    <ion-icon size="large" name="location" class="d-inline-block " ></ion-icon>
+                                </ion-col>
+                                <ion-col size="10">
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Av. Doctor Salvador Nava Martinez #456 
+                                    </ion-label>
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        Fracc. Nuevo Paseo C.P. 78328
+                                    </ion-label>
+                                    <ion-label class="d-inline-block text-justify ion-text-wrap">
+                                        San Luis Potosí, San Luis Potosí 
+                                    </ion-label>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-item>
+                </ion-col>
+                <ion-col  size = "7" class="" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.605006386669!2d-100.95912905011271!3d22.141030954182266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa23d4097e83d%3A0xf4035baf286cd95d!2sTecno%20El%C3%A9ctrica%20Potos%C3%AD%2C%20S.A.%20de%20C.V.!5e0!3m2!1ses-419!2smx!4v1590080042732!5m2!1ses-419!2smx" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        <ion-grid class="mt-3 animate__animated animate__fadeInUp animate__delay-1s">
+            <ion-row>
+                <ion-col  size = "12" class="pb-0 pl-0 pr-0 pt-2 content-center">
+                    <h5>
+                        <b>También puedes enviarnos un correo y nos ponemos en contacto contigo</b>
+                    </h5>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="5" class="p-0 content-center">
+                    <div class="p-5">
+                        <ion-thumbnail class="thumbnail-resize p-2">
+                            <img src="/assets/images/logo/icon tepsa.png">
+                        </ion-thumbnail>
+                    </div>
+                </ion-col>
+                <ion-col size="7">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombreContacto">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombreContacto" >
+                        </div>
+                        <div class="form-group">
+                          <label for="correoContacto">Correo electrónico</label>
+                          <input type="email" class="form-control" id="correoContacto" >
+                        </div>
+                        <div class="form-group">
+                            <label for="telefonoContacto">Teléfono a 10 dígitos</label>
+                            <input type="text" class="form-control" id="telefonoContacto" >
+                          </div>
+                        <div class="form-group">
+                            <label for="empresaContacto">Empresa</label>
+                            <input type="text" class="form-control" id="empresaContacto" >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Estado</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="" disabled >Selecciona una opción...</option>
+                            <option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="mensajeContacto">Mensaje</label>
+                          <textarea class="form-control" id="mensajeContacto" rows="4" style="resize: none !important"></textarea>
+                        </div>
+                      </form>
+                </ion-col>
+                
+                
+            </ion-row>
+            <ion-row>
+                <ion-col size="5" class="p-0 content-center">
+                </ion-col>
+                <ion-col size="7">
+                        <ion-button type="submit" (click)="onClick()" expand="full" fill="solid" shape="round" color="tecno">
+                            Enviar
+                        </ion-button>
+                    </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
 </ion-content>
 
 <ion-footer>

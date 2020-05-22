@@ -1,0 +1,14 @@
+.content-center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-resize{
+    --size: 100%;
+    --border-radius: 0;
+}
+
+.sc-ion-action-sheet-md-h{
+  --max-height: 40% !important;
+}
