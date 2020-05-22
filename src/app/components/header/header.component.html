@@ -17,7 +17,10 @@
     <ion-buttons slot="start">
         <ion-menu-button color="tecno" menu="mainMenu" *ngIf="isMobileResolution"></ion-menu-button>
       </ion-buttons>
-    <ion-title *ngIf="isMobileResolution" text-capitalize mode="md">{{ titulo }}</ion-title>
+    <ion-title *ngIf="isMobileResolution" text-capitalize mode="md">
+      
+    <img src="/assets/custom-icons/header-tecno.png" alt="Logo" style="width:100%;">
+    </ion-title>
     <ion-buttons [style.display]="displayMobile" slot="end">
       <ion-searchbar  #mainSearchBar
                       mode="md"
