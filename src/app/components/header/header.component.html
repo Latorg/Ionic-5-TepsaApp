@@ -4,10 +4,10 @@
   <ion-label class="m-0 header-size header-title" *ngIf="!isMobileResolution">8 22 24 90 con 10 lineas</ion-label>
   <ion-icon slot="start" name="logo-whatsapp" class="header-size mr-1 ml-3" *ngIf="!isMobileResolution"></ion-icon>
   <ion-label class="m-0 header-size header-title" *ngIf="!isMobileResolution">44 48 48 21 01</ion-label>
-  <ion-icon slot="start" name="time" class="header-size mr-1 ml-3" *ngIf="!isMobileResolution"></ion-icon>
-  <ion-label class="m-0 header-size header-title" *ngIf="!isMobileResolution">Lun-Vie 08:00 – 18:00 y Sáb 08:00 – 14:00</ion-label>
-  <ion-icon slot="start" name="mail" class="header-size mr-1 ml-3" ></ion-icon>
-  <ion-label class="m-0 header-size header-title" >ventas@tecnopotosi.com.mx</ion-label>
+  <ion-icon slot="start" name="time" class="header-size mr-1 " [ngClass]="{'ml-3' : !isMobileResolution, 'ml-1' : isMobileResolution}"></ion-icon>
+  <ion-label class="m-0 header-size header-title"  [ngClass]="{'small' : isMobileResolution}">Lun-Vie 08:00 – 18:00 y Sáb 08:00 – 14:00</ion-label>
+  <ion-icon slot="start" name="mail" class="header-size mr-1 ml-3"  *ngIf="!isMobileResolution"></ion-icon>
+  <ion-label class="m-0 header-size header-title"  *ngIf="!isMobileResolution">ventas@tecnopotosi.com.mx</ion-label>
 </nav>
 
 <app-nav-bar-menu *ngIf="!isMobileResolution"></app-nav-bar-menu>

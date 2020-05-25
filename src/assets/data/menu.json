@@ -25,20 +25,51 @@
                 "type": "divider"
             },
             {
-                "icon": "flash",
-                "name": "Iluminación",
-                "redirectTo": "/servicios",
-                "type": "single"
-            },
-            {
                 "icon": "git-branch",
-                "name": "Cables",
+                "name": "Cable",
                 "redirectTo": "/servicios",
                 "type": "single"
             },
             {
-                "icon": "construct",
-                "name": "Tubería",
+                "icon": "flash",
+                "name": "Transformadores",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "flashlight",
+                "name": "Iluminación Industrial",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            
+            {
+                "icon": "tablet-portrait",
+                "name": "Tableros",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "code-working",
+                "name": "Electroducto",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "cog",
+                "name": "CCM",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "crop",
+                "name": "Charolas",
+                "redirectTo": "/servicios",
+                "type": "single"
+            },
+            {
+                "icon": "battery-half",
+                "name": "Fusibles",
                 "redirectTo": "/servicios",
                 "type": "single"
             }

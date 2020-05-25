@@ -13,9 +13,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { CallNumber } from '@ionic-native/call-number/ngx';
+import { EmailComposer } from '@ionic-native/email-composer/ngx';
 import { FormsModule } from '@angular/forms';
 import { SearchPageModule } from './pages/search/search.module';
 import { PipesModule } from './pipes/pipes.module';
+import { IonicNativePlugin } from '@ionic-native/core';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -33,6 +36,8 @@ import { PipesModule } from './pipes/pipes.module';
     StatusBar,
     SplashScreen,
     InAppBrowser,
+    CallNumber,
+    EmailComposer,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
