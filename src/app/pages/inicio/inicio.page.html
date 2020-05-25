@@ -3,7 +3,32 @@
 
 <ion-content color="light">
     <app-carousel></app-carousel>
-    
+    <div class="container mt-3 mb-3 animate__animated animate__fadeInUp ">
+        <ion-title color="tecno" class='title-home mb-3' [ngStyle] = "{'font-size': fontStyle }">¡Somos tu mejor opción!</ion-title>
+        <ion-grid>
+          
+          <ion-row >
+            <ion-col class="mb-4" size = "12" size-lg="6" size-md="6" size-sm="6" size-xs="6"
+                      *ngFor="let feature of features"  
+                      [ngClass]="{'p-3 mb-4' : !isMobileResolution, 'p-2 mb-1' : isMobileResolution}">
+                <div class="content-center">
+                    <ion-img [ngClass]="{'feature-desktop-img-home' : !isMobileResolution, 'feature-mobile-img-home' : isMobileResolution}" 
+                            [src]="feature.url"></ion-img>
+                </div>
+                <div class="content-center">
+                    <ion-label class="feature-lbl-home" 
+                                [ngClass]="{'feature-mobile-lbl-home' : isMobileResolution}">{{ feature.text }}</ion-label>
+                </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <div class="content-center mt-4">
+            <a routerLink="/contacto">
+                <button type="button" class="btn btn-outline-success"
+                [ngClass]="{'btn-lg' : !isMobileResolution}">¡Contáctanos!</button>
+            </a>
+        </div>
+      </div>
 </ion-content>
 <ion-footer>
     <app-contact-fab></app-contact-fab>
