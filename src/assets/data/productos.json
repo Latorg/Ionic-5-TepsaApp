@@ -1,16 +1,16 @@
 
 [   
     {
-        "codigo": "QO110",
+        "codigo": "XLPE",
         "familia": {
             "clave": "01",
             "nombre": "SCHNEIDER"
         },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "descripcion": "Cable monoconductor con material sellador y aislamiento de polietileno de cadena cruzada",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo110.jpeg",
+        "urlToImage": "/assets/productos-images/XLPE.jpg",
         "publishedAt": "",
         "categoria": "cable",
         "subcategoria": "altatension"
@@ -138,82 +138,94 @@
         "publishedAt": ""
     },
     {
-        "codigo": "QO110",
+        "codigo": "CCD",
         "familia": {
             "clave": "01",
             "nombre": "SCHNEIDER"
         },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
+        "descripcion": " Conductor cableado y formado por alambres de cobre temple semiduro en capas concéntricas.",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo110.jpeg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/ccd.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
-        "codigo": "QO210",
+        "codigo": "AAD",
         "familia": {
             "clave": "01",
             "nombre": "SCHNEIDER"
         },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
+        "descripcion": " Alambre de aluminio temple suave aleación 1350.",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo210.jpg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/aad.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
-        "codigo": "CCL25",
+        "codigo": "CAD",
         "familia": {
             "clave": "01",
             "nombre": "ANCLO"
         },
-        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
+        "descripcion": "Conductor cableado y formado por alambres de aluminio duro aleación 1350 en capas concéntricas.",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/CCL25.jpg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/cad.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
-        "codigo": "PC500",
+        "codigo": "ACSR",
         "familia": {
             "clave": "01",
             "nombre": "SOLA BASIC"
         },
-        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
+        "descripcion": "Núcleo de alambres de acero galvanizado formado por alambres de aluminio duro en capas concéntricas.",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/PC500.jpg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/ascr.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
-        "codigo": "LC1D40AM7",
+        "codigo": "OPGW",
         "familia": {
             "clave": "01",
             "nombre": "SCHNEIDER"
         },
-        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
+        "descripcion": "CABLE DE GUARDA CON FIBRAS ÓPTICAS TIPO OPGW, 36 FIBRAS MONOMODO",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/opgw.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
-        "codigo": "FS2",
+        "codigo": "ACD",
         "familia": {
             "clave": "01",
             "nombre": "SCHNEIDER"
         },
-        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
+        "descripcion": "ALAMBRE DE COBRE SUAVE DESNUDO",
         "caracteristicas": "",
         "aplicaciones": "",
         "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/FS2.jpg",
-        "publishedAt": ""
+        "urlToImage": "/assets/productos-images/acd.png",
+        "publishedAt": "",
+        "categoria": "cable",
+        "subcategoria": "desnudo"
     },
     {
         "codigo": "DS100G",

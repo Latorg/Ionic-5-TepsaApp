@@ -14,7 +14,7 @@ export class InfiniteScrollProductsPipe implements PipeTransform {
 
 
   transform(arr: any[], page: number,  searchValue: string): any[] {
-    const productosPerPage = AppComponent.isMobileResolution ? 8 : 18;
+    const productosPerPage = AppComponent.isMobileResolution ? 6 : 16;
     if (arr.length > 0 ) {
       arr = arr.filter( ( x, index ) => {
         return index < productosPerPage * page;

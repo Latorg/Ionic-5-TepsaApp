@@ -1,15 +1,16 @@
 <ion-card color="tecno" class="animated fadeIn fast" >
   <ion-card-header class="p-2">
     <ion-card-subtitle class="text-center">
-      <span class="noticia-source-name" class="medium" >{{ producto.codigo }}</span>
+      <span class="noticia-source-name" >{{ producto.codigo }}</span>
     </ion-card-subtitle>
     <!-- <ion-card-title (click)="verProducto()" class="text-title">{{ producto.descripcion.substring(0,46) }}</ion-card-title>  -->
   </ion-card-header>
-  <ion-img  (click)="verProducto()" 
-            [src]="producto.urlToImage"
-            class="producto-image img-responsive"></ion-img>
+  <div class="div-producto-image">
+    <ion-img  (click)="verProducto()" 
+              [src]="producto.urlToImage"
+              class="producto-image "></ion-img>  
+  </div>
   <ion-card-content class="producto-content">
-    <p class="ion-text-center">{{ producto.descripcion }}</p>
-    
+    <p class="ion-text-center ">{{ producto.descripcion }}</p>
   </ion-card-content>
 </ion-card>

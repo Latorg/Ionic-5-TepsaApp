@@ -6,7 +6,7 @@
   </div>
 <ion-grid fixed color="light">
   <ion-row>
-    <ion-col  size = "12" size-lg="2" size-md="3" size-sm="5" size-xs="6" 
+    <ion-col  size = "12" size-lg="3" size-md="3" size-sm="6" size-xs="12" 
               *ngFor="let producto of productos | searchFilter: searchValue | infiniteScrollProducts: pageShown : searchValue">
       <app-producto [producto] = "producto"></app-producto>
     </ion-col>
