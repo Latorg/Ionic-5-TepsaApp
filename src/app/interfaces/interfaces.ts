@@ -32,4 +32,15 @@ export interface Articulo {
     urlToFichaTecnica: string;
     urlToImage: string;
     publishedAt: string;
+    categoria: string;
+    subcategoria: string;
+}
+
+export interface Categoria {
+    id: string;
+    nombre: string;
+    urlToImageCard: string;
+    urlToImageBannerDesktop: string;
+    urlToImageBannerMobile: string;
+    subcategorias: Categoria[];
 }

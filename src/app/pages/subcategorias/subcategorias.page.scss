@@ -1,0 +1,30 @@
+
+
+.card-img-container {
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-weight: 600;
+}
+
+.card-text-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    // background-color: rgba(69, 119, 79, 0.8);
+    background-color: rgba(78, 150, 92, 0.8);
+    // background-color: #569462;
+
+}
+
+.producto-image {
+    max-height: 120px;
+    min-height: 120px;
+    height: 120px;
+    width: 100%;    
+    background-color: white;
+}
+
+.navigationText {
+    color: #838383;
+}

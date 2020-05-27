@@ -16,6 +16,7 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
+    
   }
 
   static isMobileResolution: boolean = window.innerWidth < 992 ? true : false;

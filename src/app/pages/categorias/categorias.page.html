@@ -2,119 +2,22 @@
 
 <ion-content>
   
-  <app-banner-header [urlImage] = "urlImage" ></app-banner-header>
-  <div class="container ">
+  <app-banner-header ></app-banner-header>
+  <div class="container mb-5 pb-1">
     
     <ion-grid>
       
       <ion-row class="animate__animated animate__fadeInUp ">
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
+        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0"
+                  *ngFor="let categoria of categorias">
+          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/productos/{{categoria.id}}">
+            <div class="card-img-container">
+              <img class="producto-image img-responsive" [src]="categoriasUrl + categoria.id + '/' + categoria.urlToImageCard">
+              <div class="card-text-container">{{ categoria.nombre }}</div>
+            </div>
             <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
             </a>
           </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/cable.jpg">
-            </a>
-          </ion-card>
-          
-        </ion-col>
-        <ion-col  size = "12" size-lg="4" size-md="6" size-sm="12" size-xs="12" class="p-0">
-          <ion-card color="tecno" class="animated fadeIn fast" routerLink="/search">
-            
-            <a >
-              <img class="producto-image img-responsive" src="/assets/images/categorias/tableros.jpg">
-            </a>
-          </ion-card>
-          
         </ion-col>
       </ion-row>
       

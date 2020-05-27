@@ -1,0 +1,104 @@
+
+[   
+    {
+        "id": "cable",
+        "nombre": "Cable",
+        "urlToImageCard": "cable.jpg",
+        "urlToImageBannerDesktop": "banner.jpg",
+        "urlToImageBannerMobile": "banner.jpg",
+        "subcategorias": [
+            {
+                "id": "altatension",
+                "nombre": "Cable de alta tensión",
+                "urlToImageCard": "AltaTension.jpg" 
+            },
+            {
+                "id": "armoflex",
+                "nombre": "Cable armoflex",
+                "urlToImageCard": "Armoflex.jpg" 
+            },
+            {
+                "id": "bajatension",
+                "nombre": "Cable de baja tensión",
+                "urlToImageCard": "BajaTension.jpg" 
+            },
+            {
+                "id": "control",
+                "nombre": "Cable de control",
+                "urlToImageCard": "control.jpg" 
+            },
+            {
+                "id": "desnudo",
+                "nombre": "Cable desnudo",
+                "urlToImageCard": "desnudo.jpg" 
+            },
+            {
+                "id": "portaelectrodo",
+                "nombre": "Cable portaelectrodo",
+                "urlToImageCard": "Portaelectrodo.jpg" 
+            },
+            {
+                "id": "usorudo",
+                "nombre": "Calbe de uso rudo",
+                "urlToImageCard": "UsoRudo.jpg" 
+            }
+        ]
+    },
+    {
+        "id": "transformadores",
+        "nombre": "Transformadores",
+        "urlToImageCard": "transformador.jpg",
+        "urlToImageBannerDesktop": "transformador.jpg",
+        "urlToImageBannerMobile": "transformador.jpg",
+        "subcategorias": []
+        
+    },
+    {
+        "id": "iluminacion",
+        "nombre": "Iluminación",
+        "urlToImageCard": "iluminacion.jpg",
+        "urlToImageBannerDesktop": "iluminacion.jpg",
+        "urlToImageBannerMobile": "iluminacion.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "tableros",
+        "nombre": "Tableros",
+        "urlToImageCard": "tablero.jpg",
+        "urlToImageBannerDesktop": "tablero.jpg",
+        "urlToImageBannerMobile": "tablero.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "electroducto",
+        "nombre": "Electroducto",
+        "urlToImageCard": "electroducto.jpg",
+        "urlToImageBannerDesktop": "electroducto.jpg",
+        "urlToImageBannerMobile": "electroducto.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "ccm",
+        "nombre": "CCM",
+        "urlToImageCard": "ccm.jpg",
+        "urlToImageBannerDesktop": "ccm.jpg",
+        "urlToImageBannerMobile": "ccm.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "charolas",
+        "nombre": "Charolas",
+        "urlToImageCard": "charola.jpg",
+        "urlToImageBannerDesktop": "charola.jpg",
+        "urlToImageBannerMobile": "charola.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "fusibles",
+        "nombre": "Fusibles",
+        "urlToImageCard": "fusible.jpg",
+        "urlToImageBannerDesktop": "fusible.jpg",
+        "urlToImageBannerMobile": "fusible.jpg",
+        "subcategorias": []
+    }
+]

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Componente, Articulo, RespuestaProductos, CarouselSlide } from '../interfaces/interfaces';
+import { Componente, Articulo, RespuestaProductos, CarouselSlide, Categoria } from '../interfaces/interfaces';
 import { AppComponent } from '../app.component';
 import { Observable } from 'rxjs';
 
@@ -22,4 +22,9 @@ export class DataService {
   getCarousel() {
     return this.http.get<CarouselSlide[]>('/assets/data/carousel.json');
   }
+
+  getCategorias() {
+    return this.http.get<Categoria[]>('/assets/data/categorias.json');
+  }
+
 }

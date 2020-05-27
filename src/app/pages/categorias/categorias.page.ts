@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { AppComponent } from '../../app.component';
+import { DataService } from '../../services/data.service';
+import { Categoria } from '../../interfaces/interfaces';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-categorias',
@@ -8,13 +11,19 @@ import { AppComponent } from '../../app.component';
 })
 export class CategoriasPage implements OnInit {
 
-  urlImage: string;
+  categoriasUrl: string;
+  categorias: Categoria[] = [];
 
-  constructor() {}
+  constructor( private dataService: DataService) {}
 
   ngOnInit() {
-    this.urlImage = AppComponent.isMobileResolution ?
-      '/assets/images/headers/categorias.png' : '/assets/images/headers/categorias-large.png';
+    this.categoriasUrl = environment.categoriasUrl;
+    this.loadAllCategories();
   }
 
+  loadAllCategories( ) {
+    this.dataService.getCategorias().subscribe( res => {
+      this.categorias.push(...res);
+    });
+  }
 }

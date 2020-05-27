@@ -75,12 +75,12 @@
   --ion-color-light-tint: #f5f6f9;
 
   //Tecno
-  --ion-color-tecno: #00856a;
-  --ion-color-tecno-rgb: 0,133,106;
+  --ion-color-tecno: #569462;
+  --ion-color-tecno-rgb: 86,148,98;
   --ion-color-tecno-contrast: #ffffff;
   --ion-color-tecno-contrast-rgb: 255,255,255;
-  --ion-color-tecno-shade: #00755d;
-  --ion-color-tecno-tint: #1a9179;
+  --ion-color-tecno-shade: #4c8256;
+  --ion-color-tecno-tint: #679f72;
 
   //Whatsapp
   --ion-color-whatsapp: #075e54;
@@ -90,6 +90,14 @@
   --ion-color-whatsapp-shade: #06534a;
   --ion-color-whatsapp-tint: #206e65;
 
+    --ion-color-white: #ffffff;
+    --ion-color-white-rgb: 255,255,255;
+    --ion-color-white-contrast: #000000;
+    --ion-color-white-contrast-rgb: 0,0,0;
+    --ion-color-white-shade: #e0e0e0;
+    --ion-color-white-tint: #ffffff;
+  
+  
 
 }
 
@@ -109,6 +117,15 @@
   --ion-color-contrast-rgb: var(--ion-color-whatsapp-contrast-rgb) !important;
   --ion-color-shade: var(--ion-color-whatsapp-shade) !important;
   --ion-color-tint: var(--ion-color-whatsapp-tint) !important;
+}
+
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white);
+  --ion-color-base-rgb: var(--ion-color-white-rgb);
+  --ion-color-contrast: var(--ion-color-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-white-shade);
+  --ion-color-tint: var(--ion-color-white-tint);
 }
 
 @media (prefers-color-scheme: dark) {

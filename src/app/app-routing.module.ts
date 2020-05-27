@@ -24,9 +24,37 @@ const routes: Routes = [
     loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
   },
   {
-    path: 'categorias',
-    loadChildren: () => import('./pages/categorias/categorias.module').then( m => m.CategoriasPageModule)
+    path: 'productos',
+    children: [
+      {
+        path: '',
+        redirectTo: 'todos',
+        pathMatch: 'full'
+      },
+      {
+        path: 'todos',
+        loadChildren: () => import('./pages/categorias/categorias.module').then( m => m.CategoriasPageModule)
+      },
+      {
+        path: ':categoriaID',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('./pages/subcategorias/subcategorias.module').then( m => m.SubcategoriasPageModule)
+          },
+          {
+            path: ':subcategoriaID',
+            loadChildren: () => import('./pages/productos-per-categoria/productos-per-categoria.module')
+              .then( m => m.ProductosPerCategoriaPageModule)
+          }
+        ]
+      }
+    ]
   },
+  {
+    path: '**',
+    redirectTo: 'inicio'
+  }
 ];
 
 @NgModule({

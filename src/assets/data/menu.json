@@ -14,63 +14,63 @@
     {
         "icon": "folder-open-sharp",
         "name": "Productos",
-        "redirectTo": "/categorias",
+        "redirectTo": "/productos",
         "type": "dropdown",
         "open": false,
         "options": [
             {
                 "icon": "grid",
-                "name": "Todas las categorías",
-                "redirectTo": "/categorias",
+                "name": "Todos",
+                "redirectTo": "/productos/todos",
                 "type": "divider"
             },
             {
                 "icon": "git-branch",
                 "name": "Cable",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/cable",
                 "type": "single"
             },
             {
                 "icon": "flash",
                 "name": "Transformadores",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/transformadores",
                 "type": "single"
             },
             {
                 "icon": "flashlight",
-                "name": "Iluminación Industrial",
-                "redirectTo": "/servicios",
+                "name": "Iluminación",
+                "redirectTo": "/productos/iluminacion",
                 "type": "single"
             },
             
             {
                 "icon": "tablet-portrait",
                 "name": "Tableros",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/tableros",
                 "type": "single"
             },
             {
                 "icon": "code-working",
                 "name": "Electroducto",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/electroducto",
                 "type": "single"
             },
             {
                 "icon": "cog",
                 "name": "CCM",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/ccm",
                 "type": "single"
             },
             {
                 "icon": "crop",
                 "name": "Charolas",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/charolas",
                 "type": "single"
             },
             {
                 "icon": "battery-half",
                 "name": "Fusibles",
-                "redirectTo": "/servicios",
+                "redirectTo": "/productos/fusibles",
                 "type": "single"
             }
         ]        
