@@ -18,7 +18,7 @@
     </a> 
   </div>
   <div class="container">
-    <ion-grid fixed color="light" class="animate__animated animate__fadeInUp ">
+    <ion-grid fixed color="light" class="animate__animated animate__fadeInUp " *ngIf="productos.length > 0">
       <ion-row>
         <ion-col  size = "12" size-lg="2" size-md="3" size-sm="5" size-xs="6" 
                   *ngFor="let producto of productos | infiniteScrollProducts: pageShown : ''">

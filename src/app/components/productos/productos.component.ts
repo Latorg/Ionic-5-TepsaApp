@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, AfterContentInit } from '@angular/core';
 import { Articulo } from '../../interfaces/interfaces';
 import { SubjectService } from '../../services/subject.service';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-productos',
@@ -13,10 +14,15 @@ export class ProductosComponent implements OnInit, AfterContentInit {
   @Input() productos: Articulo[];
   productosShown: Articulo[] = [];
   searchValue: string;
+  
+  isMobileResolution: boolean;
+
   constructor( private subjectService: SubjectService ) {
    }
 
   ngOnInit() {
+    
+    this.isMobileResolution = AppComponent.isMobileResolution;
     this.subjectService.currentSearch$.subscribe( res => {
       this.searchValue = res;
     });

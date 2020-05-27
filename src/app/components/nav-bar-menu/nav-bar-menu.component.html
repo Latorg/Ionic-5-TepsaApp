@@ -39,8 +39,9 @@
                 name="searchInput" 
                 aria-label="Buscar" 
                 autocomplete="off"
+                (keyup.enter) = 'changeSearch(searchInput.value)'
                 #searchInput>
-        <a class="btn btn-outline-success my-2 my-sm-0" routerLink="/search" (click)="changeSearch(searchInput.value)">Buscar</a>
+        <a class="btn btn-outline-success my-2 my-sm-0" (click)="changeSearch(searchInput.value)">Buscar</a>
       </form>
     </div>
     

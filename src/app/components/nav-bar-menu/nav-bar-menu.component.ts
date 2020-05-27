@@ -5,6 +5,7 @@ import { Componente } from '../../interfaces/interfaces';
 import { SearchPage } from '../../pages/search/search.page';
 import { SubjectService } from '../../services/subject.service';
 import { IonInput } from '@ionic/angular';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar-menu',
@@ -19,7 +20,8 @@ export class NavBarMenuComponent implements OnInit {
 
   constructor(  private dataService: DataService,
                 private subjectService: SubjectService,
-                private el: ElementRef ) { }
+                private el: ElementRef,
+                private route: Router ) { }
 
   ngOnInit() {
     this.componentes = this.dataService.getMenuOpts();
@@ -32,5 +34,6 @@ export class NavBarMenuComponent implements OnInit {
   changeSearch(search: string) {
     this.subjectService.newSearch(search);
     this.searchIpt.nativeElement.value = '';
+    this.route.navigateByUrl('/search');
   }
 }

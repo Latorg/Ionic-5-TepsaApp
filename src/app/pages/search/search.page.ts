@@ -15,17 +15,22 @@ export class SearchPage implements OnInit {
   
   constructor(  private dataService: DataService,
                 private subjectService: SubjectService ) {
-    this.loadAllProducts();
   }
 
-  ngOnInit( search?: string) {
+  ngOnInit() {
     this.subjectService.currentSearch$.subscribe( res => {
       this.searchValue = res;
+      this.loadAllProducts();
     });
   }
 
   loadAllProducts( ) {
     this.dataService.getProductos().subscribe( res => {
+
+      if ( this.searchValue !== '' ) {
+        res = res.filter( x => x.descripcion.toLowerCase().includes( this.searchValue.toLowerCase() ));
+      }
+      this.productos = [];
       this.productos.push(...res);
     });
   }
