@@ -1,0 +1,10 @@
+
+.service-item:hover {
+    background-color: #569462 !important;
+}
+
+ion-item:hover {
+    --background: #569462;
+    cursor: pointer;
+    color: white;
+  }

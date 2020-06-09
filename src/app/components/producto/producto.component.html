@@ -6,11 +6,20 @@
     <!-- <ion-card-title (click)="verProducto()" class="text-title">{{ producto.descripcion.substring(0,46) }}</ion-card-title>  -->
   </ion-card-header>
   <div class="div-producto-image">
-    <ion-img  (click)="verProducto()" 
-              [src]="producto.urlToImage"
+    <ion-img  
+              [src]="'assets/images/productos/' + producto.categoria + '/' + producto.subcategoria + '/' + producto.urlToImage"
               class="producto-image "></ion-img>  
+  </div>
+  <div class="div-producto-pdf">
+    <a class="small a-producto-pdf" 
+      *ngIf="producto.urlToFichaTecnica != ''"
+      (click) = "downloadFicha('assets/pdf/productos/' + producto.categoria + '/' + producto.subcategoria + '/' + producto.urlToFichaTecnica, producto.codigo)">
+      DESCARGAR FICHA TÉCNICA
+    </a>
   </div>
   <ion-card-content class="producto-content">
     <p class="ion-text-center ">{{ producto.descripcion }}</p>
   </ion-card-content>
 </ion-card>
+
+

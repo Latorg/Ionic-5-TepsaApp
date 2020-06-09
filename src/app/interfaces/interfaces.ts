@@ -38,9 +38,9 @@ export interface Articulo {
 
 export interface Categoria {
     id: string;
-    nombre: string;
-    urlToImageCard: string;
-    urlToImageBannerDesktop: string;
-    urlToImageBannerMobile: string;
-    subcategorias: Categoria[];
+    nombre?: string;
+    urlToImageCard?: string;
+    urlToImageBannerDesktop?: string;
+    urlToImageBannerMobile?: string;
+    subcategorias?: Categoria[];
 }

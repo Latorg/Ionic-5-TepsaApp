@@ -1,13 +1,30 @@
 .producto-more{
     font-size: 25x !important;
     position: absolute;
-    right: -25px;
-    top: -18px;
+    right: -35px;
+    top: -12px;
 }
 
 .div-producto-image {
     height: 180px;
     background-color: white;
+}
+
+.div-producto-pdf {
+    text-align: center;
+    background-color: white;
+    min-height: 21px;
+    max-height: 21px;
+}
+
+.a-producto-pdf {
+    color: #569462;
+}
+
+.a-producto-pdf:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #569462;
 }
 
 .producto-image {
@@ -25,3 +42,4 @@
 .text-title {
     font-size: small;
 }
+

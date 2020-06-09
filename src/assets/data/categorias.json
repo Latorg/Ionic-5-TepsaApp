@@ -10,37 +10,47 @@
             {
                 "id": "altatension",
                 "nombre": "Cable de alta tensión",
-                "urlToImageCard": "AltaTension.jpg" 
+                "urlToImageCard": "Cable Alta Tension.jpg" 
             },
             {
                 "id": "armoflex",
                 "nombre": "Cable armoflex",
-                "urlToImageCard": "Armoflex.jpg" 
+                "urlToImageCard": "cable armoflex.jpg" 
             },
             {
-                "id": "bajatension",
-                "nombre": "Cable de baja tensión",
-                "urlToImageCard": "BajaTension.jpg" 
+                "id": "thwls",
+                "nombre": "Cable THW-LS",
+                "urlToImageCard": "cable thwls.png" 
             },
             {
                 "id": "control",
                 "nombre": "Cable de control",
-                "urlToImageCard": "control.jpg" 
+                "urlToImageCard": "cable de control.jpg" 
             },
             {
                 "id": "desnudo",
                 "nombre": "Cable desnudo",
-                "urlToImageCard": "desnudo.jpg" 
+                "urlToImageCard": "cable cobre desnudo.jpg" 
             },
             {
                 "id": "portaelectrodo",
                 "nombre": "Cable portaelectrodo",
-                "urlToImageCard": "Portaelectrodo.jpg" 
+                "urlToImageCard": "cable portaelectrodo.png" 
             },
             {
                 "id": "usorudo",
-                "nombre": "Calbe de uso rudo",
-                "urlToImageCard": "UsoRudo.jpg" 
+                "nombre": "Cable de uso rudo",
+                "urlToImageCard": "CABLE USO RUDO.jpg" 
+            },
+            {
+                "id": "nylon",
+                "nombre": "Cable Nylon",
+                "urlToImageCard": "cable de naylon.jpg" 
+            },
+            {
+                "id": "twd",
+                "nombre": "Cable duplex TWD",
+                "urlToImageCard": "CABLE DUPLEX TWD.jpg" 
             }
         ]
     },

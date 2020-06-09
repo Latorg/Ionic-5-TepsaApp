@@ -13,8 +13,9 @@ export class CategoriasPage implements OnInit {
 
   categoriasUrl: string;
   categorias: Categoria[] = [];
+  categoriasFS: Categoria[] = [];
 
-  constructor( private dataService: DataService) {}
+  constructor(  private dataService: DataService ) {}
 
   ngOnInit() {
     this.categoriasUrl = environment.categoriasUrl;
@@ -23,7 +24,7 @@ export class CategoriasPage implements OnInit {
 
   loadAllCategories( ) {
     this.dataService.getCategorias().subscribe( res => {
-      this.categorias.push(...res);
+      this.categorias = [...res];
     });
   }
 }

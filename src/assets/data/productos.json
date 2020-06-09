@@ -1,672 +1,155 @@
 
 [   
     {
-        "codigo": "XLPE",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "Cable monoconductor con material sellador y aislamiento de polietileno de cadena cruzada",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/XLPE.jpg",
-        "publishedAt": "",
+        "codigo": "CONDUMEX ALUMINIO",
+        "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de aluminio sellado y cubierta de PVC",
+        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
+        "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.jpg",
         "categoria": "cable",
         "subcategoria": "altatension"
     },
     {
-        "codigo": "QO210",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo210.jpg",
-        "publishedAt": "",
+        "codigo": "CONDUMEX COBRE",
+        "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de cobre  sellado y cubierta de PVC",
+        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL COBRE.pdf",
+        "urlToImage": "CABLE ALTA TENSION CONDUMEX COBRE.jpg",
         "categoria": "cable",
         "subcategoria": "altatension"
     },
     {
-        "codigo": "CCL25",
-        "familia": {
-            "clave": "01",
-            "nombre": "ANCLO"
-        },
-        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/CCL25.jpg",
-        "publishedAt": "",
+        "codigo": "VIAKON COBRE",
+        "descripcion": "Cable de Energía para 69, 115 y 138 kV: Cobre, XLPE. Pantalla de Alambres y Cubierta de PVC",
+        "urlToFichaTecnica": "CABLE ALTA TENSION VIAKON COBRE.pdf",
+        "urlToImage": "CABLE ALTA TENSION VIAKON COBRE.jpg",
+        "categoria": "cable",
+        "subcategoria": "altatension"
+    },
+    {
+        "codigo": "VIAKON ALUMINIO",
+        "descripcion": "Cable de Energía para 69, 115 y 138 kV: Aluminio, XLPE. Pantalla de Alambres y Cubierta de PVC",
+        "urlToFichaTecnica": "CABLE ALTA TENSION VIAKON ALUMINIO.pdf",
+        "urlToImage": "CABLE ALTA TENSION VIAKON ALUMINIO.jpg",
+        "categoria": "cable",
+        "subcategoria": "altatension"
+    },
+    {
+        "codigo": "VIAKON",
+        "descripcion": "Cable ensamblado 2,3 o 4 conductores de cobre, aislamiento de PVC y Nylon y armadura de aluminio",
+        "urlToFichaTecnica": "CABLE ARMOFLEX VIAKON.pdf",
+        "urlToImage": "CABLE ARMOFLEX VIAKON.jpg",
         "categoria": "cable",
         "subcategoria": "armoflex"
     },
     {
-        "codigo": "PC500",
-        "familia": {
-            "clave": "01",
-            "nombre": "SOLA BASIC"
-        },
-        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/PC500.jpg",
-        "publishedAt": "",
-        "categoria": "cable"
-    },
-    {
-        "codigo": "LC1D40AM7",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "FS2",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/FS2.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "DS100G",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/DS100G.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "ZB4BS844",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "TLIC13",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/TLIC13.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "CCD",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": " Conductor cableado y formado por alambres de cobre temple semiduro en capas concéntricas.",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ccd.png",
-        "publishedAt": "",
+        "codigo": "CONDUMEX",
+        "descripcion": "Conductor cableado y formado por alambres de cobre temple suave en capas\r\nconcéntricas",
+        "urlToFichaTecnica": "CABLE COBRE DESNUDO CONDUMEX.pdf",
+        "urlToImage": "CABLE COBRE DESNUDO CONDUMEX.jpg",
         "categoria": "cable",
         "subcategoria": "desnudo"
     },
     {
-        "codigo": "AAD",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": " Alambre de aluminio temple suave aleación 1350.",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/aad.png",
-        "publishedAt": "",
+        "codigo": "VIAKON",
+        "descripcion": "Cable de cobre en temple duro, semiduro o suave, resistentes a la corrosión y gran resistencia mecánica",
+        "urlToFichaTecnica": "CABLE COBRE DESNUDO VIAKON.pdf",
+        "urlToImage": "CABLE COBRE DESNUDO VIAKON.jpg",
         "categoria": "cable",
         "subcategoria": "desnudo"
     },
     {
-        "codigo": "CAD",
-        "familia": {
-            "clave": "01",
-            "nombre": "ANCLO"
-        },
-        "descripcion": "Conductor cableado y formado por alambres de aluminio duro aleación 1350 en capas concéntricas.",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/cad.png",
-        "publishedAt": "",
+        "codigo": "VIAKON",
+        "descripcion": "Cable de 3 o 4 conductores de cobre, aislamiento individual de PVC y cubierta exterior termoplástica PVC",
+        "urlToFichaTecnica": "CABLE MULTICONDUCTOR VIAKON.pdf",
+        "urlToImage": "CABLEVMULTICONDUCTOR 3 HILOS.jpg",
         "categoria": "cable",
-        "subcategoria": "desnudo"
+        "subcategoria": "control"
     },
     {
-        "codigo": "ACSR",
-        "familia": {
-            "clave": "01",
-            "nombre": "SOLA BASIC"
-        },
-        "descripcion": "Núcleo de alambres de acero galvanizado formado por alambres de aluminio duro en capas concéntricas.",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ascr.png",
-        "publishedAt": "",
+        "codigo": "CONDUMEX",
+        "descripcion": "Cable conductor de cobre suave sólido o cableado, aislamiento a base de PVC, cubierta de nylon",
+        "urlToFichaTecnica": "CABLE NYLON VINANEL CONDUMEX.pdf",
+        "urlToImage": "CABLE NYLON VINANEL CONDUMEX.jpg",
         "categoria": "cable",
-        "subcategoria": "desnudo"
+        "subcategoria": "nylon"
     },
     {
-        "codigo": "OPGW",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABLE DE GUARDA CON FIBRAS ÓPTICAS TIPO OPGW, 36 FIBRAS MONOMODO",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/opgw.png",
-        "publishedAt": "",
+        "codigo": "VIAKON",
+        "descripcion": "Cable de cobre suave, con aislamiento termoplástico de PVC y sobre capa protectora de poliamida (nylon)",
+        "urlToFichaTecnica": "CABLE NYLON BAJA TENSION VIAKON.pdf",
+        "urlToImage": "CABLE NYLON VIAKON.jpg",
         "categoria": "cable",
-        "subcategoria": "desnudo"
+        "subcategoria": "nylon"
     },
     {
-        "codigo": "ACD",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "ALAMBRE DE COBRE SUAVE DESNUDO",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/acd.png",
-        "publishedAt": "",
+        "codigo": "CONDUMEX",
+        "descripcion": "Cable conductor flexible de cobre suave, cinta separadora no hidrófila, aislamiento a base de CPE",
+        "urlToFichaTecnica": "CABLE PORTA ELECTRODO CONDUMEX.PDF",
+        "urlToImage": "CABLE PORTA ELECTRODO CONDUMEX.jpg",
         "categoria": "cable",
-        "subcategoria": "desnudo"
+        "subcategoria": "portaelectrodo"
     },
     {
-        "codigo": "DS100G",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/DS100G.jpg",
-        "publishedAt": ""
+        "codigo": "IKURA",
+        "descripcion": "Cable conductor de cobre, cableados en calabrotes clase K con forro de alta resistencia a la abrasión",
+        "urlToFichaTecnica": "CABLE PORTA ELECTRODO IKURA.pdf",
+        "urlToImage": "CABLE PORTA ELECTRODO IKURA.jpg",
+        "categoria": "cable",
+        "subcategoria": "portaelectrodo"
     },
     {
-        "codigo": "ZB4BS844",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-        "publishedAt": ""
+        "codigo": "VIAKON",
+        "descripcion": "Conductor de cobre suave construido en calabrote flexible, con cubierta en material termofijo CPE",
+        "urlToFichaTecnica": "CABLE PORTA ELECTRODO VIAKON.PDF",
+        "urlToImage": "CABLE PORTA ELECTRODO VIAKON.jpg",
+        "categoria": "cable",
+        "subcategoria": "portaelectrodo"
     },
     {
-        "codigo": "TLIC13",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/TLIC13.jpg",
-        "publishedAt": ""
+        "codigo": "CONDULAC",
+        "descripcion": "Cable conductor sólido de cobre suave con aislamiento de PVC gris o negro",
+        "urlToFichaTecnica": "CABLE DuplexTWD CONDULAC.pdf",
+        "urlToImage": "CABLE DuplexTWD CONDULAC.jpg",
+        "categoria": "cable",
+        "subcategoria": "twd"
     },
     {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
+        "codigo": "CONDULAC",
+        "descripcion": "Cable conductor de cobre suave o cableado clase B tipo THW-LS/THHW-LS con aislamiento PVC 90 ºC 600V",
+        "urlToFichaTecnica": "CABLE THW LS CONDULAC.pdf",
+        "urlToImage": "CABLE THW LS CONDULAC.jpg",
+        "categoria": "cable",
+        "subcategoria": "thwls"
     },
     {
-        "codigo": "QO110",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo110.jpeg",
-        "publishedAt": ""
+        "codigo": "CONDUMEX",
+        "descripcion": "Cable de energía VULCANEL 2000 cobre suave, aislamiento 100% EP O XLP cubierta PVC de 5, 15, 25 Y 35 KV",
+        "urlToFichaTecnica": "CABLE THW-LS CONDUMEX.pdf",
+        "urlToImage": "CABLE THW-LS CONDUMEX.jpg",
+        "categoria": "cable",
+        "subcategoria": "thwls"
     },
     {
-        "codigo": "QO210",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo210.jpg",
-        "publishedAt": ""
+        "codigo": "KOBREX",
+        "descripcion": "Cable conductor de cobre electrolítico en temple suave, sólido o cableado clase B o C, aislamiento de PVC",
+        "urlToFichaTecnica": "CABLE THW LS KOBREX.pdf",
+        "urlToImage": "CABLE THW LS KOBREX.jpg",
+        "categoria": "cable",
+        "subcategoria": "thwls"
     },
     {
-        "codigo": "CCL25",
-        "familia": {
-            "clave": "01",
-            "nombre": "ANCLO"
-        },
-        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/CCL25.jpg",
-        "publishedAt": ""
+        "codigo": "VIAKON",
+        "descripcion": "Cable monoconductor de cobre suave, aislamiento XLPE y cubierta de PVC, tipo DS, 5, 15, 25 y 35 kV",
+        "urlToFichaTecnica": "CABLE MEDIA TENSION XLPE VIAKON.pdf",
+        "urlToImage": "CABLE MEDIA TENSION XLPE VIAKON.jpg",
+        "categoria": "cable",
+        "subcategoria": "thwls"
     },
     {
-        "codigo": "PC500",
-        "familia": {
-            "clave": "01",
-            "nombre": "SOLA BASIC"
-        },
-        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/PC500.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "LC1D40AM7",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "FS2",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/FS2.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "DS100G",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/DS100G.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "ZB4BS844",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "TLIC13",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/TLIC13.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "QO110",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo110.jpeg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "QO210",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo210.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "CCL25",
-        "familia": {
-            "clave": "01",
-            "nombre": "ANCLO"
-        },
-        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/CCL25.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "PC500",
-        "familia": {
-            "clave": "01",
-            "nombre": "SOLA BASIC"
-        },
-        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/PC500.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "LC1D40AM7",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "FS2",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/FS2.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "DS100G",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/DS100G.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "ZB4BS844",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/ZB4BS844.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "TLIC13",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/TLIC13.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "QO110",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 1POLO 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo110.jpeg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "QO210",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "INTERRUPTOR TERMOMAGNETICO 2POLOS 10A 240V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/qo210.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "CCL25",
-        "familia": {
-            "clave": "01",
-            "nombre": "ANCLO"
-        },
-        "descripcion": "CONECTOR CONDUIT PARED DELGADA 25mm.C/TORNILLO 650397",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/CCL25.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "PC500",
-        "familia": {
-            "clave": "01",
-            "nombre": "SOLA BASIC"
-        },
-        "descripcion": "REGULADOR DE VOLT.GRADO COMPUT. 500VA 127V",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/PC500.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "LC1D40AM7",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR MAGNETICO TRIPOLAR *TESYS* 40A 220VCA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/LC1D40AM7.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "FS2",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CAJA REGISTRO RECTANGULAR 19mm 1 SALIDA",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/FS2.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "DS100G",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TAPA CIEGA P/CONDULET *FS*",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/DS100G.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CABEZA PULSAD.HONGO 40mm. GIRAR P/DESENCLAVAR",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "TUBO FLEXIBLE LICUATITE 13mm",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
-    },
-    {
-        "codigo": "3RT20171AK61",
-        "familia": {
-            "clave": "01",
-            "nombre": "SCHNEIDER"
-        },
-        "descripcion": "CONTACTOR TRIPOLAR *SIRIUS INNOVATIONS* 12A 120V 3RT20171AK61 T00",
-        "caracteristicas": "",
-        "aplicaciones": "",
-        "urlToFichaTecnica": "",
-        "urlToImage": "/assets/productos-images/3RT20171AK61.jpg",
-        "publishedAt": ""
+        "codigo": "CONDUMEX",
+        "descripcion": "Cable flexible de cobre FLEXANEL tipo ST 2,3 y 4 conductores, aislamiento individual PVC cubierta PVC",
+        "urlToFichaTecnica": "uso rudo CONDUMEX.PDF",
+        "urlToImage": "USO RUDO CONDUMEX.jpg",
+        "categoria": "cable",
+        "subcategoria": "usorudo"
     }
 ]

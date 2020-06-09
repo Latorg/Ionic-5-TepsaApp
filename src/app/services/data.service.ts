@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  constructor( private http: HttpClient ) {}
+  constructor(  private http: HttpClient ) {}
 
   getMenuOpts() {
     return this.http.get<Componente[]>('/assets/data/menu.json');
@@ -26,5 +26,6 @@ export class DataService {
   getCategorias() {
     return this.http.get<Categoria[]>('/assets/data/categorias.json');
   }
+
 
 }

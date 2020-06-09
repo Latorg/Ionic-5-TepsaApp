@@ -12,4 +12,7 @@ export class ServiciosPage implements OnInit {
   ngOnInit() {
   }
 
+  cargarServicio() {
+
+  }
 }
