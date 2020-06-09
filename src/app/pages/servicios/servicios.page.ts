@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SubjectService } from '../../services/subject.service';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-servicios',
@@ -7,12 +9,49 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiciosPage implements OnInit {
 
-  constructor() { }
+  itemSelected: string;
+  servicios = [
+    {
+      id: 'tableros',
+      text: 'Tableros',
+      lines: ''
+    },
+    {
+      id: 'ingenieria',
+      text: 'Ingeniería',
+      lines: ''
+    },
+    {
+      id: 'iluminacion',
+      text: 'Iluminación',
+      lines: ''
+    },
+    {
+      id: 'energia',
+      text: 'Ahorro de energía',
+      lines: ''
+    },
+    {
+      id: 'equipoespecial',
+      text: 'Equipo Especial',
+      lines: 'none'
+    }
+  ];
+
+  isMobileResolution: boolean;
+
+  constructor(  private subjectService: SubjectService ) { 
+    this.isMobileResolution = AppComponent.isMobileResolution;
+  }
 
   ngOnInit() {
   }
 
-  cargarServicio() {
+  ionViewWillEnter() {
+    this.itemSelected = '';
+  }
 
+  cargarServicio(idServicio) {
+    this.itemSelected = idServicio;
   }
 }

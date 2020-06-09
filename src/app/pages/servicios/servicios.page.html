@@ -2,29 +2,41 @@
 
 
 <ion-content color="white">
-    <div class="container ml-5 mr-5 mt-5">
-        <ion-grid fixed>
-            <ion-row>
-                <ion-col size="3">
+    <!-- Mobile Version-->
+    <div *ngIf="isMobileResolution" >
+        <ion-segment  scrollable 
+                    mode="md" 
+                    color="tecno"
+                    > 
+        <ion-segment-button mode="md" *ngFor="let servicioItem of servicios" [value]="servicioItem">
+          <ion-label class="ion-text-capitalize">{{ servicioItem.text }}</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+      <div class="container">
+        <app-servicio-view></app-servicio-view>
+      </div>
+    </div>
+
+    <!-- Desktop Version -->
+    <div class="container ml-5 mr-3 mt-5 animate__animated animate__fadeInUp" style="max-width: 100%;" *ngIf="!isMobileResolution">
+        <ion-grid fixed class="ml-4 mr-4"  >
+            <ion-row >
+                <ion-col size="3" >
                     <ion-list >
-                        <ion-item detail (click)="cargarServicio()" >
-                            <ion-label class="mt-4 mb-4" >Tableros</ion-label>
+                        <ion-item   detail 
+                                    *ngFor="let servicioItem of servicios"
+                                    [lines] = 'servicioItem.lines' 
+                                    [id]="servicioItem.id"
+                                    [ngClass] = "{ 'service-item-selected' : itemSelected == servicioItem.id }"
+                                    (click)="cargarServicio(servicioItem.id)" > 
+                            <ion-label  class="mt-4 mb-4 pt-1 pb-1" >
+                                {{ servicioItem.text }}
+                            </ion-label>
                         </ion-item>
-                        <ion-item detail>
-                            <ion-label class="mt-4 mb-4" >Ingeniería</ion-label>
-                        </ion-item>
-                        <ion-item detail >
-                            <ion-label class="mt-4 mb-4" >Iluminación</ion-label>
-                        </ion-item>
-                        <ion-item detail >
-                            <ion-label class="mt-4 mb-4" >Ahorro de energía</ion-label>
-                        </ion-item>
-                        <ion-item detail lines="none">
-                            <ion-label class="mt-4 mb-4" >Equipo especial</ion-label>
-                        </ion-item>
-                    </ion-list>
+                      </ion-list>
                 </ion-col>
-                <ion-col size="9">
+                <ion-col size="9" >
+                    <app-servicio-view></app-servicio-view>
                 </ion-col>
             </ion-row>
         </ion-grid>

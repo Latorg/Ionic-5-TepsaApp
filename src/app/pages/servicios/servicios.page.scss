@@ -1,10 +1,20 @@
-
-.service-item:hover {
-    background-color: #569462 !important;
-}
-
 ion-item:hover {
     --background: #569462;
     cursor: pointer;
-    color: white;
+    color: white !important;
   }
+
+.service-item-selected {
+    color: #569462;
+}
+
+.content-center{
+    display: -webkit-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-home {
+    font-family:'Arial Black', Gadget, sans-serif; 
+    font-size: xx-large;
+}

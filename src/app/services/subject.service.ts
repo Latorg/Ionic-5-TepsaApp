@@ -8,10 +8,12 @@ import { Articulo } from '../interfaces/interfaces';
 export class SubjectService {
 
   private searchSubject = new BehaviorSubject<string>('');
+  private servicioSubject = new BehaviorSubject<string>('');
   private pageSubject = new BehaviorSubject<number>(1);
 
   currentSearch$ = this.searchSubject.asObservable();
   currentPage$ = this.pageSubject.asObservable();
+  currentServicio$ = this.servicioSubject.asObservable();
 
   constructor() { }
 
@@ -22,4 +24,7 @@ export class SubjectService {
   newPage( page: number) {
     this.pageSubject.next( page );
   }
+   newServicio( servicio: string ) {
+     this.servicioSubject.next( servicio );
+   }
 }

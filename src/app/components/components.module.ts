@@ -14,6 +14,7 @@ import { SearchPage } from '../pages/search/search.page';
 import { PipesModule } from '../pipes/pipes.module';
 import { BannerHeaderComponent } from './banner-header/banner-header.component';
 import { ContactFabComponent } from './contact-fab/contact-fab.component';
+import { ServicioViewComponent } from './servicio-view/servicio-view.component';
 
 
 
@@ -26,7 +27,8 @@ import { ContactFabComponent } from './contact-fab/contact-fab.component';
     ProductosComponent,
     CarouselComponent,
     BannerHeaderComponent,
-    ContactFabComponent
+    ContactFabComponent,
+    ServicioViewComponent
   ],
   exports: [
     HeaderComponent,
@@ -36,7 +38,8 @@ import { ContactFabComponent } from './contact-fab/contact-fab.component';
     ProductosComponent,
     CarouselComponent,
     BannerHeaderComponent,
-    ContactFabComponent
+    ContactFabComponent,
+    ServicioViewComponent
   ],
   imports: [
     CommonModule,
