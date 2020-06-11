@@ -3,36 +3,48 @@
         "name": "Banner 01",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS01.jpg",
-        "dataSlideTo": "0"
+        "dataSlideTo": "0",
+        "isButtonToRef": true,
+        "urlToRef" : "/servicios"
     },
     {
         "name": "Banner 02",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS02.jpg",
-        "dataSlideTo": "1"
+        "dataSlideTo": "1",
+        "isButtonToRef": true,
+        "urlToRef" : "/productos/tableros"
     },
     {
         "name": "Banner 03",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS03.jpg",
-        "dataSlideTo": "2"
+        "dataSlideTo": "2",
+        "isButtonToRef": true,
+        "urlToRef" : "/servicios"
     },
     {
         "name": "Banner 04",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS04.jpg",
-        "dataSlideTo": "3"
+        "dataSlideTo": "3",
+        "isButtonToRef": true,
+        "urlToRef" : "/productos/transformadores"
     },
     {
         "name": "Banner 05",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS05.jpg",
-        "dataSlideTo": "4"
+        "dataSlideTo": "4",
+        "isButtonToRef": true,
+        "urlToRef" : "/servicios"
     },
     {
         "name": "Banner 06",
         "redirectTo": "/inicio",
         "urlToImage": "/assets/images/carousel/BANNERS06.jpg",
-        "dataSlideTo": "5"
+        "dataSlideTo": "5",
+        "isButtonToRef": true,
+        "urlToRef" : "/productos/conductores"
     }
 ]

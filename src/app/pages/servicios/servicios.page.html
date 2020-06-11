@@ -5,14 +5,15 @@
     <!-- Mobile Version-->
     <div *ngIf="isMobileResolution" >
         <ion-segment  scrollable 
-                    mode="md" 
-                    color="tecno"
-                    (ionChange)="cargarServicio('', $event )"> 
-        <ion-segment-button mode="md" *ngFor="let servicioItem of servicios" [value]="servicioItem">
+            class="segment-servicios"            
+            mode="md" 
+            color="tecno"
+            (ionChange)="cargarServicio('', $event )"> 
+        <ion-segment-button *ngFor="let servicioItem of servicios" [value]="servicioItem">
           <ion-label class="ion-text-capitalize">{{ servicioItem.text }}</ion-label>
         </ion-segment-button>
       </ion-segment>
-      <div  class="container animate__animated animate__fadeInUp pl-2 mt-2" 
+      <div  class="container animate__animated animate__fadeInUp pl-2 mt-2 mb-5" 
             *ngIf="subservicios.length > 0 || itemSelected == ''">
         <app-servicio-view  [servicioSelected] = itemSelected 
                             [subservicios] = subservicios

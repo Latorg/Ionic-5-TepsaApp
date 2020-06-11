@@ -11,12 +11,16 @@ import { AppComponent } from '../../app.component';
 })
 export class CarouselComponent implements OnInit {
   componentes: Observable<CarouselSlide[]>;
-  constructor( private dataService: DataService ) { }
+  isMobileResolution: boolean;
+
+  constructor( private dataService: DataService ) {
+    this.isMobileResolution = AppComponent.isMobileResolution;
+  }
 
   ngOnInit() {
     this.componentes = this.dataService.getCarousel();
   }
-  
+
   getMinHeightCarousel() {
     return AppComponent.isMobileResolution ? { 'min-height': '30vh'} : { 'min-height': '85vh'};
   }

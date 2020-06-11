@@ -8,3 +8,9 @@ ion-item:hover {
     color: #569462;
 }
 
+.segment-servicios {
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+  background-color: white;
+}
