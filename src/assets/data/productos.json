@@ -3,9 +3,9 @@
     {
         "codigo": "CONDUMEX ALUMINIO",
         "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de aluminio sellado y cubierta de PVC",
-        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
+        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
         "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "altatension"
     },
     {
@@ -13,7 +13,7 @@
         "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de cobre  sellado y cubierta de PVC",
         "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL COBRE.pdf",
         "urlToImage": "CABLE ALTA TENSION CONDUMEX COBRE.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "altatension"
     },
     {
@@ -21,7 +21,7 @@
         "descripcion": "Cable de Energía para 69, 115 y 138 kV: Cobre, XLPE. Pantalla de Alambres y Cubierta de PVC",
         "urlToFichaTecnica": "CABLE ALTA TENSION VIAKON COBRE.pdf",
         "urlToImage": "CABLE ALTA TENSION VIAKON COBRE.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "altatension"
     },
     {
@@ -29,15 +29,15 @@
         "descripcion": "Cable de Energía para 69, 115 y 138 kV: Aluminio, XLPE. Pantalla de Alambres y Cubierta de PVC",
         "urlToFichaTecnica": "CABLE ALTA TENSION VIAKON ALUMINIO.pdf",
         "urlToImage": "CABLE ALTA TENSION VIAKON ALUMINIO.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "altatension"
     },
     {
         "codigo": "VIAKON",
         "descripcion": "Cable ensamblado 2,3 o 4 conductores de cobre, aislamiento de PVC y Nylon y armadura de aluminio",
-        "urlToFichaTecnica": "CABLE ARMOFLEX VIAKON.pdf",
+        "urlToFichaTecnica": "armoflex-viakon.pdf",
         "urlToImage": "CABLE ARMOFLEX VIAKON.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "armoflex"
     },
     {
@@ -45,7 +45,7 @@
         "descripcion": "Conductor cableado y formado por alambres de cobre temple suave en capas\r\nconcéntricas",
         "urlToFichaTecnica": "CABLE COBRE DESNUDO CONDUMEX.pdf",
         "urlToImage": "CABLE COBRE DESNUDO CONDUMEX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "desnudo"
     },
     {
@@ -53,7 +53,7 @@
         "descripcion": "Cable de cobre en temple duro, semiduro o suave, resistentes a la corrosión y gran resistencia mecánica",
         "urlToFichaTecnica": "CABLE COBRE DESNUDO VIAKON.pdf",
         "urlToImage": "CABLE COBRE DESNUDO VIAKON.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "desnudo"
     },
     {
@@ -61,7 +61,7 @@
         "descripcion": "Cable de 3 o 4 conductores de cobre, aislamiento individual de PVC y cubierta exterior termoplástica PVC",
         "urlToFichaTecnica": "CABLE MULTICONDUCTOR VIAKON.pdf",
         "urlToImage": "CABLEVMULTICONDUCTOR 3 HILOS.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "control"
     },
     {
@@ -69,7 +69,7 @@
         "descripcion": "Cable conductor de cobre suave sólido o cableado, aislamiento a base de PVC, cubierta de nylon",
         "urlToFichaTecnica": "CABLE NYLON VINANEL CONDUMEX.pdf",
         "urlToImage": "CABLE NYLON VINANEL CONDUMEX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "nylon"
     },
     {
@@ -77,7 +77,7 @@
         "descripcion": "Cable de cobre suave, con aislamiento termoplástico de PVC y sobre capa protectora de poliamida (nylon)",
         "urlToFichaTecnica": "CABLE NYLON BAJA TENSION VIAKON.pdf",
         "urlToImage": "CABLE NYLON VIAKON.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "nylon"
     },
     {
@@ -85,7 +85,7 @@
         "descripcion": "Cable conductor flexible de cobre suave, cinta separadora no hidrófila, aislamiento a base de CPE",
         "urlToFichaTecnica": "CABLE PORTA ELECTRODO CONDUMEX.PDF",
         "urlToImage": "CABLE PORTA ELECTRODO CONDUMEX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "portaelectrodo"
     },
     {
@@ -93,7 +93,7 @@
         "descripcion": "Cable conductor de cobre, cableados en calabrotes clase K con forro de alta resistencia a la abrasión",
         "urlToFichaTecnica": "CABLE PORTA ELECTRODO IKURA.pdf",
         "urlToImage": "CABLE PORTA ELECTRODO IKURA.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "portaelectrodo"
     },
     {
@@ -101,7 +101,7 @@
         "descripcion": "Conductor de cobre suave construido en calabrote flexible, con cubierta en material termofijo CPE",
         "urlToFichaTecnica": "CABLE PORTA ELECTRODO VIAKON.PDF",
         "urlToImage": "CABLE PORTA ELECTRODO VIAKON.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "portaelectrodo"
     },
     {
@@ -109,7 +109,7 @@
         "descripcion": "Cable conductor sólido de cobre suave con aislamiento de PVC gris o negro",
         "urlToFichaTecnica": "CABLE DuplexTWD CONDULAC.pdf",
         "urlToImage": "CABLE DuplexTWD CONDULAC.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "twd"
     },
     {
@@ -117,7 +117,7 @@
         "descripcion": "Cable conductor de cobre suave o cableado clase B tipo THW-LS/THHW-LS con aislamiento PVC 90 ºC 600V",
         "urlToFichaTecnica": "CABLE THW LS CONDULAC.pdf",
         "urlToImage": "CABLE THW LS CONDULAC.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "thwls"
     },
     {
@@ -125,7 +125,7 @@
         "descripcion": "Cable de energía VULCANEL 2000 cobre suave, aislamiento 100% EP O XLP cubierta PVC de 5, 15, 25 Y 35 KV",
         "urlToFichaTecnica": "CABLE THW-LS CONDUMEX.pdf",
         "urlToImage": "CABLE THW-LS CONDUMEX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "thwls"
     },
     {
@@ -133,7 +133,7 @@
         "descripcion": "Cable conductor de cobre electrolítico en temple suave, sólido o cableado clase B o C, aislamiento de PVC",
         "urlToFichaTecnica": "CABLE THW LS KOBREX.pdf",
         "urlToImage": "CABLE THW LS KOBREX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "thwls"
     },
     {
@@ -141,7 +141,7 @@
         "descripcion": "Cable monoconductor de cobre suave, aislamiento XLPE y cubierta de PVC, tipo DS, 5, 15, 25 y 35 kV",
         "urlToFichaTecnica": "CABLE MEDIA TENSION XLPE VIAKON.pdf",
         "urlToImage": "CABLE MEDIA TENSION XLPE VIAKON.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "thwls"
     },
     {
@@ -149,7 +149,7 @@
         "descripcion": "Cable flexible de cobre FLEXANEL tipo ST 2,3 y 4 conductores, aislamiento individual PVC cubierta PVC",
         "urlToFichaTecnica": "uso rudo CONDUMEX.PDF",
         "urlToImage": "USO RUDO CONDUMEX.jpg",
-        "categoria": "cable",
+        "categoria": "conductores",
         "subcategoria": "usorudo"
     }
 ]

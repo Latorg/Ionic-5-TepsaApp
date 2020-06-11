@@ -1,6 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { SubjectService } from '../../services/subject.service';
+import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { AppComponent } from '../../app.component';
+import { DataService } from '../../services/data.service';
+import { Servicio } from '../../interfaces/interfaces';
+import { take } from 'rxjs/operators';
+import { ServicioViewComponent } from 'src/app/components/servicio-view/servicio-view.component';
+import { IonCol } from '@ionic/angular';
 
 @Component({
   selector: 'app-servicios',
@@ -9,6 +13,7 @@ import { AppComponent } from '../../app.component';
 })
 export class ServiciosPage implements OnInit {
 
+  // @ViewChild('colServicios', { static : false }) colServicios: ElementRef;
   itemSelected: string;
   servicios = [
     {
@@ -37,10 +42,13 @@ export class ServiciosPage implements OnInit {
       lines: 'none'
     }
   ];
-
+  subservicios: Servicio[] = [];
   isMobileResolution: boolean;
+  animationClass = '';
 
-  constructor(  private subjectService: SubjectService ) { 
+  constructor(  private dataService: DataService,
+                private renderer: Renderer2,
+                private elRef: ElementRef) {
     this.isMobileResolution = AppComponent.isMobileResolution;
   }
 
@@ -49,9 +57,27 @@ export class ServiciosPage implements OnInit {
 
   ionViewWillEnter() {
     this.itemSelected = '';
+    this.subservicios = [];
   }
 
-  cargarServicio(idServicio) {
-    this.itemSelected = idServicio;
+  cargarServicio(idServicio, event?) {
+    if ( event ) {
+      this.itemSelected = event.detail.value.id;
+    }
+    else {
+      if ( this.itemSelected !== '' && idServicio === this.itemSelected ) {
+        return;
+      }
+      this.itemSelected = idServicio;
+    }
+    this.subservicios = [];
+    this.loadSubservicios();
+  }
+
+  loadSubservicios( ) {
+    this.dataService.getServicios().pipe(take(1)).subscribe( res => {
+      const subserviciotemp = [...res];
+      this.subservicios = subserviciotemp.filter(x => x.idServicioParent === this.itemSelected );
+    });
   }
 }

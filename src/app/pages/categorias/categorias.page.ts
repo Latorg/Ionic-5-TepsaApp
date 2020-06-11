@@ -13,7 +13,6 @@ export class CategoriasPage implements OnInit {
 
   categoriasUrl: string;
   categorias: Categoria[] = [];
-  categoriasFS: Categoria[] = [];
 
   constructor(  private dataService: DataService ) {}
 

@@ -18,12 +18,12 @@ export class ProductoComponent implements OnInit {
 
   ngOnInit() {}
 
-  downloadFicha( urlToFicha: string, codigo: string ) {
+  downloadFicha( urlToFicha: string, filename: string ) {
     let headers = new HttpHeaders();
     headers = headers.set('Accept', 'application/pdf');
     return this.http.get(urlToFicha, { headers, responseType: 'blob' }).subscribe( data => {
       const blob = new Blob([data], {type: 'application/pdf'});
-      FileSaver.saveAs(blob, codigo);
+      FileSaver.saveAs(blob, filename);
     });
   }
   

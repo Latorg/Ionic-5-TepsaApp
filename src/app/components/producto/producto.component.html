@@ -13,7 +13,7 @@
   <div class="div-producto-pdf">
     <a class="small a-producto-pdf" 
       *ngIf="producto.urlToFichaTecnica != ''"
-      (click) = "downloadFicha('assets/pdf/productos/' + producto.categoria + '/' + producto.subcategoria + '/' + producto.urlToFichaTecnica, producto.codigo)">
+      (click) = "downloadFicha('assets/pdf/productos/' + producto.categoria + '/' + producto.subcategoria + '/' + producto.urlToFichaTecnica, producto.codigo.toUpperCase() + ' ' + producto.subcategoria.toUpperCase())">
       DESCARGAR FICHA TÉCNICA
     </a>
   </div>

@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
+import { AppComponent } from '../../app.component';
+import { DataService } from '../../services/data.service';
+import { Servicio } from '../../interfaces/interfaces';
 
 @Component({
   selector: 'app-servicio-view',
@@ -7,8 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicioViewComponent implements OnInit {
 
-  constructor() { }
+  isMobileResolution: boolean;
+  @Input() servicioSelected: string;
+  @Input() subservicios: Servicio[];
+
+  constructor( ) {
+    this.isMobileResolution = AppComponent.isMobileResolution;
+   }
 
   ngOnInit() {}
+
 
 }

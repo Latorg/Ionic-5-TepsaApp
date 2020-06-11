@@ -1,9 +1,9 @@
 
 [   
     {
-        "id": "cable",
-        "nombre": "Cable",
-        "urlToImageCard": "cable.jpg",
+        "id": "conductores",
+        "nombre": "Conductores eléctricos",
+        "urlToImageCard": "CONDUCTORES ELECTRICOS.jpg",
         "urlToImageBannerDesktop": "banner.jpg",
         "urlToImageBannerMobile": "banner.jpg",
         "subcategorias": [
@@ -57,7 +57,7 @@
     {
         "id": "transformadores",
         "nombre": "Transformadores",
-        "urlToImageCard": "transformador.jpg",
+        "urlToImageCard": "TRANFORMADORES ELECTRICOS.jpg",
         "urlToImageBannerDesktop": "transformador.jpg",
         "urlToImageBannerMobile": "transformador.jpg",
         "subcategorias": []
@@ -65,15 +65,15 @@
     },
     {
         "id": "iluminacion",
-        "nombre": "Iluminación",
-        "urlToImageCard": "iluminacion.jpg",
+        "nombre": "Iluminación industrial y residencial",
+        "urlToImageCard": "ILUMINACION.jpg",
         "urlToImageBannerDesktop": "iluminacion.jpg",
         "urlToImageBannerMobile": "iluminacion.jpg",
         "subcategorias": []
     },
     {
         "id": "tableros",
-        "nombre": "Tableros",
+        "nombre": "Tableros de control y distribución",
         "urlToImageCard": "TABLEROS ELECTRICOS.jpg",
         "urlToImageBannerDesktop": "tablero.jpg",
         "urlToImageBannerMobile": "tablero.jpg",
@@ -81,7 +81,7 @@
     },
     {
         "id": "electroducto",
-        "nombre": "Electroducto",
+        "nombre": "Electroducto & Plug in",
         "urlToImageCard": "electroducto.jpg",
         "urlToImageBannerDesktop": "electroducto.jpg",
         "urlToImageBannerMobile": "electroducto.jpg",
@@ -90,7 +90,7 @@
     {
         "id": "ccm",
         "nombre": "CCM",
-        "urlToImageCard": "ccm.jpg",
+        "urlToImageCard": "CCM.jpg",
         "urlToImageBannerDesktop": "ccm.jpg",
         "urlToImageBannerMobile": "ccm.jpg",
         "subcategorias": []
@@ -98,7 +98,7 @@
     {
         "id": "charolas",
         "nombre": "Charolas",
-        "urlToImageCard": "charola.jpg",
+        "urlToImageCard": "CHAROLAS PORTACABLES.jpg",
         "urlToImageBannerDesktop": "charola.jpg",
         "urlToImageBannerMobile": "charola.jpg",
         "subcategorias": []
@@ -106,7 +106,15 @@
     {
         "id": "fusibles",
         "nombre": "Fusibles",
-        "urlToImageCard": "fusible.jpg",
+        "urlToImageCard": "FUSIBLES ELECTRICOS.jpg",
+        "urlToImageBannerDesktop": "fusible.jpg",
+        "urlToImageBannerMobile": "fusible.jpg",
+        "subcategorias": []
+    },
+    {
+        "id": "tuberia",
+        "nombre": "Tubería, conexiones y accesorios",
+        "urlToImageCard": "CONEXIONES ELECTRICAS.jpg",
         "urlToImageBannerDesktop": "fusible.jpg",
         "urlToImageBannerMobile": "fusible.jpg",
         "subcategorias": []

@@ -44,3 +44,11 @@ export interface Categoria {
     urlToImageBannerMobile?: string;
     subcategorias?: Categoria[];
 }
+
+export interface Servicio {
+    id: string;
+    idServicioParent?: string;
+    nombre?: string;
+    urlToImageCard?: string;
+    header: string;
+}

@@ -26,8 +26,8 @@
             },
             {
                 "icon": "git-branch",
-                "name": "Cable",
-                "redirectTo": "/productos/cable",
+                "name": "Conductores Eléctricos",
+                "redirectTo": "/productos/conductores",
                 "type": "single"
             },
             {
@@ -45,13 +45,13 @@
             
             {
                 "icon": "tablet-portrait",
-                "name": "Tableros",
+                "name": "Tableros de control",
                 "redirectTo": "/productos/tableros",
                 "type": "single"
             },
             {
                 "icon": "code-working",
-                "name": "Electroducto",
+                "name": "Electroducto & plug in",
                 "redirectTo": "/productos/electroducto",
                 "type": "single"
             },
@@ -71,6 +71,12 @@
                 "icon": "battery-half",
                 "name": "Fusibles",
                 "redirectTo": "/productos/fusibles",
+                "type": "single"
+            },
+            {
+                "icon": "git-compare",
+                "name": "Tubería y conexiones",
+                "redirectTo": "/productos/tuberia",
                 "type": "single"
             }
         ]        
