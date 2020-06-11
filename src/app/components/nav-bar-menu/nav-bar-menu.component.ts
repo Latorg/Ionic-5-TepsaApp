@@ -15,13 +15,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class NavBarMenuComponent implements OnInit {
   componentes: Observable<Componente[]>;
   searchValue: string;
-
+  menuSelected: string;
+  
   @ViewChild('searchInput', {static: false}) searchIpt: any;
 
   constructor(  private dataService: DataService,
                 private subjectService: SubjectService,
                 private el: ElementRef,
-                private route: Router ) { }
+                public route: Router ) { }
 
   ngOnInit() {
     this.componentes = this.dataService.getMenuOpts();

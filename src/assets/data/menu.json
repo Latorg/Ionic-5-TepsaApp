@@ -1,17 +1,20 @@
 [
     {
+        "id": "inicio",
         "icon": "home-sharp",
         "name": "Inicio",
         "redirectTo": "/inicio",
         "type": "hidden-navbar"
     },
     {
+        "id": "nosotros",
         "icon": "people-circle-sharp",
         "name": "Nosotros",
         "redirectTo": "/nosotros",
         "type": "single"
     },
     {
+        "id": "productos",
         "icon": "folder-open-sharp",
         "name": "Productos",
         "redirectTo": "/productos",
@@ -19,61 +22,70 @@
         "open": false,
         "options": [
             {
+                "id": "todos",
                 "icon": "grid",
                 "name": "Todos",
                 "redirectTo": "/productos/todos",
                 "type": "divider"
             },
             {
+                "id": "conductores",
                 "icon": "git-branch",
                 "name": "Conductores Eléctricos",
                 "redirectTo": "/productos/conductores",
                 "type": "single"
             },
             {
+                "id": "tranformadores",
                 "icon": "flash",
                 "name": "Transformadores",
                 "redirectTo": "/productos/transformadores",
                 "type": "single"
             },
             {
+                "id": "iluminacion",
                 "icon": "flashlight",
                 "name": "Iluminación",
                 "redirectTo": "/productos/iluminacion",
                 "type": "single"
             },
-            
             {
+                "id": "tableros",
                 "icon": "tablet-portrait",
                 "name": "Tableros de control",
                 "redirectTo": "/productos/tableros",
                 "type": "single"
             },
             {
+                "id": "electroducto",
                 "icon": "code-working",
                 "name": "Electroducto & plug in",
                 "redirectTo": "/productos/electroducto",
                 "type": "single"
             },
             {
+                "id": "ccm",
                 "icon": "cog",
                 "name": "CCM",
                 "redirectTo": "/productos/ccm",
                 "type": "single"
             },
             {
+                "id": "charolas",
                 "icon": "crop",
                 "name": "Charolas",
                 "redirectTo": "/productos/charolas",
                 "type": "single"
             },
             {
+                "id": "fusibles",
                 "icon": "battery-half",
                 "name": "Fusibles",
                 "redirectTo": "/productos/fusibles",
                 "type": "single"
             },
             {
+                "id": "tuberia",
                 "icon": "git-compare",
                 "name": "Tubería y conexiones",
                 "redirectTo": "/productos/tuberia",
@@ -82,12 +94,14 @@
         ]        
     },
     {
+        "id": "servicios",
         "icon": "folder-open-sharp",
         "name": "Servicios",
         "redirectTo": "/servicios",
         "type": "single"
     },
     {
+        "id": "contacto",
         "icon": "information-circle-sharp",
         "name": "Contáctanos",
         "redirectTo": "/contacto",

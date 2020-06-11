@@ -9,9 +9,11 @@
     <ul class="navbar-nav">
       <div *ngFor="let c of componentes | async">
         <li class="nav-item" *ngIf="c.type=='single'" >
-          <a class="nav-link" [routerLink]="c.redirectTo">{{ c.name }}</a>
+          <a  class="nav-link"
+              routerLinkActive="active"
+              [routerLink]="c.redirectTo">{{ c.name }}</a>
         </li>
-        <li class="nav-item dropdown"  *ngIf="c.type=='dropdown'" >
+        <li class="nav-item dropdown"  *ngIf="c.type=='dropdown'" routerLinkActive="active" >
           <a  class="nav-link dropdown-toggle" 
               href="#" 
               id="navbarDropdown" 
@@ -23,7 +25,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <div *ngFor="let o of c.options">
-              <a class="dropdown-item" [routerLink]="o.redirectTo" >{{ o.name }}</a>
+              <a class="dropdown-item" [routerLink]="o.redirectTo"  >{{ o.name }}</a>
               <div class="dropdown-divider" *ngIf="o.type == 'divider'"></div>
             </div>
           </div>
