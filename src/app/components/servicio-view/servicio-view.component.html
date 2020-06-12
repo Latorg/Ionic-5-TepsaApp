@@ -22,11 +22,18 @@
               <img class="producto-image" 
                 [src]="'/assets/images/servicios/' + ss.idServicioParent + '/' + ss.id + '/' + ss.urlToImageCard">
               <ion-card-header class="p-2">
-                <ion-card-title class="text-center">{{ ss.nombre }}</ion-card-title>
+                <ion-card-title class="text-center">
+                  <div style=" display: inline-flex ">
+                    {{ ss.nombre }}
+                  </div>
+                  <ion-img class="expand-img" src="/assets/custom-icons/expand small green.png" *ngIf="isMobileResolution"></ion-img>
+                </ion-card-title>
               </ion-card-header>
               <ion-card-content class="text-justify pt-2">
                 {{ ss.header }}
               </ion-card-content>
+              <div *ngIf="!isMobileResolution" class="expand-container expand-content-center" (mouseover)="iconShowHide(ss.id)" (mouseout)="iconShowHide('')">
+              </div>
           </ion-card>
         </ion-col>
       </ion-row>

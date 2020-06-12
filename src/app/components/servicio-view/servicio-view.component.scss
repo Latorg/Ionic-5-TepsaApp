@@ -40,3 +40,42 @@
     width: 100%;    
     background-color: white;
 }
+
+.expand-container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    background-color: rgba(159, 159, 159, 0);
+    -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.expand-container:hover {
+    cursor: pointer;
+    background-color: rgba(159, 159, 159, 0.5);
+    background-image: url('/assets/custom-icons/expand white.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.expand-content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.expand-img {
+    max-height: 5%;
+    max-width: 5%;
+    position: relative;
+    top: 1px;
+    left: 5px;
+    display: inline-flex;
+}

@@ -11,6 +11,7 @@ import { Servicio } from '../../interfaces/interfaces';
 export class ServicioViewComponent implements OnInit {
 
   isMobileResolution: boolean;
+  idIconShown: string;
   @Input() servicioSelected: string;
   @Input() subservicios: Servicio[];
 
@@ -20,5 +21,9 @@ export class ServicioViewComponent implements OnInit {
 
   ngOnInit() {}
 
+
+  iconShowHide( id: string ) {
+    this.idIconShown = id;
+  }
 
 }
