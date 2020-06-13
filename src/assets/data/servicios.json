@@ -4,20 +4,65 @@
         "id": "industria",
         "idServicioParent": "tableros",
         "nombre": "Industria",
+        "nombreParent": "Tableros",
         "urlToImageCard": "industria-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget enim quis dolor varius elementum quis eu urna. Quisque lacinia ac mauris sed gravida. Morbi eleifend dignissim maximus. Nulla placerat eu ex quis tincidunt. Aenean erat sapien, ullamcorper at ullamcorper et, cursus eget quam. Sed est diam, vehicula sed sapien at, placerat fringilla augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis purus ut nisi ultrices lobortis. Sed pellentesque metus nunc, quis viverra urna  efficitur at. Donec vulputate ante quam, id porttitor tortor sagittis sit amet. Morbi pharetra mattis lorem, ut blandit urna. Aliquam a pulvinar quam. Morbi turpis augue, facilisis dictum varius facilisis, luctus porta ligula. Sed ut velit id nulla congue iaculis ut id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris eu metus at risus feugiat viverra. In euismod velit mauris, ut viverra dolor viverra ut. Aliquam sed erat egestas, lacinia turpis vel, fringilla tellus. Etiam leo tellus, bibendum nec mi a, facilisis scelerisque mi. Maecenas ornare justo nec mi consequat hendrerit.",
+        "carouselImages": [
+            {
+                "name": "Banner 01",
+                "urlToImage": "tableros-industria-1.jpg",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "Banner 02",
+                "urlToImage": "tableros-industria-2.jpg",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            },
+            {
+                "name": "Banner 03",
+                "urlToImage": "tableros-industria-3.jpg",
+                "dataSlideTo": "2",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "construccion",
         "idServicioParent": "tableros",
         "nombre": "Construcción",
+        "nombreParent": "Tableros",
         "urlToImageCard": "construccion-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget enim quis dolor varius elementum quis eu urna. Quisque lacinia ac mauris sed gravida. Morbi eleifend dignissim maximus. Nulla placerat eu ex quis tincidunt. Aenean erat sapien, ullamcorper at ullamcorper et, cursus eget quam. ",
+        "carouselImages": [
+            {
+                "name": "Banner 01",
+                "urlToImage": "tableros-construccion-1.jpg",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "Banner 02",
+                "urlToImage": "tableros-construccion-2.jpg",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            },
+            {
+                "name": "Banner 03",
+                "urlToImage": "tableros-construccion-3.jpg",
+                "dataSlideTo": "2",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "gobierno",
         "idServicioParent": "tableros",
         "nombre": "Gobierno",
+        "nombreParent": "Tableros",
         "urlToImageCard": "gobierno-tableros.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -25,6 +70,7 @@
         "id": "sectorsalud",
         "idServicioParent": "tableros",
         "nombre": "Sector Salud",
+        "nombreParent": "Tableros",
         "urlToImageCard": "salud-tableros.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -32,6 +78,7 @@
         "id": "comercial",
         "idServicioParent": "tableros",
         "nombre": "Comercial",
+        "nombreParent": "Tableros",
         "urlToImageCard": "comercial-tableros.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -39,6 +86,7 @@
         "id": "industria",
         "idServicioParent": "ingenieria",
         "nombre": "Industria",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "industria-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -46,6 +94,7 @@
         "id": "construccion",
         "idServicioParent": "ingenieria",
         "nombre": "Construcción",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "construccion-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -53,6 +102,7 @@
         "id": "gobierno",
         "idServicioParent": "ingenieria",
         "nombre": "Gobierno",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "gobierno-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -60,6 +110,7 @@
         "id": "sectorsalud",
         "idServicioParent": "ingenieria",
         "nombre": "Sector Salud",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "sectorsalud-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -67,6 +118,7 @@
         "id": "comercial",
         "idServicioParent": "ingenieria",
         "nombre": "Comercial",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "comercial-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -74,6 +126,7 @@
         "id": "residencial",
         "idServicioParent": "ingenieria",
         "nombre": "Residencal",
+        "nombreParent": "Ingeniería",
         "urlToImageCard": "residencial-ingenieria.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -81,6 +134,7 @@
         "id": "industria",
         "idServicioParent": "iluminacion",
         "nombre": "Industria",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "industria-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -88,6 +142,7 @@
         "id": "construccion",
         "idServicioParent": "iluminacion",
         "nombre": "Construcción",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "construccion-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -95,6 +150,7 @@
         "id": "gobierno",
         "idServicioParent": "iluminacion",
         "nombre": "Gobierno",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "gobierno-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -102,6 +158,7 @@
         "id": "sectorsalud",
         "idServicioParent": "iluminacion",
         "nombre": "Sector Salud",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "sectorsalud-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -109,6 +166,7 @@
         "id": "comercial",
         "idServicioParent": "iluminacion",
         "nombre": "Comercial",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "comercial-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -116,6 +174,7 @@
         "id": "residencial",
         "idServicioParent": "iluminacion",
         "nombre": "Residencal",
+        "nombreParent": "Iluminación",
         "urlToImageCard": "residencial-iluminacion.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -123,6 +182,7 @@
         "id": "industria",
         "idServicioParent": "energia",
         "nombre": "Industria",
+        "nombreParent": "Energía",
         "urlToImageCard": "industria-energia.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -130,6 +190,7 @@
         "id": "construccion",
         "idServicioParent": "energia",
         "nombre": "Construcción",
+        "nombreParent": "Energía",
         "urlToImageCard": "construccion-energia.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -137,6 +198,7 @@
         "id": "gobierno",
         "idServicioParent": "energia",
         "nombre": "Gobierno",
+        "nombreParent": "Energía",
         "urlToImageCard": "gobierno-energia.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -144,6 +206,7 @@
         "id": "sectorsalud",
         "idServicioParent": "energia",
         "nombre": "Sector Salud",
+        "nombreParent": "Energía",
         "urlToImageCard": "sectorsalud-energia.png",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -158,6 +221,7 @@
         "id": "residencial",
         "idServicioParent": "energia",
         "nombre": "Residencal",
+        "nombreParent": "Energía",
         "urlToImageCard": "residencial-energia.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -165,6 +229,7 @@
         "id": "comercial",
         "idServicioParent": "equipoespecial",
         "nombre": "Comercial",
+        "nombreParent": "Equipo Especial",
         "urlToImageCard": "comercial-equipoespecial.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     },
@@ -172,6 +237,7 @@
         "id": "residencial",
         "idServicioParent": "equipoespecial",
         "nombre": "Residencal",
+        "nombreParent": "Equipo Especial",
         "urlToImageCard": "residencial-equipoespecial.jpg",
         "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
     }

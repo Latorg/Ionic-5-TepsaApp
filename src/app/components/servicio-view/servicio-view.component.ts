@@ -1,7 +1,8 @@
-import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef, Output, EventEmitter } from '@angular/core';
 import { AppComponent } from '../../app.component';
 import { DataService } from '../../services/data.service';
 import { Servicio } from '../../interfaces/interfaces';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-servicio-view',
@@ -11,19 +12,20 @@ import { Servicio } from '../../interfaces/interfaces';
 export class ServicioViewComponent implements OnInit {
 
   isMobileResolution: boolean;
-  idIconShown: string;
   @Input() servicioSelected: string;
   @Input() subservicios: Servicio[];
+  @Output() sendSubservicio = new EventEmitter<Servicio>();
 
-  constructor( ) {
+  constructor( private modalCtrl: ModalController ) {
     this.isMobileResolution = AppComponent.isMobileResolution;
    }
 
-  ngOnInit() {}
-
-
-  iconShowHide( id: string ) {
-    this.idIconShown = id;
+   
+   ngOnInit() {
   }
 
+
+  openModal( subservicio: Servicio ) {
+    this.sendSubservicio.emit( subservicio );
+  }
 }

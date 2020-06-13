@@ -1,0 +1,22 @@
+<div id="carouselControls" class="carousel slide  " style="background-color: grey;" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselControls" 
+        *ngFor="let c of carouselImages" 
+        [class.active]="c.dataSlideTo === '0'" 
+        [attr.data-slide-to] = "c.dataSlideTo">
+    </li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let c of carouselImages" [class.active]="c.dataSlideTo === '0'" >
+      <img class="d-block w-100 slider-size" [ngStyle]="getMinHeightCarousel()" [src]="'/assets/images/servicios/' + servicio + '/' + subservicio + '/carousel/' + c.urlToImage">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

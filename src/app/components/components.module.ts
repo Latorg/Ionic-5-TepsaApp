@@ -15,6 +15,7 @@ import { PipesModule } from '../pipes/pipes.module';
 import { BannerHeaderComponent } from './banner-header/banner-header.component';
 import { ContactFabComponent } from './contact-fab/contact-fab.component';
 import { ServicioViewComponent } from './servicio-view/servicio-view.component';
+import { ServicioCarouselComponent } from './servicio-carousel/servicio-carousel.component';
 
 
 
@@ -28,7 +29,8 @@ import { ServicioViewComponent } from './servicio-view/servicio-view.component';
     CarouselComponent,
     BannerHeaderComponent,
     ContactFabComponent,
-    ServicioViewComponent
+    ServicioViewComponent,
+    ServicioCarouselComponent
   ],
   exports: [
     HeaderComponent,
@@ -39,7 +41,8 @@ import { ServicioViewComponent } from './servicio-view/servicio-view.component';
     CarouselComponent,
     BannerHeaderComponent,
     ContactFabComponent,
-    ServicioViewComponent
+    ServicioViewComponent,
+    ServicioCarouselComponent
   ],
   imports: [
     CommonModule,

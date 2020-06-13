@@ -10,11 +10,10 @@ export interface Componente {
 
 export interface CarouselSlide {
     name: string;
-    redirectTo: string;
     urlToImage: string;
     dataSlideTo: string;
     isButtonToRef: boolean;
-    urlToRef: string;
+    urlToRef?: string;
 }
 
 export interface RespuestaProductos {
@@ -49,9 +48,12 @@ export interface Categoria {
 }
 
 export interface Servicio {
-    id: string;
+    id?: string;
     idServicioParent?: string;
     nombre?: string;
+    nombreParent?: string;
     urlToImageCard?: string;
-    header: string;
+    header?: string;
+    description?: string;
+    carouselImages?: CarouselSlide[];
 }

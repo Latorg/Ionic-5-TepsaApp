@@ -45,6 +45,7 @@ export class ServiciosPage implements OnInit {
   subservicios: Servicio[] = [];
   isMobileResolution: boolean;
   animationClass = '';
+  subservicioSelected: Servicio = {};
 
   constructor(  private dataService: DataService,
                 private renderer: Renderer2,
@@ -53,6 +54,7 @@ export class ServiciosPage implements OnInit {
   }
 
   ngOnInit() {
+    $('#myModal').appendTo('body');
   }
 
   ionViewWillEnter() {
@@ -63,8 +65,7 @@ export class ServiciosPage implements OnInit {
   cargarServicio(idServicio, event?) {
     if ( event ) {
       this.itemSelected = event.detail.value.id;
-    }
-    else {
+    } else {
       if ( this.itemSelected !== '' && idServicio === this.itemSelected ) {
         return;
       }
@@ -79,5 +80,9 @@ export class ServiciosPage implements OnInit {
       const subserviciotemp = [...res];
       this.subservicios = subserviciotemp.filter(x => x.idServicioParent === this.itemSelected );
     });
+  }
+
+  getSubServicio( e ) {
+    this.subservicioSelected = e;
   }
 }

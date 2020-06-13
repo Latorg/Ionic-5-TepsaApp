@@ -3,9 +3,7 @@
     {
         "id": "conductores",
         "nombre": "Conductores eléctricos",
-        "urlToImageCard": "CONDUCTORES ELECTRICOS.jpg",
-        "urlToImageBannerDesktop": "banner.jpg",
-        "urlToImageBannerMobile": "banner.jpg",
+        "urlToImageCard": "CONDUCTORES ELECTRICOS.png",
         "subcategorias": [
             {
                 "id": "altatension",
@@ -57,34 +55,26 @@
     {
         "id": "transformadores",
         "nombre": "Transformadores",
-        "urlToImageCard": "TRANFORMADORES ELECTRICOS.jpg",
-        "urlToImageBannerDesktop": "transformador.jpg",
-        "urlToImageBannerMobile": "transformador.jpg",
+        "urlToImageCard": "TRANFORMADORES ELECTRICOS.png",
         "subcategorias": []
         
     },
     {
         "id": "iluminacion",
         "nombre": "Iluminación industrial y residencial",
-        "urlToImageCard": "ILUMINACION.jpg",
-        "urlToImageBannerDesktop": "iluminacion.jpg",
-        "urlToImageBannerMobile": "iluminacion.jpg",
+        "urlToImageCard": "ILUMINACION.png",
         "subcategorias": []
     },
     {
         "id": "tableros",
         "nombre": "Tableros de control y distribución",
-        "urlToImageCard": "TABLEROS ELECTRICOS.jpg",
-        "urlToImageBannerDesktop": "tablero.jpg",
-        "urlToImageBannerMobile": "tablero.jpg",
+        "urlToImageCard": "TABLEROS ELECTRICOS.png",
         "subcategorias": []
     },
     {
         "id": "electroducto",
         "nombre": "Electroducto & Plug in",
-        "urlToImageCard": "electroducto.jpg",
-        "urlToImageBannerDesktop": "electroducto.jpg",
-        "urlToImageBannerMobile": "electroducto.jpg",
+        "urlToImageCard": "electroducto.png",
         "subcategorias": []
     },
     {
@@ -98,25 +88,19 @@
     {
         "id": "charolas",
         "nombre": "Charolas",
-        "urlToImageCard": "CHAROLAS PORTACABLES.jpg",
-        "urlToImageBannerDesktop": "charola.jpg",
-        "urlToImageBannerMobile": "charola.jpg",
+        "urlToImageCard": "CHAROLAS PORTACABLES.png",
         "subcategorias": []
     },
     {
         "id": "fusibles",
         "nombre": "Fusibles",
-        "urlToImageCard": "FUSIBLES ELECTRICOS.jpg",
-        "urlToImageBannerDesktop": "fusible.jpg",
-        "urlToImageBannerMobile": "fusible.jpg",
+        "urlToImageCard": "FUSIBLES ELECTRICOS.png",
         "subcategorias": []
     },
     {
         "id": "tuberia",
         "nombre": "Tubería, conexiones y accesorios",
-        "urlToImageCard": "CONEXIONES ELECTRICAS.jpg",
-        "urlToImageBannerDesktop": "fusible.jpg",
-        "urlToImageBannerMobile": "fusible.jpg",
+        "urlToImageCard": "CONEXIONES ELECTRICAS.png",
         "subcategorias": []
     }
 ]

@@ -18,7 +18,7 @@
       
       <ion-row class="h-100">
         <ion-col  size = "12" size-lg="4" size-md="6" size-sm="6" size-xs="12" class="p-0" *ngFor="let ss of subservicios">
-          <ion-card style="height: 90%;">
+          <ion-card style="height: 90%;" >
               <img class="producto-image" 
                 [src]="'/assets/images/servicios/' + ss.idServicioParent + '/' + ss.id + '/' + ss.urlToImageCard">
               <ion-card-header class="p-2">
@@ -32,14 +32,22 @@
               <ion-card-content class="text-justify pt-2">
                 {{ ss.header }}
               </ion-card-content>
-              <div *ngIf="!isMobileResolution" class="expand-container expand-content-center" (mouseover)="iconShowHide(ss.id)" (mouseout)="iconShowHide('')">
+              <div>
+                <a
+                (click)="openModal( ss )"
+                [ngClass] = "{ 'expand-container-mobile' : isMobileResolution, 'expand-container' : !isMobileResolution}"
+                class="expand-content-center" 
+                data-toggle="modal"
+                data-target="#myModal"
+                >
+
+                </a>
               </div>
           </ion-card>
         </ion-col>
       </ion-row>
-      
-
-      
     </ion-grid>
   </div>
+
+ 
 </div>
