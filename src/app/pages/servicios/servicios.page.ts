@@ -1,10 +1,8 @@
-import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AppComponent } from '../../app.component';
 import { DataService } from '../../services/data.service';
 import { Servicio } from '../../interfaces/interfaces';
 import { take } from 'rxjs/operators';
-import { ServicioViewComponent } from 'src/app/components/servicio-view/servicio-view.component';
-import { IonCol } from '@ionic/angular';
 
 @Component({
   selector: 'app-servicios',
@@ -13,7 +11,6 @@ import { IonCol } from '@ionic/angular';
 })
 export class ServiciosPage implements OnInit {
 
-  // @ViewChild('colServicios', { static : false }) colServicios: ElementRef;
   itemSelected: string;
   servicios = [
     {
@@ -47,19 +44,22 @@ export class ServiciosPage implements OnInit {
   animationClass = '';
   subservicioSelected: Servicio = {};
 
-  constructor(  private dataService: DataService,
-                private renderer: Renderer2,
-                private elRef: ElementRef) {
+  constructor(  private dataService: DataService ) {
     this.isMobileResolution = AppComponent.isMobileResolution;
   }
 
   ngOnInit() {
-    $('#myModal').appendTo('body');
   }
 
   ionViewWillEnter() {
     this.itemSelected = '';
+    this.subservicioSelected = {};
     this.subservicios = [];
+    $('#serviciosDetailsModal').appendTo('body');
+  }
+
+  ionViewWillLeave() {
+    $('#serviciosDetailsModal').remove();
   }
 
   cargarServicio(idServicio, event?) {

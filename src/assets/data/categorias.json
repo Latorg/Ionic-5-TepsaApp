@@ -80,9 +80,7 @@
     {
         "id": "ccm",
         "nombre": "CCM",
-        "urlToImageCard": "CCM.jpg",
-        "urlToImageBannerDesktop": "ccm.jpg",
-        "urlToImageBannerMobile": "ccm.jpg",
+        "urlToImageCard": "CCM.png",
         "subcategorias": []
     },
     {
