@@ -28,4 +28,9 @@ export class ServicioViewComponent implements OnInit {
   openModal( subservicio: Servicio ) {
     this.sendSubservicio.emit( subservicio );
   }
+
+  getHeightCarousel() {
+    const height =  window.innerWidth * (AppComponent.isMobileResolution ? 0.8 : 0.2) / 2;
+    return { 'min-height': height + 'px', 'max-height': height + 'px' };
+  }
 }

@@ -8,7 +8,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item" *ngFor="let c of carouselImages" [class.active]="c.dataSlideTo === '0'" >
-      <img class="d-block w-100 slider-size" [ngStyle]="getMinHeightCarousel()" [src]="'/assets/images/servicios/' + servicio + '/' + subservicio + '/carousel/' + c.urlToImage">
+      <img class="d-block w-100 slider-size" [ngStyle]="getHeightCarousel()" [src]="'/assets/images/servicios/' + servicio + '/' + subservicio + '/carousel/' + c.urlToImage">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">

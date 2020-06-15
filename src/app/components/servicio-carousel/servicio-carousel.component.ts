@@ -17,7 +17,7 @@ export class ServicioCarouselComponent implements OnInit {
 
   ngOnInit() {}
 
-  getMinHeightCarousel() {
+  getHeightCarousel() {
     const height =  window.innerWidth * (AppComponent.isMobileResolution ? 0.9 : 0.7) / 2.2;
     return { 'min-height': height + 'px', 'max-height': height + 'px' };
   }

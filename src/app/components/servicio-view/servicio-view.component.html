@@ -19,7 +19,7 @@
       <ion-row class="h-100">
         <ion-col  size = "12" size-lg="4" size-md="6" size-sm="6" size-xs="12" class="p-0" *ngFor="let ss of subservicios">
           <ion-card style="height: 90%;" >
-              <img class="producto-image" 
+              <img class="producto-image" [ngStyle]="getHeightCarousel()"
                 [src]="'/assets/images/servicios/' + ss.idServicioParent + '/' + ss.id + '/' + ss.urlToImageCard">
               <ion-card-header class="p-2">
                 <ion-card-title class="text-center">
