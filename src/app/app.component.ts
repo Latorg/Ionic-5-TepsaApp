@@ -16,13 +16,14 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
-    
   }
 
-  static isMobileResolution: boolean = window.innerWidth < 992 ? true : false;
+  // static isMobileResolution: boolean = window.innerWidth < 992 ? true : false;
+  public static isMobileResolution: boolean;
 
   initializeApp() {
     this.platform.ready().then(() => {
+      AppComponent.isMobileResolution = !this.platform.is('desktop');
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
