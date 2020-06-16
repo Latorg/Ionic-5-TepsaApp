@@ -1,9 +1,18 @@
 <ion-card color="tecno" class="animated fadeIn fast" >
   <ion-card-header class="p-2">
     <ion-card-subtitle class="text-center">
-      <span class="noticia-source-name" >{{ producto.codigo }}</span>
+      <span  >{{ producto.codigo }}</span>
+      <br>
+      <div class="div-producto-subcategoria" *ngIf="isSearchPage">
+        <div style=" display: inline-flex ">
+          <a class="a-producto-subcategoria" 
+            [routerLink] = "'/productos/' + producto.categoria +'/' + producto.subcategoria">
+            {{ producto.nombreSubcategoria }}
+          </a>
+        </div>
+        <ion-img class="expand-img" src="/assets/custom-icons/expand white.png" *ngIf="isSearchPage && isMobileResolution "></ion-img>
+      </div>
     </ion-card-subtitle>
-    <!-- <ion-card-title (click)="verProducto()" class="text-title">{{ producto.descripcion.substring(0,46) }}</ion-card-title>  -->
   </ion-card-header>
   <div class="div-producto-image">
     <ion-img  

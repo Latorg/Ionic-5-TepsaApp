@@ -36,6 +36,7 @@ export interface Articulo {
     publishedAt: string;
     categoria: string;
     subcategoria: string;
+    nombreSubcategoria: string;
 }
 
 export interface Categoria {

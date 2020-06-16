@@ -28,3 +28,10 @@
 .navigationText {
     color: #838383;
 }
+
+.section-categoria {
+    position: sticky;
+    top: -2px;
+    z-index: 1;
+    background-color: white;
+  }

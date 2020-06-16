@@ -14,7 +14,7 @@ export class SearchPage implements OnInit {
   searchValue: string;
   
   constructor(  private dataService: DataService,
-                private subjectService: SubjectService ) {
+                private subjectService: SubjectService) {
   }
 
   ngOnInit() {

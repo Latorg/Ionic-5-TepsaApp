@@ -115,7 +115,7 @@
                 <ion-list lines="full" class="ion-no-margin ion-no-padding" mode="md">
                     <ion-item mode="md"> 
                         <ion-label position="stacked">Nombre Completo <ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input formControlName = "nombre"  mode="md" required type="text" ></ion-input>
+                        <ion-input autocomplete="off" formControlName = "nombre"  mode="md" required type="text" ></ion-input>
                     </ion-item>
                     <div class="text-center text-danger" style="height:20px">
                         <small *ngIf="contactoForm?.get('nombre').touched && contactoForm?.get('nombre').invalid">
@@ -124,7 +124,7 @@
                     </div>
                     <ion-item>
                         <ion-label position="stacked">Correo Electrónico <ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input formControlName = "correo"  required type="email" ></ion-input>
+                        <ion-input autocomplete="off" formControlName = "correo"  required type="email" ></ion-input>
                     </ion-item>
                     <div class="text-center text-danger" style="height:20px">
                         <div *ngIf="contactoForm?.get('correo').errors && (contactoForm?.get('correo').invalid && contactoForm?.get('correo').touched)">
@@ -134,7 +134,7 @@
                     </div>
                     <ion-item>
                         <ion-label position="stacked">Telefono a 10 dígitos<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input formControlName = "telefono" required type="text" ></ion-input>
+                        <ion-input autocomplete="off" formControlName = "telefono" required type="text" ></ion-input>
                     </ion-item>
                     <div class="text-center text-danger" style="height:20px">
                         <div *ngIf="contactoForm?.get('telefono').errors && (contactoForm?.get('telefono').invalid && contactoForm?.get('telefono').touched)">
@@ -144,27 +144,32 @@
                     </div>
                     <ion-item>
                         <ion-label position="stacked">Empresa<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input formControlName = "empresa"  type="text" ></ion-input>
+                        <ion-input autocomplete="off" formControlName = "empresa"  type="text" ></ion-input>
                     </ion-item>
                     <ion-item>
                         <ion-label position="stacked">Estado<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-select formControlName = "estado" value="estado">
+                        <ion-select autocomplete="off" formControlName = "estado" value="estado">
                             <ion-select-option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</ion-select-option>
                         </ion-select>
-                      </ion-item>
-                      <ion-item>
-                        <ion-label position="stacked">Mensaje<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-textarea formControlName = "mensaje"  rows="6" cols="20" ></ion-textarea>
-                      </ion-item>
-                      <div class="text-center text-danger" style="height:20px">
-                        <small *ngIf="contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid">
-                            El mensaje es obligatorio
-                        </small>
+                    </ion-item>
+                    <div class="text-center text-danger" style="height:20px">
+                        <div *ngIf="contactoForm?.get('estado').errors && (contactoForm?.get('estado').invalid && contactoForm?.get('estado').touched)">
+                            <small class="text-danger" *ngIf="contactoForm?.get('estado').errors.required">Debe seleccionar un estado</small>
                         </div>
+                    </div>
+                    <ion-item>
+                        <ion-label position="stacked">Mensaje<ion-text color="danger">*</ion-text></ion-label>
+                        <ion-textarea autocomplete="off" formControlName = "mensaje"  rows="6" cols="20" ></ion-textarea>
+                    </ion-item>
+                    <div class="text-center text-danger" style="height:20px">
+                    <small *ngIf="contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid">
+                        El mensaje es obligatorio
+                    </small>
+                    </div>
                 </ion-list>
                 <div class="text-center mb-4" style="height: 35px; width: 90%; margin: auto">
                     <ion-button type="submit" expand="full" fill="solid" shape="round" color="tecno" class="btnSubmit"
-                         (click)="sendMail(contactoForm)" *ngIf="sendStatus === 'unsend'" >
+                         (click)="sendMail(contactoForm)" *ngIf="sendStatus === 'unsend'"  [disabled] = "!contactoForm.valid">
                         <ion-text >
                             Enviar
                         </ion-text>
@@ -305,6 +310,7 @@
                             <label for="nombreContacto">Nombre Completo</label>
                             <input formControlName = "nombre" 
                                 [class.is-invalid] = "contactoForm?.get('nombre').touched && contactoForm?.get('nombre').invalid"
+                                [class.is-valid] = "contactoForm?.get('nombre').touched && !contactoForm?.get('nombre').invalid"
                                 type="text" class="form-control" 
                                 autocomplete="off"
                                 id="nombreContacto" >
@@ -317,6 +323,7 @@
                             <input formControlName = "correo" 
                                 autocomplete="off"
                                 [class.is-invalid] = "contactoForm?.get('correo').touched && contactoForm?.get('correo').invalid"
+                                [class.is-valid] = "contactoForm?.get('correo').touched && !contactoForm?.get('correo').invalid"
                                 type="email" 
                                 class="form-control" id="correoContacto" >
                                 <div *ngIf="contactoForm?.get('correo').errors && (contactoForm?.get('correo').invalid && contactoForm?.get('correo').touched)">
@@ -328,6 +335,7 @@
                             <label for="telefonoContacto">Teléfono a 10 dígitos</label>
                             <input formControlName = "telefono" 
                                 [class.is-invalid] = "contactoForm?.get('telefono').touched && contactoForm?.get('telefono').invalid"
+                                [class.is-valid] = "contactoForm?.get('telefono').touched && !contactoForm?.get('telefono').invalid"
                                 type="text" class="form-control" 
                                 autocomplete="off"
                                 id="telefonoContacto" >
@@ -337,22 +345,31 @@
                                 </div>
                           </div>
                         <div class="form-group">
+                            {{ contactoForm?.get('empresa').value }}
                             <label for="empresaContacto">Empresa</label>
                             <input formControlName = "empresa" 
+                            [class.is-valid] = "contactoForm?.get('empresa').value != '' && contactoForm?.get('empresa').touched && !contactoForm?.get('empresa').invalid"
                             autocomplete="off"
                             type="text" class="form-control" id="empresaContacto" >
                         </div>
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">Estado</label>
-                          <select formControlName = "estado" class="form-control" id="exampleFormControlSelect1">
+                          <select formControlName = "estado" class="form-control" id="exampleFormControlSelect1" 
+                          style="background-position: 97%;"
+                          [class.is-invalid] = "contactoForm?.get('estado').touched && contactoForm?.get('estado').invalid"
+                          [class.is-valid] = "contactoForm?.get('estado').touched && !contactoForm?.get('estado').invalid">
                             <option value="" disabled >Selecciona una opción...</option>
                             <option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</option>
                           </select>
+                          <small *ngIf="contactoForm?.get('estado').touched && contactoForm?.get('estado').invalid" class="text-danger">
+                            Debes seleccionar tu estado
+                        </small>
                         </div>
                         <div class="form-group">
                             <label for="mensajeContacto">Mensaje</label>
                             <textarea formControlName = "mensaje" 
                                 [class.is-invalid] = "contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid"
+                                [class.is-valid] = "contactoForm?.get('mensaje').touched && !contactoForm?.get('mensaje').invalid"
                                 class="form-control" id="mensajeContacto" 
                                 autocomplete="off"
                                 rows="4" style="resize: none !important"></textarea>

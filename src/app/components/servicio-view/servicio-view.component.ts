@@ -17,11 +17,12 @@ export class ServicioViewComponent implements OnInit {
   @Output() sendSubservicio = new EventEmitter<Servicio>();
 
   constructor( private modalCtrl: ModalController ) {
-    this.isMobileResolution = AppComponent.isMobileResolution;
+    
    }
 
    
    ngOnInit() {
+     this.isMobileResolution = AppComponent.isMobileResolution;
   }
 
 

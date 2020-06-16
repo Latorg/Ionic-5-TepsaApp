@@ -20,7 +20,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/servicios/servicios.module').then( m => m.ServiciosPageModule)
   },
   {
-    path: 'search',
+    path: 'buscar',
     loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
   },
   {

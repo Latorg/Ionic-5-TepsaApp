@@ -44,7 +44,7 @@ export class HeaderComponent implements OnInit {
     this.subjectService.newSearch(this.searchBar.value);
     this.searchBar.value = '';
     this.closeSearchBar();
-    this.router.navigate(['/search']);
+    this.router.navigate(['/buscar']);
   }
 
  

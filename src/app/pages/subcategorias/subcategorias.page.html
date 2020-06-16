@@ -3,8 +3,8 @@
 <ion-content color="white">
   <div *ngIf="categoriaItem">
     <app-banner-header></app-banner-header>
-    <div class="mt-3" *ngIf="categoriaItem"
-        [ngClass] = "{'ml-3' : isMobileResolution, 'ml-5': !isMobileResolution}">
+    <div class="mt-3 section-categoria" *ngIf="categoriaItem"
+        [ngClass] = "{'ml-3' : isMobileResolution, 'pl-5': !isMobileResolution}">
     <a routerLink="/productos" class="navigationText">
       <ion-label  >Productos</ion-label>
     </a> 

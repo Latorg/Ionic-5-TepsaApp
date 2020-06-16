@@ -51,7 +51,7 @@ export class ContactoPage implements OnInit {
     correo    : [ '', [Validators.required, Validators.email]],
     telefono  : [ '', [Validators.required, Validators.minLength(10)]],
     empresa   : [ '' ],
-    estado    : [ '' ],
+    estado    : [ '', Validators.required ],
     mensaje   : [ '', Validators.required ]
   });
   sendStatus = 'unsend';

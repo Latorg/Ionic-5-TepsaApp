@@ -35,6 +35,6 @@ export class NavBarMenuComponent implements OnInit {
   changeSearch(search: string) {
     this.subjectService.newSearch(search);
     this.searchIpt.nativeElement.value = '';
-    this.route.navigateByUrl('/search');
+    this.route.navigateByUrl('/buscar');
   }
 }

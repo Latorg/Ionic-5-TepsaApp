@@ -3,6 +3,8 @@ import { Articulo } from '../../interfaces/interfaces';
 import { ActionSheetController } from '@ionic/angular';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import * as FileSaver from 'file-saver';
+import { AppComponent } from '../../app.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-producto',
@@ -11,12 +13,18 @@ import * as FileSaver from 'file-saver';
 })
 export class ProductoComponent implements OnInit {
 
+  isMobileResolution: boolean;
+
   constructor(  private asCtrl: ActionSheetController,
-                private http: HttpClient ) { }
+                private http: HttpClient,
+                private route: ActivatedRoute  ) { }
 
   @Input() producto: Articulo;
-
-  ngOnInit() {}
+  isSearchPage: boolean;
+  ngOnInit() {
+    this.isSearchPage = Object.keys(this.route.snapshot.params).length == 0;
+    this.isMobileResolution = AppComponent.isMobileResolution;
+  }
 
   downloadFicha( urlToFicha: string, filename: string ) {
     let headers = new HttpHeaders();
@@ -26,5 +34,5 @@ export class ProductoComponent implements OnInit {
       FileSaver.saveAs(blob, filename);
     });
   }
-  
+
 }
