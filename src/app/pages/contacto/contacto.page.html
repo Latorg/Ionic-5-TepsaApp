@@ -110,38 +110,71 @@
             <h6 class="text-center">
                 <b>También puedes enviarnos un correo y nos ponemos en contacto contigo</b>
             </h6>
-            <form onsubmit="processForm(event)" mode="md" class="pl-5 ml-2">
+            <!-- Formulario de contacto Mobile -->
+            <form [formGroup]="contactoForm"  mode="md" class="pl-5 ml-2">
                 <ion-list lines="full" class="ion-no-margin ion-no-padding" mode="md">
                     <ion-item mode="md"> 
                         <ion-label position="stacked">Nombre Completo <ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input mode="md" required type="text" ></ion-input>
+                        <ion-input formControlName = "nombre"  mode="md" required type="text" ></ion-input>
                     </ion-item>
+                    <div class="text-center text-danger" style="height:20px">
+                        <small *ngIf="contactoForm?.get('nombre').touched && contactoForm?.get('nombre').invalid">
+                            El nombre es obligatorio
+                        </small>
+                    </div>
                     <ion-item>
                         <ion-label position="stacked">Correo Electrónico <ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input required type="email" ></ion-input>
+                        <ion-input formControlName = "correo"  required type="email" ></ion-input>
                     </ion-item>
+                    <div class="text-center text-danger" style="height:20px">
+                        <div *ngIf="contactoForm?.get('correo').errors && (contactoForm?.get('correo').invalid && contactoForm?.get('correo').touched)">
+                            <small class="text-danger" *ngIf="contactoForm?.get('correo').errors.required">El correo es obligatorio</small>
+                            <small class="text-danger" *ngIf="contactoForm?.get('correo').errors.email">El correo no tiene el formato correcto</small>
+                        </div>
+                    </div>
                     <ion-item>
                         <ion-label position="stacked">Telefono a 10 dígitos<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input required type="text" ></ion-input>
+                        <ion-input formControlName = "telefono" required type="text" ></ion-input>
                     </ion-item>
+                    <div class="text-center text-danger" style="height:20px">
+                        <div *ngIf="contactoForm?.get('telefono').errors && (contactoForm?.get('telefono').invalid && contactoForm?.get('telefono').touched)">
+                            <small class="text-danger" *ngIf="contactoForm?.get('telefono').errors.required">El teléfono es obligatorio</small>
+                            <small class="text-danger" *ngIf="contactoForm?.get('telefono').errors.minlength">El teléfono debe contener 10 dígitos</small>
+                        </div>
+                    </div>
                     <ion-item>
                         <ion-label position="stacked">Empresa<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-input required type="text" ></ion-input>
+                        <ion-input formControlName = "empresa"  type="text" ></ion-input>
                     </ion-item>
                     <ion-item>
                         <ion-label position="stacked">Estado<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-select value="estado">
+                        <ion-select formControlName = "estado" value="estado">
                             <ion-select-option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</ion-select-option>
                         </ion-select>
                       </ion-item>
                       <ion-item>
                         <ion-label position="stacked">Mensaje<ion-text color="danger">*</ion-text></ion-label>
-                        <ion-textarea rows="6" cols="20" ></ion-textarea>
+                        <ion-textarea formControlName = "mensaje"  rows="6" cols="20" ></ion-textarea>
                       </ion-item>
+                      <div class="text-center text-danger" style="height:20px">
+                        <small *ngIf="contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid">
+                            El mensaje es obligatorio
+                        </small>
+                        </div>
                 </ion-list>
-                <ion-button type="submit" expand="full" fill="solid" shape="round" color="tecno">
-                    Enviar
-                </ion-button>
+                <div class="text-center mb-4" style="height: 35px; width: 90%; margin: auto">
+                    <ion-button type="submit" expand="full" fill="solid" shape="round" color="tecno" class="btnSubmit"
+                         (click)="sendMail(contactoForm)" *ngIf="sendStatus === 'unsend'" >
+                        <ion-text >
+                            Enviar
+                        </ion-text>
+                    </ion-button>
+                    <ion-spinner name="lines" style="margin: auto" *ngIf="sendStatus === 'sending'"></ion-spinner>
+                    <ion-text color="tecno" class="animate__animated animate__fadeInUp" style="font-size: small;"
+                        *ngIf="sendStatus === 'sent'">
+                        ¡Tu mensaje se ha enviado correctamente y serás contactado a la brevedad!
+                    </ion-text>
+                </div>
             </form>
                             
                             
@@ -266,47 +299,84 @@
                     </div>
                 </ion-col>
                 <ion-col size="7">
-                    <form>
+                    <!-- Formulario de contacto Desktop -->
+                    <form [formGroup]="contactoForm" >
                         <div class="form-group">
                             <label for="nombreContacto">Nombre Completo</label>
-                            <input type="text" class="form-control" id="nombreContacto" >
+                            <input formControlName = "nombre" 
+                                [class.is-invalid] = "contactoForm?.get('nombre').touched && contactoForm?.get('nombre').invalid"
+                                type="text" class="form-control" 
+                                autocomplete="off"
+                                id="nombreContacto" >
+                                <small *ngIf="contactoForm?.get('nombre').touched && contactoForm?.get('nombre').invalid" class="text-danger">
+                                    El nombre es obligatorio
+                                </small>
                         </div>
                         <div class="form-group">
-                          <label for="correoContacto">Correo electrónico</label>
-                          <input type="email" class="form-control" id="correoContacto" >
+                            <label for="correoContacto">Correo electrónico</label>
+                            <input formControlName = "correo" 
+                                autocomplete="off"
+                                [class.is-invalid] = "contactoForm?.get('correo').touched && contactoForm?.get('correo').invalid"
+                                type="email" 
+                                class="form-control" id="correoContacto" >
+                                <div *ngIf="contactoForm?.get('correo').errors && (contactoForm?.get('correo').invalid && contactoForm?.get('correo').touched)">
+                                    <small class="text-danger" *ngIf="contactoForm?.get('correo').errors.required">El correo es obligatorio</small>
+                                    <small class="text-danger" *ngIf="contactoForm?.get('correo').errors.email">El correo no tiene el formato correcto</small>
+                                </div>
                         </div>
                         <div class="form-group">
                             <label for="telefonoContacto">Teléfono a 10 dígitos</label>
-                            <input type="text" class="form-control" id="telefonoContacto" >
+                            <input formControlName = "telefono" 
+                                [class.is-invalid] = "contactoForm?.get('telefono').touched && contactoForm?.get('telefono').invalid"
+                                type="text" class="form-control" 
+                                autocomplete="off"
+                                id="telefonoContacto" >
+                                <div *ngIf="contactoForm?.get('telefono').errors && (contactoForm?.get('telefono').invalid && contactoForm?.get('telefono').touched)">
+                                    <small class="text-danger" *ngIf="contactoForm?.get('telefono').errors.required">El teléfono es obligatorio</small>
+                                    <small class="text-danger" *ngIf="contactoForm?.get('telefono').errors.minlength">El teléfono debe contener 10 dígitos</small>
+                                </div>
                           </div>
                         <div class="form-group">
                             <label for="empresaContacto">Empresa</label>
-                            <input type="text" class="form-control" id="empresaContacto" >
+                            <input formControlName = "empresa" 
+                            autocomplete="off"
+                            type="text" class="form-control" id="empresaContacto" >
                         </div>
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">Estado</label>
-                          <select class="form-control" id="exampleFormControlSelect1">
+                          <select formControlName = "estado" class="form-control" id="exampleFormControlSelect1">
                             <option value="" disabled >Selecciona una opción...</option>
                             <option [value]="estado.value" *ngFor="let estado of estados">{{ estado.text }}</option>
                           </select>
                         </div>
                         <div class="form-group">
-                          <label for="mensajeContacto">Mensaje</label>
-                          <textarea class="form-control" id="mensajeContacto" rows="4" style="resize: none !important"></textarea>
+                            <label for="mensajeContacto">Mensaje</label>
+                            <textarea formControlName = "mensaje" 
+                                [class.is-invalid] = "contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid"
+                                class="form-control" id="mensajeContacto" 
+                                autocomplete="off"
+                                rows="4" style="resize: none !important"></textarea>
+                                <small *ngIf="contactoForm?.get('mensaje').touched && contactoForm?.get('mensaje').invalid" class="text-danger">
+                                    El mensaje es obligatorio
+                                </small>
+                        </div>
+                        <div class="text-center mb-4" style="height: 30px;">
+                            <ion-button type="submit" expand="full" fill="solid" shape="round" color="tecno" class="btnSubmit"
+                                 (click)="sendMail(contactoForm)" *ngIf="sendStatus === 'unsend'" [disabled] = "!contactoForm.valid"> 
+                                <ion-text >
+                                    Enviar
+                                </ion-text>
+                            </ion-button>
+                            <ion-spinner name="lines" style="margin: auto" *ngIf="sendStatus === 'sending'"></ion-spinner>
+                            <ion-text color="tecno" class="animate__animated animate__fadeInUp" style="font-size: large;"
+                                *ngIf="sendStatus === 'sent'">
+                                ¡Tu mensaje se ha enviado correctamente y serás contactado a la brevedad!
+                            </ion-text>
                         </div>
                       </form>
                 </ion-col>
                 
                 
-            </ion-row>
-            <ion-row>
-                <ion-col size="5" class="p-0 content-center">
-                </ion-col>
-                <ion-col size="7">
-                        <ion-button type="submit" expand="full" fill="solid" shape="round" color="tecno">
-                            Enviar
-                        </ion-button>
-                    </ion-col>
             </ion-row>
         </ion-grid>
     </div>

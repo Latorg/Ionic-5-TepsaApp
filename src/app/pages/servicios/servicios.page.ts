@@ -55,12 +55,13 @@ export class ServiciosPage implements OnInit {
     this.itemSelected = '';
     this.subservicioSelected = {};
     this.subservicios = [];
+    // console.log($('#serviciosDetailsModal').length);
     $('#serviciosDetailsModal').appendTo('body');
   }
 
-  ionViewWillLeave() {
-    $('#serviciosDetailsModal').remove();
-  }
+  // ionViewWillLeave() {
+  //   $('#serviciosDetailsModal').remove();
+  // }
 
   cargarServicio(idServicio, event?) {
     if ( event ) {

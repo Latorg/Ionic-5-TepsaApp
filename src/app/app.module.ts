@@ -15,7 +15,7 @@ import { environment } from '../environments/environment';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { CallNumber } from '@ionic-native/call-number/ngx';
 import { EmailComposer } from '@ionic-native/email-composer/ngx';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PipesModule } from './pipes/pipes.module';
 
 @NgModule({
@@ -29,6 +29,7 @@ import { PipesModule } from './pipes/pipes.module';
     ComponentsModule,
     HttpClientModule,
     PipesModule,
+    ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [

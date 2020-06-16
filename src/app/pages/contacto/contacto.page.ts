@@ -1,5 +1,8 @@
 import { Component, OnInit  } from '@angular/core';
 import { AppComponent  } from '../../app.component';
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { ToastController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-contacto',
@@ -43,11 +46,35 @@ export class ContactoPage implements OnInit {
     { value: 'ZAC', text: 'Zacatecas' }
   ];
 
+  contactoForm = this.formbuilder.group({
+    nombre    : ['', Validators.required ],
+    correo    : [ '', [Validators.required, Validators.email]],
+    telefono  : [ '', [Validators.required, Validators.minLength(10)]],
+    empresa   : [ '' ],
+    estado    : [ '' ],
+    mensaje   : [ '', Validators.required ]
+  });
+  sendStatus = 'unsend';
   public isMobileResolution: boolean;
-  constructor() {
+  constructor(  private formbuilder: FormBuilder,
+                private toastCtrl: ToastController ) {
     this.isMobileResolution = AppComponent.isMobileResolution;
   }
 
   ngOnInit() {
+  }
+
+  ionViewWillEnter() {
+    this.sendStatus = 'unsend';
+    this.contactoForm.reset();
+  }
+
+  async sendMail(contactoForm) {
+    if ( contactoForm.valid ) {
+      this.sendStatus = 'sending';
+      setTimeout( () => {
+        this.sendStatus = 'sent';
+      }, 3000);
+    }
   }
 }
