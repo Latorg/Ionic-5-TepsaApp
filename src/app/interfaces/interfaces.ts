@@ -27,13 +27,13 @@ export interface Familia {
 
 export interface Articulo {
     codigo: string;
-    familia: Familia;
+    familia?: Familia;
     descripcion: string;
-    caracteristicas: string;
-    aplicaciones: string;
+    caracteristicas?: string;
+    aplicaciones?: string;
     urlToFichaTecnica: string;
     urlToImage: string;
-    publishedAt: string;
+    publishedAt?: string;
     categoria: string;
     subcategoria: string;
     nombreSubcategoria: string;

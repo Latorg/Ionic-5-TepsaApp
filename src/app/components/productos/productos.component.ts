@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, AfterContentInit } from '@angular/core';
+import { Component, OnInit, Input, AfterContentInit, Output, EventEmitter } from '@angular/core';
 import { Articulo } from '../../interfaces/interfaces';
 import { SubjectService } from '../../services/subject.service';
 import { AppComponent } from '../../app.component';
@@ -9,19 +9,18 @@ import { AppComponent } from '../../app.component';
   styleUrls: ['./productos.component.scss'],
 })
 export class ProductosComponent implements OnInit, AfterContentInit {
-  
+
   pageShown: number;
   @Input() productos: Articulo[];
   productosShown: Articulo[] = [];
   searchValue: string;
-  
+  orderValue: string;
   isMobileResolution: boolean;
 
   constructor( private subjectService: SubjectService ) {
    }
 
   ngOnInit() {
-    
     this.isMobileResolution = AppComponent.isMobileResolution;
     this.subjectService.currentSearch$.subscribe( res => {
       this.searchValue = res;
@@ -46,4 +45,5 @@ export class ProductosComponent implements OnInit, AfterContentInit {
       }
     }, 100 );
   }
+
 }

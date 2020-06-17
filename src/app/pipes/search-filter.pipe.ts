@@ -12,11 +12,7 @@ export class SearchFilterPipe implements PipeTransform {
 
   }
   transform(  arr: Articulo[], search: string): Articulo[] {
-    // if ( search !== '' ) {
-    //   arr = arr.filter( x => {
-    //     return x.descripcion.toLowerCase().includes( search.toLowerCase() );
-    //   });
-    // }
+
     if ( this.currentSearch !== search ) {
       this.currentSearch = search;
       this.subjectService.newPage(1);

@@ -33,7 +33,7 @@
       </div>
     </ul>
     <div class="ml-auto p-1">
-      <form class="form-inline" #searchForm="ngForm" >
+      <form class="form-inline" #searchForm="ngForm" style="display: inline-block" >
         <input  class="form-control mr-sm-2" 
                 type="search" 
                 placeholder="Buscar" 
@@ -41,10 +41,11 @@
                 name="searchInput" 
                 aria-label="Buscar" 
                 autocomplete="off"
-                (keyup.enter) = 'changeSearch(searchInput.value)'
+                id="#iptBuscar"
+                (keyup.enter) = 'changeSearchInput(searchInput.value)'
                 #searchInput>
-        <a class="btn btn-outline-success my-2 my-sm-0" (click)="changeSearch(searchInput.value)">Buscar</a>
       </form>
+      <button id="btnBuscar"  class="btn btn-outline-success" (click)="changeSearch(searchInput.value)">Buscar</button >
     </div>
     
   </div>

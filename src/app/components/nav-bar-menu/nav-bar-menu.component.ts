@@ -16,7 +16,7 @@ export class NavBarMenuComponent implements OnInit {
   componentes: Observable<Componente[]>;
   searchValue: string;
   menuSelected: string;
-  
+
   @ViewChild('searchInput', {static: false}) searchIpt: any;
 
   constructor(  private dataService: DataService,
@@ -33,6 +33,13 @@ export class NavBarMenuComponent implements OnInit {
 
 
   changeSearch(search: string) {
+    $('#btnBuscar').trigger('blur');
+    this.subjectService.newSearch(search);
+    this.searchIpt.nativeElement.value = '';
+    this.route.navigateByUrl('/buscar');
+  }
+
+  changeSearchInput(search: string) {
     this.subjectService.newSearch(search);
     this.searchIpt.nativeElement.value = '';
     this.route.navigateByUrl('/buscar');
