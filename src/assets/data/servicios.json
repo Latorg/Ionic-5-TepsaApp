@@ -202,7 +202,7 @@
     {
         "id": "residencial",
         "idServicioParent": "ingenieria",
-        "nombre": "Residencal",
+        "nombre": "Residencial",
         "nombreParent": "Ingeniería",
         "urlToImageCard": "INGENIERIA RESIDENCIAL.png",
         "header": "Instalaciones eléctricas residenciales: Ingeniería, productos, precios, documentación técnica, soporte técnico",
@@ -340,7 +340,7 @@
     {
         "id": "residencial",
         "idServicioParent": "iluminacion",
-        "nombre": "Residencal",
+        "nombre": "Residencial",
         "nombreParent": "Iluminación",
         "urlToImageCard": "ILUMINACION RESIDENCIAL.png",
         "header": "Gran variedad de productos que ayudan a determinar la iluminación que mejor se adapta a tus necesidades",
@@ -466,7 +466,7 @@
     {
         "id": "residencial",
         "idServicioParent": "energia",
-        "nombre": "Residencal",
+        "nombre": "Residencial",
         "nombreParent": "Ahorro de energía",
         "urlToImageCard": "AHORRO DE ENERGIA RESIDENCIAL.png",
         "header": "Soluciones Código Red y atenuadores de voltaje que disminuyen el uso de electricidad sin afectar el rendimiento",
