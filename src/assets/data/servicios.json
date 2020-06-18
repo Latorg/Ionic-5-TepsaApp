@@ -5,26 +5,20 @@
         "idServicioParent": "tableros",
         "nombre": "Industria",
         "nombreParent": "Tableros",
-        "urlToImageCard": "industria-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget enim quis dolor varius elementum quis eu urna. Quisque lacinia ac mauris sed gravida. Morbi eleifend dignissim maximus. Nulla placerat eu ex quis tincidunt. Aenean erat sapien, ullamcorper at ullamcorper et, cursus eget quam. Sed est diam, vehicula sed sapien at, placerat fringilla augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis purus ut nisi ultrices lobortis. Sed pellentesque metus nunc, quis viverra urna  efficitur at. Donec vulputate ante quam, id porttitor tortor sagittis sit amet. Morbi pharetra mattis lorem, ut blandit urna. Aliquam a pulvinar quam. Morbi turpis augue, facilisis dictum varius facilisis, luctus porta ligula. Sed ut velit id nulla congue iaculis ut id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris eu metus at risus feugiat viverra. In euismod velit mauris, ut viverra dolor viverra ut. Aliquam sed erat egestas, lacinia turpis vel, fringilla tellus. Etiam leo tellus, bibendum nec mi a, facilisis scelerisque mi. Maecenas ornare justo nec mi consequat hendrerit.",
+        "urlToImageCard": "TABLEROS ELECTRICOS PARA LA INDUSTRIA.png",
+        "header": "Ensamblado de tableros de control y distribución para instalaciones industriales de todo tipo",
+        "description": "",
         "carouselImages": [
             {
-                "name": "Banner 01",
-                "urlToImage": "tableros-industria-1.jpg",
+                "name": "TABLEROS ELECTRICOS PARA LA INDUSTRIA 2",
+                "urlToImage": "TABLEROS ELECTRICOS PARA LA INDUSTRIA 2.png",
                 "dataSlideTo": "0",
                 "isButtonToRef": false
             },
             {
-                "name": "Banner 02",
-                "urlToImage": "tableros-industria-2.jpg",
+                "name": "TABLEROS ELECTRICOS PARA LA INDUSTRIA 3",
+                "urlToImage": "TABLEROS ELECTRICOS PARA LA INDUSTRIA 3.png",
                 "dataSlideTo": "1",
-                "isButtonToRef": false
-            },
-            {
-                "name": "Banner 03",
-                "urlToImage": "tableros-industria-3.jpg",
-                "dataSlideTo": "2",
                 "isButtonToRef": false
             }
         ]
@@ -34,26 +28,14 @@
         "idServicioParent": "tableros",
         "nombre": "Construcción",
         "nombreParent": "Tableros",
-        "urlToImageCard": "construccion-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget enim quis dolor varius elementum quis eu urna. Quisque lacinia ac mauris sed gravida. Morbi eleifend dignissim maximus. Nulla placerat eu ex quis tincidunt. Aenean erat sapien, ullamcorper at ullamcorper et, cursus eget quam. ",
+        "urlToImageCard": "TABLEROS ELECTRICOS PARA LA CONSTRUCCION.png",
+        "header": "Ensamblado de tableros de centros integrados de control y distribución para sistemas eléctricos",
+        "description": "",
         "carouselImages": [
             {
-                "name": "Banner 01",
-                "urlToImage": "tableros-construccion-1.jpg",
+                "name": "TABLEROS ELECTRICOS PARA LA CONSTRUCCION 2",
+                "urlToImage": "TABLEROS ELECTRICOS PARA LA CONSTRUCCION 2.png",
                 "dataSlideTo": "0",
-                "isButtonToRef": false
-            },
-            {
-                "name": "Banner 02",
-                "urlToImage": "tableros-construccion-2.jpg",
-                "dataSlideTo": "1",
-                "isButtonToRef": false
-            },
-            {
-                "name": "Banner 03",
-                "urlToImage": "tableros-construccion-3.jpg",
-                "dataSlideTo": "2",
                 "isButtonToRef": false
             }
         ]
@@ -63,182 +45,439 @@
         "idServicioParent": "tableros",
         "nombre": "Gobierno",
         "nombreParent": "Tableros",
-        "urlToImageCard": "gobierno-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "TABLEROS ELECTRICOS PARA GOBIERNO.png",
+        "header": "Ensamblado de tableros de distribución y control que optimizan y mejoran el esfuerzo eléctrico",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "TABLEROS ELECTRICOS PARA GOBIERNO 2",
+                "urlToImage": "TABLEROS ELECTRICOS PARA GOBIERNO 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "sectorsalud",
         "idServicioParent": "tableros",
         "nombre": "Sector Salud",
         "nombreParent": "Tableros",
-        "urlToImageCard": "salud-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "TABLEROS ELECTRICOS PARA HOSPITALES.png",
+        "header": "Ensamblado de tableros de distribución y control para áreas críticas de atención de la salud",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "TABLEROS ELECTRICOS PARA HOSPITALES 3",
+                "urlToImage": "TABLEROS ELECTRICOS PARA HOSPITALES 3.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "comercial",
         "idServicioParent": "tableros",
         "nombre": "Comercial",
         "nombreParent": "Tableros",
-        "urlToImageCard": "comercial-tableros.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "TABLEROS ELECTRICOS PARA COMERCIO 3.png",
+        "header": "Ensamblado de tableros de distribución y control inteligente fiable y segura de energía eléctrica",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "TABLEROS ELECTRICOS PARA COMERCIO ",
+                "urlToImage": "TABLEROS ELECTRICOS PARA COMERCIO.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
+    },
+    {
+        "id": "residencial",
+        "idServicioParent": "tableros",
+        "nombre": "Residencial",
+        "nombreParent": "Tableros",
+        "urlToImageCard": "TABLEROS ELECTRICOS RESIDENCIALES.png",
+        "header": "Ensamblado de tableros de distribución y controlde energía eléctrica hechas a la medida",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "TABLEROS ELECTRICOS RESIDENCIALES 2",
+                "urlToImage": "TABLEROS ELECTRICOS RESIDENCIALES 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "industria",
         "idServicioParent": "ingenieria",
         "nombre": "Industria",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "industria-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA PARA LA INDUSTRIA.png",
+        "header": "Integramos y suministramos equipo hecho a la medida:  tableros, subestaciones, instalaciones eléctricas",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA PARA LA INDUSTRIA 2",
+                "urlToImage": "INGENIERIA PARA LA INDUSTRIA 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "construccion",
         "idServicioParent": "ingenieria",
         "nombre": "Construcción",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "construccion-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA PARA LA CONSTRUCCION.png",
+        "header": "Ingeniería eléctrica de instalaciones de media y baja tensión para desarrollos de construcción. Amplio stock",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA PARA LA CONSTRUCCION X",
+                "urlToImage": "INGENIERIA PARA LA CONSTRUCCION X.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "INGENIERIA PARA LA CONSTRUCCION 2",
+                "urlToImage": "INGENIERIA PARA LA CONSTRUCCION 2.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "gobierno",
         "idServicioParent": "ingenieria",
         "nombre": "Gobierno",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "gobierno-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA PARA GOBIERNO.png",
+        "header": "Contamos con gran variedad de productos de baja, media y alta tensión para sus proyectos. Soporte de fabricantes",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA PARA GOBIERNO 2",
+                "urlToImage": "INGENIERIA PARA GOBIERNO 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "sectorsalud",
         "idServicioParent": "ingenieria",
         "nombre": "Sector Salud",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "sectorsalud-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA PARA HOSPITALES.png",
+        "header": "Soluciones para instalaciones eléctricas, lumínicas, control y automatización de energía eléctrica",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA PARA HOSPITALES 2",
+                "urlToImage": "INGENIERIA PARA HOSPITALES 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "comercial",
         "idServicioParent": "ingenieria",
         "nombre": "Comercial",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "comercial-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA PARA EL COMERCIO.png",
+        "header": "Asesoramos en precios, productos, documentación técnica, normas CFE ¡Conoce más! Trato personalizado",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA PARA EL COMERCIO 2",
+                "urlToImage": "INGENIERIA PARA EL COMERCIO 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "residencial",
         "idServicioParent": "ingenieria",
         "nombre": "Residencal",
         "nombreParent": "Ingeniería",
-        "urlToImageCard": "residencial-ingenieria.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "INGENIERIA RESIDENCIAL.png",
+        "header": "Instalaciones eléctricas residenciales: Ingeniería, productos, precios, documentación técnica, soporte técnico",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "INGENIERIA RESIDENCIAL 2",
+                "urlToImage": "INGENIERIA RESIDENCIAL 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "industria",
         "idServicioParent": "iluminacion",
         "nombre": "Industria",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "industria-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION PARA LA INDUSTRIA.png",
+        "header": "Sistemas de iluminación para naves industriales, excelentes prestaciones lumínicas y bajo consumo",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION PARA LA INDUSTRIA 2",
+                "urlToImage": "ILUMINACION PARA LA INDUSTRIA 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "construccion",
         "idServicioParent": "iluminacion",
         "nombre": "Construcción",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "construccion-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION PARA LA CONSTRUCCION.png",
+        "header": "Tenemos productos y marcas con una gran variedad de precios. Te asesoramos con tu proyecto. ¡Contáctanos!",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION PARA LA CONSTRUCCION 2",
+                "urlToImage": "ILUMINACION PARA LA CONSTRUCCION 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION PARA LA CONSTRUCCION 3",
+                "urlToImage": "ILUMINACION PARA LA CONSTRUCCION 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION PARA LA CONSTRUCCION 4",
+                "urlToImage": "ILUMINACION PARA LA CONSTRUCCION 4.png",
+                "dataSlideTo": "2",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "gobierno",
         "idServicioParent": "iluminacion",
         "nombre": "Gobierno",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "gobierno-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION SECTOR GOBIERNO.png",
+        "header": "Sistemas LED que demuestran su capacidad en la iluminación urbana y exterior: homogénea y eficiente",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION SECTOR GOBIERNO 2",
+                "urlToImage": "ILUMINACION SECTOR GOBIERNO 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "sectorsalud",
         "idServicioParent": "iluminacion",
         "nombre": "Sector Salud",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "sectorsalud-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION PARA HOSPITALES.png",
+        "header": "Iluminación con un sistema de gestión versátil e inteligente que pueda reducir los gastos energéticos",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION PARA HOSPITALES 2",
+                "urlToImage": "ILUMINACION PARA HOSPITALES 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION PARA HOSPITALES 3",
+                "urlToImage": "ILUMINACION PARA HOSPITALES 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "comercial",
         "idServicioParent": "iluminacion",
         "nombre": "Comercial",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "comercial-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION COMERCIAL.png",
+        "header": "Proyectos de iluminación con 2 objetivos: reducir el gasto y conseguir el mayor confort en todas sus zonas",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION COMERCIAL 2",
+                "urlToImage": "ILUMINACION COMERCIAL 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION COMERCIAL 3",
+                "urlToImage": "ILUMINACION COMERCIAL 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION COMERCIAL 4",
+                "urlToImage": "ILUMINACION COMERCIAL 4.png",
+                "dataSlideTo": "2",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION COMERCIAL 5",
+                "urlToImage": "ILUMINACION COMERCIAL 5.png",
+                "dataSlideTo": "3",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "residencial",
         "idServicioParent": "iluminacion",
         "nombre": "Residencal",
         "nombreParent": "Iluminación",
-        "urlToImageCard": "residencial-iluminacion.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "urlToImageCard": "ILUMINACION RESIDENCIAL.png",
+        "header": "Gran variedad de productos que ayudan a determinar la iluminación que mejor se adapta a tus necesidades",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "ILUMINACION RESIDENCIAL 3",
+                "urlToImage": "ILUMINACION RESIDENCIAL 3.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "ILUMINACION RESIDENCIAL 4",
+                "urlToImage": "ILUMINACION RESIDENCIAL 4.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "industria",
         "idServicioParent": "energia",
         "nombre": "Industria",
-        "nombreParent": "Energía",
-        "urlToImageCard": "industria-energia.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA INDUSTRIA.png",
+        "header": "Desde el diagnóstico hasta el software para monitoreo y control permanente de los parámetros de código de red",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA INDUSTRIA 2",
+                "urlToImage": "AHORRO DE ENERGIA INDUSTRIA 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "AHORRO DE ENERGIA INDUSTRIA 3",
+                "urlToImage": "AHORRO DE ENERGIA INDUSTRIA 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "construccion",
         "idServicioParent": "energia",
         "nombre": "Construcción",
-        "nombreParent": "Energía",
-        "urlToImageCard": "construccion-energia.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA CONSTRUCCION.png",
+        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake.",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA CONSTRUCCION 2",
+                "urlToImage": "AHORRO DE ENERGIA CONSTRUCCION 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "gobierno",
         "idServicioParent": "energia",
         "nombre": "Gobierno",
-        "nombreParent": "Energía",
-        "urlToImageCard": "gobierno-energia.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA GOBIERNO 2.png",
+        "header": "Soluciones de energía inteligente para proyectos de distribución eléctrica en los servicios públicos",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA GOBIERNO",
+                "urlToImage": "AHORRO DE ENERGIA GOBIERNO.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "sectorsalud",
         "idServicioParent": "energia",
         "nombre": "Sector Salud",
-        "nombreParent": "Energía",
-        "urlToImageCard": "sectorsalud-energia.png",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA HOSPITALES.png",
+        "header": "Reducir el consumo energético en tu centro de atención médica sin comprometer la atención al paciente",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA HOSPITALES 2",
+                "urlToImage": "AHORRO DE ENERGIA HOSPITALES 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "AHORRO DE ENERGIA HOSPITALES 3",
+                "urlToImage": "AHORRO DE ENERGIA HOSPITALES 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "comercial",
         "idServicioParent": "energia",
         "nombre": "Comercial",
-        "urlToImageCard": "comercial-energia.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA COMERCIAL.png",
+        "header": "Servicios para código de red: Recomendaciones para cumplimiento, especificación de equipos, monitoreo y control",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA COMERCIAL 2",
+                "urlToImage": "AHORRO DE ENERGIA COMERCIAL 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            },
+            {
+                "name": "AHORRO DE ENERGIA COMERCIAL 3",
+                "urlToImage": "AHORRO DE ENERGIA COMERCIAL 3.png",
+                "dataSlideTo": "1",
+                "isButtonToRef": false
+            }
+        ]
     },
     {
         "id": "residencial",
         "idServicioParent": "energia",
         "nombre": "Residencal",
-        "nombreParent": "Energía",
-        "urlToImageCard": "residencial-energia.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
-    },
-    {
-        "id": "comercial",
-        "idServicioParent": "equipoespecial",
-        "nombre": "Comercial",
-        "nombreParent": "Equipo Especial",
-        "urlToImageCard": "comercial-equipoespecial.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
-    },
-    {
-        "id": "residencial",
-        "idServicioParent": "equipoespecial",
-        "nombre": "Residencal",
-        "nombreParent": "Equipo Especial",
-        "urlToImageCard": "residencial-equipoespecial.jpg",
-        "header": "Founded in 1829 on an isthmus between Lake Monona and Lake."
+        "nombreParent": "Ahorro de energía",
+        "urlToImageCard": "AHORRO DE ENERGIA RESIDENCIAL.png",
+        "header": "Soluciones Código Red y atenuadores de voltaje que disminuyen el uso de electricidad sin afectar el rendimiento",
+        "description": "",
+        "carouselImages": [
+            {
+                "name": "AHORRO DE ENERGIA RESIDENCIAL 2",
+                "urlToImage": "AHORRO DE ENERGIA RESIDENCIAL 2.png",
+                "dataSlideTo": "0",
+                "isButtonToRef": false
+            }
+        ]
     }
 ]
