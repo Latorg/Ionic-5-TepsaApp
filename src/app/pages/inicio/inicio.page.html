@@ -4,22 +4,26 @@
 <ion-content color="white">
     <app-carousel></app-carousel>
     <div class="container mt-3 mb-3 animate__animated animate__fadeInUp">
-        <h3   class='title-home text-center' 
+        <h3   class='title-home text-center ' 
             [ngClass] = "{ 'title-home-desktop' : !isMobileResolution, 'title-home-mobile' : isMobileResolution}" >
             ¡Porque somos tu mejor opción!
         </h3>
         <ion-grid>
           
           <ion-row >
-            <ion-col class="mb-4" size = "12" size-lg="6" size-md="6" size-sm="6" size-xs="6"
-                      *ngFor="let feature of features"  
+            <ion-col class="mb-4" size = "12" size-lg="4" size-md="4" size-sm="6" size-xs="6"
+                      *ngFor="let feature of features"
                       [ngClass]="{'p-3 mb-4' : !isMobileResolution, 'p-2 mb-1' : isMobileResolution}">
                 <div class="content-center">
                     <ion-img [ngClass]="{'feature-desktop-img-home' : !isMobileResolution, 'feature-mobile-img-home' : isMobileResolution}" 
                             [src]="feature.url"></ion-img>
                 </div>
                 <div class="content-center">
-                    <ion-label class="feature-lbl-home" 
+                    <h3 [ngClass]="{'feature-title-desktop' : !isMobileResolution, 'feature-title-mobile' : isMobileResolution}" >
+                        {{ feature.title }}</h3>
+                </div>
+                <div class="content-center text-center mt-2" style="color: #7c7c7c">
+                    <ion-label class="feature-title-home" 
                                 [ngClass]="{'feature-mobile-lbl-home' : isMobileResolution}">{{ feature.text }}</ion-label>
                 </div>
             </ion-col>

@@ -2,7 +2,6 @@
 
 .title-home {
     font-family:'Arial Black', Gadget, sans-serif; 
-    color: #569462;
 }
 
 .title-home-desktop {
@@ -14,17 +13,27 @@
 }
 
 .feature-desktop-img-home {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     margin: auto;
 }
 
 .feature-mobile-img-home {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80px;
+    max-height: 80px;
     margin: auto;
 }
 
+
+.feature-lbl-home {
+    font-family:'Arial', Gadget, sans-serif; 
+    margin: auto;
+    text-align: center;
+}
+
+.feature-mobile-lbl-home {
+    font-size: small;
+}
 
 .feature-lbl-home {
     font-family:'Arial', Gadget, sans-serif; 
@@ -40,4 +49,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.feature-title-desktop {
+    font-family:'Arial Black', Gadget, sans-serif; 
+    font-size: x-large;
+}
+
+.feature-title-mobile {
+    font-family:'Arial Black', Gadget, sans-serif; 
+    font-size: large;
 }
