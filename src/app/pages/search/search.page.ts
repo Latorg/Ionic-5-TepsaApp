@@ -34,14 +34,32 @@ export class SearchPage implements OnInit {
 
   loadAllProducts( ) {
     this.dataService.getProductos().subscribe( res => {
-
       if ( this.searchValue !== '' ) {
-        res = res.filter( x => x.descripcion.toLowerCase().includes( this.searchValue.toLowerCase() ));
+        res = this.filterSearch(res);
+        // res = res.filter( x => x.descripcion.toLowerCase().includes( this.searchValue.toLowerCase() ));
       }
       this.productos = [];
       this.productos.push(...res);
       this.cambiarSort();
     });
+  }
+
+  filterSearch( resArticulos: Articulo[]): Articulo[] {
+    // Search by description
+    const resTemp =  resArticulos.filter( x => x.descripcion.toLowerCase().includes( this.searchValue.toLowerCase() ));
+    // Search by subcategory
+    const wordsToSearch = this.searchValue.split(' ');
+    let filterArr = [];
+    wordsToSearch.forEach( x => {
+      filterArr = resArticulos.filter( y => y.nombreSubcategoria.toLowerCase().includes( x.toLowerCase() ));
+      resTemp.push( ...filterArr );
+    });
+    // Delete duplicates
+    const resToReturn = resTemp.filter(  (elem, index, self) => {
+      return index === self.indexOf(elem);
+    });
+
+    return resToReturn;
   }
 
   cambiarSort(event?: any) {
