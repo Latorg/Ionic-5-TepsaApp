@@ -13,3 +13,37 @@
 .btn-tecno:hover {
     background-color: #3e7c4a;
 }
+
+.carousel-div-header {
+    max-width: 45%;
+    border-radius: 15px;
+    padding-right: 1%;
+    padding-left: 1%;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    z-index: 10;
+    background-color: rgba(90, 90, 90, 0.4);
+    text-align: center;
+    min-height: 20%;
+    max-height: 40%;
+    
+}
+
+.carousel-lbl-header {
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-lbl-subheader {
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    font-family: ElaineSans;
+}
+
+@font-face {
+    font-family: ElaineSans;
+    src: url('/assets/fonts/ElaineSans/hinted-ElaineSans-Regular.ttf');
+  }

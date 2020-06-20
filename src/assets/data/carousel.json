@@ -1,44 +1,56 @@
 [
     {
         "name": "Banner 01",
-        "urlToImage": "/assets/images/carousel/BANNERS01.jpg",
+        "urlToImage": "/assets/images/carousel/BANNERS08.jpg",
         "dataSlideTo": "0",
         "isButtonToRef": true,
-        "urlToRef" : "/servicios"
+        "urlToRef" : "/servicios",
+        "title": "Soluciones Eléctricas para el sector público",
+        "subtitle": ""
     },
     {
         "name": "Banner 02",
         "urlToImage": "/assets/images/carousel/BANNERS02.jpg",
         "dataSlideTo": "1",
         "isButtonToRef": true,
-        "urlToRef" : "/productos/tableros"
+        "urlToRef" : "/productos/tableros",
+        "title": "Tableros eléctricas de Distribución, de Control y de Automatizacón",
+        "subtitle": "Dsitribuidor Autorizado"
     },
     {
         "name": "Banner 03",
         "urlToImage": "/assets/images/carousel/BANNERS03.jpg",
         "dataSlideTo": "2",
         "isButtonToRef": true,
-        "urlToRef" : "/servicios"
+        "urlToRef" : "/servicios",
+        "title": "Soluciones Eléctricas para la industria",
+        "subtitle": ""
     },
     {
         "name": "Banner 04",
         "urlToImage": "/assets/images/carousel/BANNERS04.jpg",
         "dataSlideTo": "3",
         "isButtonToRef": true,
-        "urlToRef" : "/productos/transformadores"
+        "urlToRef" : "/productos/transformadores",
+        "title": "Transformadores Encapsulados",
+        "subtitle": ""
     },
     {
         "name": "Banner 05",
         "urlToImage": "/assets/images/carousel/BANNERS05.jpg",
         "dataSlideTo": "4",
         "isButtonToRef": true,
-        "urlToRef" : "/servicios"
+        "urlToRef" : "/servicios",
+        "title": "Soluciones Eléctricas para la construcción",
+        "subtitle": ""
     },
     {
         "name": "Banner 06",
         "urlToImage": "/assets/images/carousel/BANNERS06.jpg",
         "dataSlideTo": "5",
         "isButtonToRef": true,
-        "urlToRef" : "/productos/conductores"
+        "urlToRef" : "/productos/conductores",
+        "title": "Cable eléctrico",
+        "subtitle": "Distribuidor Autorizado"
     }
 ]

@@ -22,7 +22,8 @@ export class CarouselComponent implements OnInit {
   }
 
   getMinHeightCarousel() {
-    return AppComponent.isMobileResolution ? { 'min-height': '30vh'} : { 'min-height': '85vh'};
+      const height =  window.innerWidth / 2.5;
+      return { 'min-height': height + 'px', 'max-height': height + 'px' };
   }
 
 }

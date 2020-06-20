@@ -8,7 +8,7 @@
             {
                 "id": "altatension",
                 "nombre": "Cable de alta tensión",
-                "urlToImageCard": "Cable Alta Tension.jpg" 
+                "urlToImageCard": "Cable Alta Tension.png" 
             },
             {
                 "id": "armoflex",
@@ -38,12 +38,12 @@
             {
                 "id": "usorudo",
                 "nombre": "Cable de uso rudo",
-                "urlToImageCard": "CABLE USO RUDO.jpg" 
+                "urlToImageCard": "CABLE USO RUDO.png" 
             },
             {
                 "id": "nylon",
                 "nombre": "Cable Nylon",
-                "urlToImageCard": "cable de naylon.jpg" 
+                "urlToImageCard": "cable de naylon.png" 
             },
             {
                 "id": "twd",

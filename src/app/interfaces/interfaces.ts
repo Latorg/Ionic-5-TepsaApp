@@ -14,6 +14,8 @@ export interface CarouselSlide {
     dataSlideTo: string;
     isButtonToRef: boolean;
     urlToRef?: string;
+    title: string;
+    subtitle: string;
 }
 
 export interface RespuestaProductos {

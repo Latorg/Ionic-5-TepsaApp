@@ -9,6 +9,13 @@
   <div class="carousel-inner">
     <div class="carousel-item" *ngFor="let c of componentes | async" [class.active]="c.dataSlideTo === '0'" >
       <img class="d-block w-100 slider-size" [ngStyle]="getMinHeightCarousel()" [src]="c.urlToImage">
+      <div class="carousel-div-header">
+        <ion-label class="carousel-lbl-header">{{ c.title }}</ion-label>
+        <br>
+        <div class="text-center w-100">
+          <ion-label class="carousel-lbl-subheader">{{ c.subtitle }}</ion-label>
+        </div>
+      </div>
       <div class="carousel-caption d-md-block" *ngIf="c.isButtonToRef">
         <a [routerLink]="c.urlToRef">
           <button type="button" class="btn btn-tecno"
