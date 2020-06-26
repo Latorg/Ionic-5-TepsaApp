@@ -24,9 +24,9 @@
         ]
     },
     {
-        "id": "construccion",
+        "id": "autosoportados",
         "idServicioParent": "tableros",
-        "nombre": "Construcción",
+        "nombre": "Autosoportados",
         "nombreParent": "Tableros",
         "urlToImageCard": "TABLEROS ELECTRICOS PARA LA CONSTRUCCION.png",
         "header": "Ensamblado de tableros de centros integrados de control y distribución para sistemas eléctricos",
@@ -41,9 +41,9 @@
         ]
     },
     {
-        "id": "gobierno",
+        "id": "alumbrado",
         "idServicioParent": "tableros",
-        "nombre": "Gobierno",
+        "nombre": "Alumbrado",
         "nombreParent": "Tableros",
         "urlToImageCard": "TABLEROS ELECTRICOS PARA GOBIERNO.png",
         "header": "Ensamblado de tableros de distribución y control que optimizan y mejoran el esfuerzo eléctrico",
@@ -58,9 +58,9 @@
         ]
     },
     {
-        "id": "sectorsalud",
+        "id": "hospitales",
         "idServicioParent": "tableros",
-        "nombre": "Sector Salud",
+        "nombre": "Hospitales",
         "nombreParent": "Tableros",
         "urlToImageCard": "TABLEROS ELECTRICOS PARA HOSPITALES.png",
         "header": "Ensamblado de tableros de distribución y control para áreas críticas de atención de la salud",
@@ -166,9 +166,9 @@
         ]
     },
     {
-        "id": "sectorsalud",
+        "id": "hospitales",
         "idServicioParent": "ingenieria",
-        "nombre": "Sector Salud",
+        "nombre": "Hospitales",
         "nombreParent": "Ingeniería",
         "urlToImageCard": "INGENIERIA PARA HOSPITALES.png",
         "header": "Soluciones para instalaciones eléctricas, lumínicas, control y automatización de energía eléctrica",
@@ -280,9 +280,9 @@
         ]
     },
     {
-        "id": "sectorsalud",
+        "id": "hospitales",
         "idServicioParent": "iluminacion",
-        "nombre": "Sector Salud",
+        "nombre": "Hospitales",
         "nombreParent": "Iluminación",
         "urlToImageCard": "ILUMINACION PARA HOSPITALES.png",
         "header": "Iluminación con un sistema de gestión versátil e inteligente que pueda reducir los gastos energéticos",
@@ -418,9 +418,9 @@
         ]
     },
     {
-        "id": "sectorsalud",
+        "id": "hospitales",
         "idServicioParent": "energia",
-        "nombre": "Sector Salud",
+        "nombre": "Hospitales",
         "nombreParent": "Ahorro de energía",
         "urlToImageCard": "AHORRO DE ENERGIA HOSPITALES.png",
         "header": "Reducir el consumo energético en tu centro de atención médica sin comprometer la atención al paciente",
