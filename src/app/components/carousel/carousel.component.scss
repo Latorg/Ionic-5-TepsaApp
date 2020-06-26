@@ -43,6 +43,11 @@
     font-family: ElaineSans;
 }
 
+.carousel-img {
+    display: block !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @font-face {
     font-family: ElaineSans;
     src: url('/assets/fonts/ElaineSans/hinted-ElaineSans-Regular.ttf');

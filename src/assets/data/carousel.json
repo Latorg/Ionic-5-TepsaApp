@@ -1,8 +1,7 @@
 [
     {
         "name": "Banner 01",
-        "urlToImage": "/assets/images/carousel/BANNERS08.jpg",
-        "dataSlideTo": "0",
+        "urlToImage": "BANNERS08.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/servicios",
         "title": "Soluciones Eléctricas para el sector público",
@@ -10,8 +9,7 @@
     },
     {
         "name": "Banner 02",
-        "urlToImage": "/assets/images/carousel/BANNERS02.jpg",
-        "dataSlideTo": "1",
+        "urlToImage": "BANNERS02.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/productos/tableros",
         "title": "Tableros eléctricas de Distribución, de Control y de Automatizacón",
@@ -19,8 +17,7 @@
     },
     {
         "name": "Banner 03",
-        "urlToImage": "/assets/images/carousel/BANNERS03.jpg",
-        "dataSlideTo": "2",
+        "urlToImage": "BANNERS03.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/servicios",
         "title": "Soluciones Eléctricas para la industria",
@@ -28,8 +25,7 @@
     },
     {
         "name": "Banner 04",
-        "urlToImage": "/assets/images/carousel/BANNERS04.jpg",
-        "dataSlideTo": "3",
+        "urlToImage": "BANNERS04.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/productos/transformadores",
         "title": "Transformadores Encapsulados",
@@ -37,8 +33,7 @@
     },
     {
         "name": "Banner 05",
-        "urlToImage": "/assets/images/carousel/BANNERS05.jpg",
-        "dataSlideTo": "4",
+        "urlToImage": "BANNERS05.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/servicios",
         "title": "Soluciones Eléctricas para la construcción",
@@ -46,8 +41,7 @@
     },
     {
         "name": "Banner 06",
-        "urlToImage": "/assets/images/carousel/BANNERS06.jpg",
-        "dataSlideTo": "5",
+        "urlToImage": "BANNERS06.jpg",
         "isButtonToRef": true,
         "urlToRef" : "/productos/conductores",
         "title": "Cable eléctrico",

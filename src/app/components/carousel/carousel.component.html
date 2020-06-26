@@ -1,14 +1,16 @@
 <div id="carouselControls" class="carousel slide  " style="background-color: grey;" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselControls" 
-        *ngFor="let c of componentes | async" 
-        [class.active]="c.dataSlideTo === '0'" 
-        [attr.data-slide-to] = "c.dataSlideTo">
+        *ngFor="let c of componentes | async; let i = index" 
+        [class.active]="i === 0" 
+        [attr.data-slide-to] = "i">
     </li>
   </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item" *ngFor="let c of componentes | async" [class.active]="c.dataSlideTo === '0'" >
-      <img class="d-block w-100 slider-size" [ngStyle]="getMinHeightCarousel()" [src]="c.urlToImage">
+  <div class="carousel-inner"  >
+    <div class="carousel-item" 
+        *ngFor="let c of componentes | async ; let i = index" [class.active]="i === 0" >
+      <div class="carousel-img" 
+        [style]=" pathCarousel + c.urlToImage | domSanitizer : getMinHeightCarousel() " ></div>
       <div class="carousel-div-header">
         <ion-label class="carousel-lbl-header">{{ c.title }}</ion-label>
         <br>

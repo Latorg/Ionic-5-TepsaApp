@@ -10,12 +10,16 @@ export interface Componente {
 
 export interface CarouselSlide {
     name: string;
-    urlToImage: string;
-    dataSlideTo: string;
-    isButtonToRef: boolean;
-    urlToRef?: string;
     title: string;
     subtitle: string;
+    urlToImage: string;
+    isButtonToRef: boolean;
+    urlToRef: string;
+    isActive: boolean;
+    user: string ;
+    created: Date;
+    order: number;
+    dataSlideTo?: string;
 }
 
 export interface RespuestaProductos {

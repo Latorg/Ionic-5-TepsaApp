@@ -3,6 +3,7 @@ import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { CarouselSlide } from '../../interfaces/interfaces';
 import { AppComponent } from '../../app.component';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-carousel',
@@ -12,18 +13,19 @@ import { AppComponent } from '../../app.component';
 export class CarouselComponent implements OnInit {
   componentes: Observable<CarouselSlide[]>;
   isMobileResolution: boolean;
-
+  pathCarousel: string;
   constructor( private dataService: DataService ) {
     this.isMobileResolution = AppComponent.isMobileResolution;
   }
 
   ngOnInit() {
     this.componentes = this.dataService.getCarousel();
+    this.pathCarousel = environment.carouselUrl;
+
   }
 
   getMinHeightCarousel() {
-      const height =  window.innerWidth / 2.5;
-      return { 'min-height': height + 'px', 'max-height': height + 'px' };
+      return window.innerWidth / 2.5;
   }
 
 }
