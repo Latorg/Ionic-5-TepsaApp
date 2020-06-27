@@ -1,10 +1,10 @@
 
-[   
+[ 
     {
         "codigo": "CONDUMEX ALUMINIO",
         "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de aluminio sellado y cubierta de PVC",
-        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
-        "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.png",
+        "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
+        "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
         "nombreSubcategoria": "Cable de alta tensión"
@@ -39,7 +39,7 @@
     {
         "codigo": "VIAKON",
         "descripcion": "Cable ensamblado 2,3 o 4 conductores de cobre, aislamiento de PVC y Nylon y armadura de aluminio",
-        "urlToFichaTecnica": "armoflex-viakon.pdf",
+        "urlToFichaTecnica": "CABLE ARMOFLEX VIAKON.pdf",
         "urlToImage": "CABLE ARMOFLEX VIAKON.jpg",
         "categoria": "conductores",
         "subcategoria": "armoflex",
@@ -170,5 +170,104 @@
         "categoria": "conductores",
         "subcategoria": "usorudo",
         "nombreSubcategoria": "Cable de uso rudo"
+    },
+    {
+        "codigo": "QO",
+        "descripcion": "Centros de carga QO, de 2 a 42 circuitos derivados, la solución completa para aplicaciones comerciales y residenciales",
+        "urlToFichaTecnica": "Catalogo Centro de Carga QO TEPSA.pdf",
+        "urlToImage": "CENTRO DE CARGA QO SCHNEIDER.png",
+        "categoria": "tableros",
+        "subcategoria": "qo",
+        "nombreSubcategoria": "Tableros QO"
+    },
+    {
+        "codigo": "QOX",
+        "descripcion": "Centros de carga QOX, la solución más estética, funcional y segura para la distribución eléctrica en el hogar",
+        "urlToFichaTecnica": "Catalogo Centro de Carga QOD TEPSA.pdf",
+        "urlToImage": "CENTRO DE CARGA QOX SCHNEIDER.png",
+        "categoria": "tableros",
+        "subcategoria": "qo",
+        "nombreSubcategoria": "Tableros QO"
+    },
+    {
+        "codigo": "QOD",
+        "descripcion": "Centros de carga QOD, la solución básica para los hogares y para aplicaciones comerciales de hasta 8 circuitos",
+        "urlToFichaTecnica": "Catalogo Centro de Carga QOX TEPSA.pdf",
+        "urlToImage": "CENTRO DE CARGA QOD SCHNEIDER.png",
+        "categoria": "tableros",
+        "subcategoria": "qo",
+        "nombreSubcategoria": "Tableros QO"
+    },
+    {
+        "codigo": "NQ 14",
+        "descripcion": "Tablero NQ 14” para sistemas de 3 fases 4 hilos, acometida a interruptor de 100 a 225 A o zapatas de 100 a 225 A. Gabinete estándar NEMA 1",
+        "urlToFichaTecnica": "Tableros de alumbrado y distribucion NQ 14.pdf",
+        "urlToImage": "Tableros de alumbrado y distribucion NQ 14.png",
+        "categoria": "tableros",
+        "subcategoria": "nq",
+        "nombreSubcategoria": "Tableros NQ"
+    },
+    {
+        "codigo": "NQ 20",
+        "descripcion": "Tablero NQ 20” para sistemas de 1 fase 3 hilos o 3 fases 4 hilos, acometida a interruptor de 100 a 400 A o zapatas de 100 a 600 A. Opciones de gabinete NEMA1, 3R, 12 y 4X",
+        "urlToFichaTecnica": "Tableros de alumbrado y distribucion NQ 20.pdf",
+        "urlToImage": "Tableros de alumbrado y distribucion NQ 20.png",
+        "categoria": "tableros",
+        "subcategoria": "nq",
+        "nombreSubcategoria": "Tableros NQ"
+    },
+    {
+        "codigo": "NF",
+        "descripcion": "Tablero NF para sistemas de 3 fases 4 hilos serie E, acometida a interruptor de 126 a 600 A o zapatas de 125 a 600 A. Opciones de gabinete NEMA 1, 3R, 12 y 4X",
+        "urlToFichaTecnica": "leros de alumbrado y distribucion NF.pdf",
+        "urlToImage": "Tableros de alumbrado y distribucion NF.png",
+        "categoria": "tableros",
+        "subcategoria": "nf",
+        "nombreSubcategoria": "Tableros NF"
+    },
+    {
+        "codigo": "I-LINE",
+        "descripcion": "Tableros de distribución tipo panel I-Line cometida a zapatas principales 400 A a 1200 A o interruptor principal 100 A a 1200 A",
+        "urlToFichaTecnica": "Tableros de distribucion I-LINE.pdf",
+        "urlToImage": "Tableros de distribucion I-LINE.png",
+        "categoria": "tableros",
+        "subcategoria": "iline",
+        "nombreSubcategoria": "Tableros I-LINE"
+    },
+    {
+        "codigo": "QED-2",
+        "descripcion": "Tableros de distribución tipo autosoportado de hasta 5000 A y 200 kA., derivados de hasta 4000 A montados individualmente",
+        "urlToFichaTecnica": "Tableros de distribucion QED-2 autosoportados.pdf",
+        "urlToImage": "Tableros de distribucion QED-2 autosoportados.png",
+        "categoria": "tableros",
+        "subcategoria": "qed2",
+        "nombreSubcategoria": "Tableros QED-2"
+    },
+    {
+        "codigo": "Sala de Operaciones",
+        "descripcion": "Tablero aislado, tensión primaria: 120, 220 o 240 Vca, secundaria 120 Vc, en 3, 5, 7.5 y 10 KVA´s, empotrable o para sobreponer",
+        "categoria": "tableros",
+        "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
+        "urlToImage": "Tablero de Hospitales Schneider quirofano.png",
+        "subcategoria": "hospitales",
+        "nombreSubcategoria": "Tableros para hospitales"
+    },
+    {
+        "codigo": "Áreas de cuidados intensivos",
+        "descripcion": "Tablero aislado, tensión primaria: 120, 220 o 240 Vca, secundaria 120 Vc, en 3, 5, 7.5 y 10 KVA´s, empotrable o para sobreponer",
+        "categoria": "tableros",
+        "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
+        "urlToImage": "Tablero de Hospitales Schneider cuidados intensivos.png",
+        "subcategoria": "hospitales",
+        "nombreSubcategoria": "Tableros para hospitales"
+    },
+    {
+        "codigo": "Alimentación de equipos de Rayos X",
+        "descripcion": "Tablero aislado, tensión primaria: 240 o 480 Vca, secundaria 240 Vc, en 15 KVA´s, empotrable o para sobreponer",
+        "categoria": "tableros",
+        "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
+        "urlToImage": "Tablero de Hospitales Schneider Rayos X.png",
+        "subcategoria": "hospitales",
+        "nombreSubcategoria": "Tableros para hospitales"
     }
 ]

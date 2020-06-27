@@ -69,7 +69,37 @@
         "id": "tableros",
         "nombre": "Tableros de control y distribución",
         "urlToImageCard": "TABLEROS ELECTRICOS.png",
-        "subcategorias": []
+        "subcategorias": [
+            {
+                "id": "hospitales",
+                "nombre": "Tableros para hospitales",
+                "urlToImageCard": "TABLEROS DE AISLAMIENTO PARA HOSPITALES.png" 
+            },
+            {
+                "id": "iline",
+                "nombre": "Tableros I-LINE",
+                "urlToImageCard": "TABLEROS DE DISTRIBUCION I-LINE SCHNEIDER.png" 
+            },
+            {
+                "id": "nf",
+                "nombre": "Tableros NF",
+                "urlToImageCard": "TABLEROS NF DISTRIBUCION Y ALUMBRADO SCHNEIDER.png" 
+            },
+            {
+                "id": "nq",
+                "nombre": "Tableros NQ",
+                "urlToImageCard": "TABLEROS NQ DISTRIBUCION Y ALUMBRADO SCHNEIDER.png" 
+            },
+            {
+                "id": "qed2",
+                "nombre": "Tableros QED2",
+                "urlToImageCard": "TABLEROS AUTOSOPORTADOS QED2 SCHNEIDER.png" 
+            },
+            {
+                "id": "qo",
+                "nombre": "Tableros QO",
+                "urlToImageCard": "CENTROS DE CARGA QO SCHNEIDER.png" 
+            }]
     },
     {
         "id": "electroducto",
