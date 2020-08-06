@@ -1,7 +1,7 @@
 <ion-card color="tecno" class="animated fadeIn fast" >
   <ion-card-header class="p-2">
     <ion-card-subtitle class="text-center">
-      <span  >{{ producto.codigo }}</span>
+      <span [ngStyle] = "{'font-size.px': producto.codigo.length > 34 ? 13 : 14}" >{{ producto.codigo }}</span>
       <br>
       <div class="div-producto-subcategoria" *ngIf="isSearchPage">
         <div style=" display: inline-flex ">
