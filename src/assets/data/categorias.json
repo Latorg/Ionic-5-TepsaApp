@@ -13,22 +13,22 @@
             {
                 "id": "armoflex",
                 "nombre": "Cable armoflex",
-                "urlToImageCard": "cable armoflex.jpg" 
+                "urlToImageCard": "cable armoflex.png" 
             },
             {
                 "id": "thwls",
                 "nombre": "Cable THW-LS",
-                "urlToImageCard": "cable thwls.png" 
+                "urlToImageCard": "CABLE THW LS.png" 
             },
             {
                 "id": "control",
                 "nombre": "Cable de control",
-                "urlToImageCard": "cable de control.jpg" 
+                "urlToImageCard": "cable de control.png" 
             },
             {
                 "id": "desnudo",
                 "nombre": "Cable desnudo",
-                "urlToImageCard": "cable cobre desnudo.jpg" 
+                "urlToImageCard": "cable cobre desnudo.png" 
             },
             {
                 "id": "portaelectrodo",
@@ -48,22 +48,59 @@
             {
                 "id": "twd",
                 "nombre": "Cable duplex TWD",
-                "urlToImageCard": "CABLE DUPLEX TWD.jpg" 
+                "urlToImageCard": "CABLE DUPLEX TWD.png" 
             }
         ]
     },
     {
         "id": "transformadores",
         "nombre": "Transformadores",
-        "urlToImageCard": "TRANFORMADORES ELECTRICOS.png",
-        "subcategorias": []
+        "urlToImageCard": "TRANSFORMADORES ELECTRICOS.png",
+        "subcategorias": [
+            {
+                "id": "seco",
+                "nombre": "Secos SE",
+                "urlToImageCard": "TRANSFORMADORES TIPO SECO SCHNEIDER.png" 
+            },
+            {
+                "id": "prolec",
+                "nombre": "Prolec",
+                "urlToImageCard": "TRANSFORMADORES PROLEC.png" 
+            }
+        ]
         
     },
     {
         "id": "iluminacion",
         "nombre": "Iluminación industrial y residencial",
-        "urlToImageCard": "ILUMINACION.png",
-        "subcategorias": []
+        "urlToImageCard": "ILUMINACION LIGHTING.png",
+        "subcategorias": [
+            {
+                "id": "lithonia",
+                "nombre": "Lithonia Lighting",
+                "urlToImageCard": "LITHONIA LIGHTING.png" 
+            },
+            {
+                "id": "signify",
+                "nombre": "Signify (Philips)",
+                "urlToImageCard": "SIGNIFY PHILIPS LIGHTING.png" 
+            },
+            {
+                "id": "hubbel",
+                "nombre": "Hubbel",
+                "urlToImageCard": "HUBBELL KILLARK LIGHTING.png" 
+            },
+            {
+                "id": "cooper",
+                "nombre": "Cooper Lighting",
+                "urlToImageCard": "COOPER LIGHTING.png" 
+            },
+            {
+                "id": "supra",
+                "nombre": "Supra",
+                "urlToImageCard": "SUPRA ILUMINACION.png"
+            }
+        ]
     },
     {
         "id": "tableros",
@@ -111,19 +148,87 @@
         "id": "ccm",
         "nombre": "CCM",
         "urlToImageCard": "CCM.png",
-        "subcategorias": []
+        "subcategorias": [
+            {
+                "id": "ccm",
+                "nombre": "CCM",
+                "urlToImageCard": "CCM.jpg" 
+            }
+        ]
     },
     {
         "id": "charolas",
         "nombre": "Charolas",
         "urlToImageCard": "CHAROLAS PORTACABLES.png",
-        "subcategorias": []
+        "subcategorias": [
+            {
+                "id": "malla",
+                "nombre": "Charola malla enchufable basorfil BF2R",
+                "urlToImageCard": "CHAROLAS SOPORTES PARA CABLES BASOR.png" 
+            },
+            {
+                "id": "cooper",
+                "nombre": "Charola Cooper Crouse Hinds",
+                "urlToImageCard": "CHAROLAS SOPORTES PARA CABLES COOPER CROUSE HINDS.png" 
+            }
+        ]
     },
     {
         "id": "fusibles",
         "nombre": "Fusibles",
         "urlToImageCard": "FUSIBLES ELECTRICOS.png",
-        "subcategorias": []
+        "subcategorias": [
+            {
+                "id": "britanicos",
+                "nombre": "Britanicos & Ann",
+                "urlToImageCard": "BRITANICOS _ ANN.png" 
+            },
+            {
+                "id": "frn",
+                "nombre": "FRN FRS LPJ",
+                "urlToImageCard": "FRN FRS LPJ.png" 
+            },
+            {
+                "id": "miniatura",
+                "nombre": "Fusibles miniatura",
+                "urlToImageCard": "FUSIBLES MINIATURA.png" 
+            },
+            {
+                "id": "ktk",
+                "nombre": "KTKs FNM",
+                "urlToImageCard": "KTKs FNM.png" 
+            },
+            {
+                "id": "nh",
+                "nombre": "NH-DIAZED",
+                "urlToImageCard": "NH-DIAZED.png" 
+            },
+            {
+                "id": "power",
+                "nombre": "Power distribution",
+                "urlToImageCard": "POWER DISTRIBUTION.png" 
+            },
+            {
+                "id": "semiconductores",
+                "nombre": "Semi conductores",
+                "urlToImageCard": "SEMI CONDUCTORES.png" 
+            },
+            {
+                "id": "general",
+                "nombre": "Proposito general",
+                "urlToImageCard": "PROPOSITO GENERAL.png" 
+            },
+            {
+                "id": "mediatension",
+                "nombre": "Media tensión",
+                "urlToImageCard": "MEDIA TENSION.png" 
+            },
+            {
+                "id": "fotovoltaicos",
+                "nombre": "Fotovoltaicos",
+                "urlToImageCard": "FOTOVOLTAICOS.png" 
+            }
+        ]
     },
     {
         "id": "tuberia",

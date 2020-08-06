@@ -4,7 +4,7 @@
         "codigo": "CONDUMEX ALUMINIO",
         "descripcion": "Cable VULCANEL 100% aislamiento de XLP de 5Kv a 35Kv conductor de aluminio sellado y cubierta de PVC",
         "urlToFichaTecnica": "CABLE ALTA TENSION CONDUMEX VULCANEL ALUMINIO.pdf",
-        "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.png",
+        "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
         "nombreSubcategoria": "Cable de alta tensión"
@@ -40,7 +40,7 @@
         "codigo": "VIAKON",
         "descripcion": "Cable ensamblado 2,3 o 4 conductores de cobre, aislamiento de PVC y Nylon y armadura de aluminio",
         "urlToFichaTecnica": "CABLE ARMOFLEX VIAKON.pdf",
-        "urlToImage": "CABLE ARMOFLEX VIAKON.jpg",
+        "urlToImage": "CABLE ARMOFLEX VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "armoflex",
         "nombreSubcategoria": "Cable armoflex"
@@ -67,7 +67,7 @@
         "codigo": "VIAKON",
         "descripcion": "Cable de 3 o 4 conductores de cobre, aislamiento individual de PVC y cubierta exterior termoplástica PVC",
         "urlToFichaTecnica": "CABLE MULTICONDUCTOR VIAKON.pdf",
-        "urlToImage": "CABLEVMULTICONDUCTOR 3 HILOS.jpg",
+        "urlToImage": "CABLEVMULTICONDUCTOR 3 HILOS.png",
         "categoria": "conductores",
         "subcategoria": "control",
         "nombreSubcategoria": "Cable de control"
@@ -139,7 +139,7 @@
         "codigo": "CONDUMEX",
         "descripcion": "Cable de energía VULCANEL 2000 cobre suave, aislamiento 100% EP O XLP cubierta PVC de 5, 15, 25 Y 35 KV",
         "urlToFichaTecnica": "CABLE THW-LS CONDUMEX.pdf",
-        "urlToImage": "CABLE THW-LS CONDUMEX.png",
+        "urlToImage": "CABLE THW LS CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
         "nombreSubcategoria": "Cable THW-LS"
@@ -148,7 +148,7 @@
         "codigo": "KOBREX",
         "descripcion": "Cable conductor de cobre electrolítico en temple suave, sólido o cableado clase B o C, aislamiento de PVC",
         "urlToFichaTecnica": "CABLE THW LS KOBREX.pdf",
-        "urlToImage": "CABLE THW LS KOBREX.jpg",
+        "urlToImage": "CABLE THW LS KOBREX.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
         "nombreSubcategoria": "Cable THW-LS"
@@ -166,7 +166,16 @@
         "codigo": "CONDUMEX",
         "descripcion": "Cable flexible de cobre FLEXANEL tipo ST 2,3 y 4 conductores, aislamiento individual PVC cubierta PVC",
         "urlToFichaTecnica": "uso rudo CONDUMEX.PDF",
-        "urlToImage": "USO RUDO CONDUMEX.png",
+        "urlToImage": "CABLE USO RUDO CONDUMEX.png",
+        "categoria": "conductores",
+        "subcategoria": "usorudo",
+        "nombreSubcategoria": "Cable de uso rudo"
+    },
+    {
+        "codigo": "VIAKON",
+        "descripcion": "Cable de 2,3 Ó 4 conductores de cobre suave en construcción flexible, aislamiento individual",
+        "urlToFichaTecnica": "USO RUDO VIAKON.pdf",
+        "urlToImage": "CABLE USO RUDO VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "usorudo",
         "nombreSubcategoria": "Cable de uso rudo"
@@ -269,5 +278,734 @@
         "urlToImage": "Tablero de Hospitales Schneider Rayos X.png",
         "subcategoria": "hospitales",
         "nombreSubcategoria": "Tableros para hospitales"
+    },
+    {
+        "codigo": "Propósito General",
+        "descripcion": "Transformador de Distribución de propósitos generales baja tensión tipo seco, confiables, mínimo mantenimiento",
+        "urlToFichaTecnica": "Transformadores de Proposito General Square D Schneider.pdf",
+        "urlToImage": "Transformadores de Proposito General Square D Schneider.png",
+        "categoria": "transformadores",
+        "subcategoria": "seco",
+        "nombreSubcategoria": "Secos SE"
+    },
+    {
+        "codigo": "Resina Encapsulada",
+        "descripcion": "Transformador de propósitos generales bajo voltaje sellado con resina epóxica para exteriores e interiores",
+        "urlToFichaTecnica": "Transformadores de bajo voltaje Resina Encapsulada Square D Schneider.pdf",
+        "urlToImage": "Transformadores de bajo voltaje Resina Encapsulada Square D Schneider.png",
+        "categoria": "transformadores",
+        "subcategoria": "seco",
+        "nombreSubcategoria": "Secos SE"
+    },
+    {
+        "codigo": "Trihal",
+        "descripcion": "Transformador tipo seco moldeados en resina hasta 36 kV. 100% reciclable, no presenta riesgo de contaminación",
+        "urlToFichaTecnica": "Transformadores Media Tension TRIHAL Schneider.pdf",
+        "urlToImage": "Transformadores Media Tension TRIHAL Schneider.png",
+        "categoria": "transformadores",
+        "subcategoria": "seco",
+        "nombreSubcategoria": "Secos SE"
+    },
+    {
+        "codigo": "Poste Monofásico",
+        "descripcion": "Transformador tipo Poste para distribución aérea, 5 hasta 100 kva, convencional o auto-protegido de aceite",
+        "urlToFichaTecnica": "ProlecGE Transformador Poste Monofasico.pdf",
+        "urlToImage": "ProlecGE Transformador Poste Monofasico.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Poste Trifásico",
+        "descripcion": "Transformador tipo Poste para distribución aérea, 15 hasta 150 kva, para alta tensión, de aceite",
+        "urlToFichaTecnica": "ProlecGE Transformador PosteTrifasico.pdf",
+        "urlToImage": "ProlecGE Transformador PosteTrifasico.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Pedestal monofásico",
+        "descripcion": "Transformador tipo Pedestal, capacidad 25 hasta 100 kva, tanque de acero, operación radial, de aceite",
+        "urlToFichaTecnica": "ProlecGE Transformador Pedestal Monofasico.pdf",
+        "urlToImage": "ProlecGE Transformador Pedestal Monofasico.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Pedestal trifásico",
+        "descripcion": "Transformador tipo Pedestal, capacidad 30 hasta 3,000 kva, tanque de acero, operación RADIAL ó ANILLO, de aceite",
+        "urlToFichaTecnica": "ProlecGE Transformador Pedestal Trifasico.pdf",
+        "urlToImage": "ProlecGE Transformador Pedestal Trifasico.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Subestación",
+        "descripcion": "Transformador tipo Subestación , capacidad 225 hasta 3,000 kva o más, de aceite, conexión Delta o Estrella",
+        "urlToFichaTecnica": "ProlecGE Transformador Tipo Subestacion 284.pdf",
+        "urlToImage": "ProlecGE Transformador Tipo Subestacion 284.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Pequeña potencia",
+        "descripcion": "Transformador tipo Pequeña Potencia, AT hasta 69 kv, capacidad 5 hasta 12 mva, de aceite mineral dieléctrico",
+        "urlToFichaTecnica": "ProlecGE Transformador pequena potencia LATAM.pdf",
+        "urlToImage": "ProlecGE Transformador pequena potencia LATAM.png",
+        "categoria": "transformadores",
+        "subcategoria": "prolec",
+        "nombreSubcategoria": "Prolec"
+    },
+    {
+        "codigo": "Sector salud",
+        "descripcion": "Portafolio de luminarios y sistemas de control para instalaciones médicas: rendimiento, eficiencia y confiabilidad",
+        "urlToFichaTecnica": "Iluminacion Hospitales y Salud.pdf",
+        "urlToImage": "Iluminacion Hospitales y Salud.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Industrial",
+        "descripcion": "Una solución confiable en iluminación para la industria, de gran robustez, durabilidad y capacidad de configuración",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion para la Industria.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion para la Industria.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Interior y comercial",
+        "descripcion": "LED de alto rendimiento, función de lumen conmutable, conductor capaz de atenuar al 10%, controlador integral",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion Interior y comercial.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion Interior y comercial.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Residencial",
+        "descripcion": "iluminación de bajo consumo para variedad de viviendas y espacios ligeros ó húmedos, luz LED de alta eficiencia",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion Residencial.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion Residencial.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Salidas de emergencia",
+        "descripcion": "Señalética de alta resistencia, bajo consumo de energía, 10 años de vida del LED, batería de emergencia",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion de Emergencia.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion de Emergencia.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Para exterior",
+        "descripcion": "Óptica LED para más lúmenes y uniformidad al área objetivo, cubierta de material antivandálico, vida útil 20 años ",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion para Exterior.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion para Exterior.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Controles y sensores",
+        "descripcion": " Detección de movimiento hasta 20 ', compatibilidad con LED, balastos electrónicos y magnéticos, CFL e incandescentes",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion de Control y Sensor.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion de Control y Sensor.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Retrofit led",
+        "descripcion": "Soluciones de Iluminación para modernización y renovación: transformación de espacios y reducción del uso de energía",
+        "urlToFichaTecnica": "Lithonia Lighting Iluminacion RETROFIT LED.pdf",
+        "urlToImage": "Lithonia Lighting Iluminacion RETROFIT LED.png",
+        "categoria": "iluminacion",
+        "subcategoria": "lithonia",
+        "nombreSubcategoria": "Lithonia Lighting"
+    },
+    {
+        "codigo": "Essential led profesional exterior",
+        "descripcion": "Soluciones LED en Iluminación, para Exteriores, vida útil garantizada, ahorro de energía y gran desempeño",
+        "urlToFichaTecnica": "Signify Philips Essential LED Luminarios Profesionales  para Exteriores.pdf",
+        "urlToImage": "Signify Philips Essential LED Luminarios Profesionales  para Exteriores.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Essential led profesional interior",
+        "descripcion": "Soluciones LED en Iluminación, para Interiores, vida útil garantizada, ahorro de energía y gran desempeño",
+        "urlToFichaTecnica": "Signify Philips Essential LED Luminarios Profesionales  para Exteriores.pdf",
+        "urlToImage": "Signify Philips Essential LED Luminarios Profesionales  para Interiores.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Essential led residencial interior",
+        "descripcion": "Soluciones LED en Iluminación, para Interiores, vida útil garantizada, ahorro de energía y gran desempeño",
+        "urlToFichaTecnica": "Signify Philips Essential LED Luminarios Profesionales  para Interiores.pdf",
+        "urlToImage": "Signify Philips Essential LED Luminarios Residenciales para Interiores.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Essential led lamparas para  interior",
+        "descripcion": "Soluciones LED, innovación y dinamismo en iluminación. Máximo desempeño, ahorro de energía, vida útil garantizada",
+        "urlToFichaTecnica": "Signify Philips Essential LED Lamparas para Interiores.pdf",
+        "urlToImage": "Signify Philips Essential LED Lamparas para Interiores.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Vialidades",
+        "descripcion": "Diseño compacto, de alto rendimiento con tecnología LEDGINE, para iluminación vial de baja, mediana y alta escala",
+        "urlToFichaTecnica": "Signify Philips Catalogo Vialidades Exterior 2019.pdf",
+        "urlToImage": "Signify Philips Catalogo Vialidades Exterior.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Exterior",
+        "descripcion": "Flexibilidad de diseño, ahorro de energía en túneles, paisajes, andadores, áreas deportivas y urbanas, estacionamientos",
+        "urlToFichaTecnica": "Signify Philips Catalogo Luminarios Profesionales de Exterior 2019.pdf",
+        "urlToImage": "Signify Philips Catalogo Luminarios Profesionales de Exterior.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Solar",
+        "descripcion": "luminarias solares LED bien diseñadas, panel fotovoltaico, batería, controlador de carga, conectores y software",
+        "urlToFichaTecnica": "Singnify Philips Catalogo Sistemas de Iluminacion Solar 2019.pdf",
+        "urlToImage": "Singnify Philips Catalogo Sistemas de Iluminacion Solar.png",
+        "categoria": "iluminacion",
+        "subcategoria": "signify",
+        "nombreSubcategoria": "Signify (Philips)"
+    },
+    {
+        "codigo": "Dura y peligrosa killark",
+        "descripcion": "Los productos de iluminación de Killark son perfectos para operar en todas las ubicaciones industriales y peligrosas",
+        "urlToFichaTecnica": "ILUMINACION HUBBELL KILLARK AREAS PELIGROSAS AREAS CLASIFICADAS.pdf",
+        "urlToImage": "ILUMINACION HUBBELL KILLARK AREAS PELIGROSAS AREAS CLASIFICADAS.png",
+        "categoria": "iluminacion",
+        "subcategoria": "hubbel",
+        "nombreSubcategoria": "Hubbel"
+    },
+    {
+        "codigo": "Lumark",
+        "descripcion": "Iluminación para exteriores, industrial y comercial, seguridad y soluciones de iluminación",
+        "urlToFichaTecnica": "ILUMINACION COOPER LIGTHING LUMARK.pdf",
+        "urlToImage": "ILUMINACION COOPER LIGTHING LUMARK.png",
+        "categoria": "iluminacion",
+        "subcategoria": "cooper",
+        "nombreSubcategoria": "Cooper Lighting"
+    },
+    {
+        "codigo": "Metalux",
+        "descripcion": "Diseño y producción en iluminación fluorescente de alto desempeño para el sector comercial, industrial y retail",
+        "urlToFichaTecnica": "ILUMINACION COOPER LIGTHING METALUX.pdf",
+        "urlToImage": "ILUMINACION COOPER LIGTHING METALUX.png",
+        "categoria": "iluminacion",
+        "subcategoria": "cooper",
+        "nombreSubcategoria": "Cooper Lighting"
+    },
+    {
+        "codigo": "Luminarias led para exteriores",
+        "descripcion": "Iluminación LED segura, de alta eficiencia, para vialidades, proyectores, wallpacks, a prueba de explosión",
+        "urlToFichaTecnica": "SUPRA LUMINARIAS LED PARA EXTERIORES.pdf",
+        "urlToImage": "SUPRA LUMINARIAS LED PARA EXTERIORES.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "Luminarias led alto montaje e industria",
+        "descripcion": "Iluminación de alta eficiencia y alto grado de protección a prueba de explosión",
+        "urlToFichaTecnica": "SUPRA LUMINARIAS LED ALTO MONTAJE E INDUSTRIA.pdf",
+        "urlToImage": "SUPRA LUMINARIAS LED ALTO MONTAJE E INDUSTRIA.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "Interior uso comercial",
+        "descripcion": "Iluminación de mayor confort visual, estética con alta calidad, control de resplandor, anticorrosiva",
+        "urlToFichaTecnica": "SUPRA LUMINARIAS USO COMERCIAL.pdf",
+        "urlToImage": "SUPRA LUMINARIAS USO COMERCIAL.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "Soluciones de automatizacion",
+        "descripcion": "Alba Net Lite, red inteligente para encender, apagar y atenuar luminarias, monitorear el funcionamiento y consumo",
+        "urlToFichaTecnica": "SUPRA SOLUCIONES DE AUTOMATIZACION.pdf",
+        "urlToImage": "SUPRA SOLUCIONES DE AUTOMATIZACION.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "Linea arquitectonica",
+        "descripcion": "Perfiles y luminarias LED, de gran estilo y eficiencia para interiores y exteriores",
+        "urlToFichaTecnica": "SUPRA LUMINARIAS LINEA ARQUITECTONICA.pdf",
+        "urlToImage": "SUPRA LUMINARIAS LINEA ARQUITECTONICA.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "Sistemas fotovoltaicos",
+        "descripcion": "Energía Solar segura, sustentable y sobre todo limpia; proyectos de ahorro de energía",
+        "urlToFichaTecnica": "SUPRA SISTEMAS FOTOVOLTAICOS.pdf",
+        "urlToImage": "SUPRA SISTEMAS FOTOVOLTAICOS.png",
+        "categoria": "iluminacion",
+        "subcategoria": "supra",
+        "nombreSubcategoria": "Supra"
+    },
+    {
+        "codigo": "IMCC Modelo 6",
+        "descripcion": "IMCC Modelo 6 cuenta con componentes inteligentes, comunicación con dispositivos para entrada/salida con cableado o control en red así como soluciones de automatización",
+        "urlToFichaTecnica": "CCM Modelo 6 Square D.pdf",
+        "urlToImage": "CCM Modelo 6 Square D.png",
+        "categoria": "ccm",
+        "subcategoria": "ccm",
+        "nombreSubcategoria": "CCM"
+    },
+    {
+        "codigo": "Malla enchufable BF2R H65",
+        "descripcion": "Sistema de malla enchufable, guías para ensamble y soporte c-sho para montaje sin clemas entre charola y soporte",
+        "urlToFichaTecnica": "CHAROLA BASOR BF2R H65.pdf",
+        "urlToImage": "CHAROLA BASOR BF2R H65.png",
+        "categoria": "charolas",
+        "subcategoria": "malla",
+        "nombreSubcategoria": "Charola malla enchufable basorfil BF2R"
+    },
+    {
+        "codigo": "Malla enchufable BF2R H105",
+        "descripcion": "Sistema de malla enchufable, guías para ensamble y soporte c-sho para montaje sin clemas entre charola y soporte",
+        "urlToFichaTecnica": "CHAROLA BASOR BF2R H105.pdf",
+        "urlToImage": "CHAROLA BASOR BF2R H105.png",
+        "categoria": "charolas",
+        "subcategoria": "malla",
+        "nombreSubcategoria": "Charola malla enchufable basorfil BF2R"
+    },
+    {
+        "codigo": "SSPC tipo escalera",
+        "descripcion": "SSPC de aluminio, excelente resistencia a la corrosión, accesorios de montaje con recubrimiento a base de Zinc",
+        "urlToFichaTecnica": "CHAROLA COOPER CROUSE HINDS.pdf",
+        "urlToImage": "CHAROLA COOPER CROUSE HINDS.png",
+        "categoria": "charolas",
+        "subcategoria": "cooper",
+        "nombreSubcategoria": "Charola Cooper Crouse Hinds"
+    },
+    {
+        "codigo": "CGL",
+        "descripcion": "Fusibles HRCII-C tipo británico con limitación de corriente, protege los motores del desgaste por sobrecargas",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES CGL.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES CGL.png",
+        "categoria": "fusibles",
+        "subcategoria": "britanicos",
+        "nombreSubcategoria": "Britanicos & Ann"
+    },
+    {
+        "codigo": "FRN-R",
+        "descripcion": "Fusible clase RK5 doble elemento, acción retardada, 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FRN-R.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FRN-R.png",
+        "categoria": "fusibles",
+        "subcategoria": "frn",
+        "nombreSubcategoria": "FRN FRS LPJ"
+    },
+    {
+        "codigo": "FRS-R",
+        "descripcion": "Fusible clase RK5 doble elemento, acción retardada, 600V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FRS-R.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FRS-R.png",
+        "categoria": "fusibles",
+        "subcategoria": "frn",
+        "nombreSubcategoria": "FRN FRS LPJ"
+    },
+    {
+        "codigo": "KRP",
+        "descripcion": "Fusible clase L con acción retardada, limitador de corriente",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES KRP.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES KRP.png",
+        "categoria": "fusibles",
+        "subcategoria": "frn",
+        "nombreSubcategoria": "FRN FRS LPJ"
+    },
+    {
+        "codigo": "LPJ",
+        "descripcion": "Fusible clase J,doble elemento con retardo de tiempo, disponibles 1-600 amp hasta 600v",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES LPJ.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES LPJ.png",
+        "categoria": "fusibles",
+        "subcategoria": "frn",
+        "nombreSubcategoria": "FRN FRS LPJ"
+    },
+    {
+        "codigo": "ABC",
+        "descripcion": "Fusible electrónico de tubo de cerámica de acción rápida 1 / 4˝ x 1-1/4˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES ABC.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES ABC.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "AGA",
+        "descripcion": "Fusible electrónico de tubo de vidrio de acción rápida 1 / 4˝ x 1˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES AGA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES AGA.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "AGC",
+        "descripcion": "Fusible electrónico de tubo de vidrio de acción rápida 1 / 4˝ x 1 1/4˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES AGC.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES AGC.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "AGW",
+        "descripcion": "Fusible electrónico de tubo de vidrio de acción rápida 1 / 4˝ x 7 / 8˝ 32V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES AGW.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES AGW.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "AGX",
+        "descripcion": "Fusible electrónico de tubo de vidrio de acción rápida 1 / 4˝ x 1˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES AGX.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES AGX.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GBA",
+        "descripcion": "Fusible suplementario de acción rápida 1/4\" x 1-1 / 4\" 125V, indicador de pin \"rojo\" que proporciona identificación visual de circuitos fallidos",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GBA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GBA.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GBB",
+        "descripcion": "Fusible electrónico semiconductor de tubo de cerámica de acción muy rápida 1 / 4˝ x 1-1/4˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GBB.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GBB.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GDA",
+        "descripcion": "Fusible S501 (GDA) de tubo de cerámica, alta capacidad, acción rápida 5x20 mm",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GDA (S501).pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GDA.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GDB",
+        "descripcion": "Fusible S500 (GDB)  de tubo de vidrio, acción rápida, baja capacidad de corte 5x20 mm",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GDB (S500).pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GDB.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GDC",
+        "descripcion": "Fusible S506 (GDC) de tubo de vidrio con retardo de tiempo baja capacidad de corte 5x20 mm",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GDC (S506).pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GDC.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GLD",
+        "descripcion": "Fusible suplementario de acción rápida 1/4\"x 1-1 / 4\" 125V, indicador de pin plateado para activar la transmisión de un cable eléctrico",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GLD.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GLD.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GLR",
+        "descripcion": "Fusible alumbrado con portafusible, suplementario de acción rápida, 300V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GLR.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GLR.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "GMA",
+        "descripcion": "Fusible electrónico de tubo de vidrio de 5x20 mm de acción rápida",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES GMA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES GMA.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "MDA",
+        "descripcion": "Fusible electrónico de tubo de cerámica con retardo de tiempo 1 / 4˝ x 1-1/4˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES MDA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES MDA.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "MDL",
+        "descripcion": "Fusible electrónico de tubo de vidrio con retardo de tiempo 1 / 4˝ x 1-1/4˝ 32V y 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES MDL.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES MDL.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "MDQ",
+        "descripcion": "Fusible electrónico doble elemento de tubo de vidrio con retardo de tiempo 1 / 4˝ x 1-1/4˝ 250V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES MDQ.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES MDQ.png",
+        "categoria": "fusibles",
+        "subcategoria": "miniatura",
+        "nombreSubcategoria": "Fusibles miniatura"
+    },
+    {
+        "codigo": "BAF",
+        "descripcion": "Fusible suplementario de acción rápida, Código color verde (250 V máx.)",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES BAF.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES BAF.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "BBS",
+        "descripcion": "Fusible suplementario de acción rápida, códigos negro (600 V máx), verde (250 V máx), púrpura (48 V máx)",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES BBS.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES BBS.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "FNM",
+        "descripcion": "Fusible suplementario doble elemento con retardo de tiempo, código color verde (250 Vca máx.)",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FNM.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FNM.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "FNQ",
+        "descripcion": "Fusible suplementario con retardo de tiempo, código color naranja (500 Vac max)",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FNQ.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FNQ.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "FNQ-R",
+        "descripcion": "Fusible Clase CC Limitron con retardo de tiempo, circuito derivado, de tipo rechazo hasta 500v",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FNQ-R.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FNQ-R.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "KTK",
+        "descripcion": "Fusible suplementario de acción rápida, Código color negro (600 V máx.)",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES KTK.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES KTK.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "KTK-R",
+        "descripcion": "Fusible Clase CC Limitron de acción rápida, circuito derivado, tipo rechazo, hasta 600v",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES KTK-R.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES KTK-R.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "LP-CC",
+        "descripcion": "Fusible de tipo de rechazo con retardo de tiempo, actual - 12 segundos (mínimo) a 200% de amperios nominales",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES LP-CC.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES LPCC.png",
+        "categoria": "fusibles",
+        "subcategoria": "ktk",
+        "nombreSubcategoria": "KTKs FNM"
+    },
+    {
+        "codigo": "D11",
+        "descripcion": "Fusibles diamantado de baja tensión con cuerpo de cerámica tipo D tipo DIN. D16, D27, D33, D125 ",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES DIAZED TIPO DIN D11 BOTELLA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES DIAZED TIPO DIN D11 BOTELLA.png",
+        "categoria": "fusibles",
+        "subcategoria": "nh",
+        "nombreSubcategoria": "NH-DIAZED"
+    },
+    {
+        "codigo": "NH",
+        "descripcion": "Fusible Clase DIN 000 a 4: gG / gL DIN cuadrado, doble indicación, industriales con terminales de agarre de metal",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES NH.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES NH.png",
+        "categoria": "fusibles",
+        "subcategoria": "nh",
+        "nombreSubcategoria": "NH-DIAZED"
+    },
+    {
+        "codigo": "Power distribution",
+        "descripcion": "Fusibles para Bloques de distribución de potencia nominal de corriente de cortocircuito 162, 163, 165",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES POWER DISTRIBUTION.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES POWER DISTRIBUTION.png",
+        "categoria": "fusibles",
+        "subcategoria": "power",
+        "nombreSubcategoria": "Power distribution"
+    },
+    {
+        "codigo": "Power distribution covers",
+        "descripcion": "Cubiertas para fusibles para Bloques de distribución de potencia nominal de corriente de cortocircuito 162, 163, 165",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES POWER DISTRIBUTION.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES POWER DISTRIBUTION.png",
+        "categoria": "fusibles",
+        "subcategoria": "power",
+        "nombreSubcategoria": "Power distribution"
+    },
+    {
+        "codigo": "170M",
+        "descripcion": "Fusible semiconductor cuadrado de alta velocidad",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES 170M.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES 170M.png",
+        "categoria": "fusibles",
+        "subcategoria": "semiconductores",
+        "nombreSubcategoria": "Semi conductores"
+    },
+    {
+        "codigo": "FWA",
+        "descripcion": "Fusible semiconductor 150V compacto de alta velocidad ",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FWA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FWA.png",
+        "categoria": "fusibles",
+        "subcategoria": "semiconductores",
+        "nombreSubcategoria": "Semi conductores"
+    },
+    {
+        "codigo": "FWH",
+        "descripcion": "Fusible semiconductor 500V compacto de alta velocidad",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FWH.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FWH.png",
+        "categoria": "fusibles",
+        "subcategoria": "semiconductores",
+        "nombreSubcategoria": "Semi conductores"
+    },
+    {
+        "codigo": "FWP",
+        "descripcion": "Fusible semiconductor 700V compacto de alta velocidad",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FWP.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FWP.png",
+        "categoria": "fusibles",
+        "subcategoria": "semiconductores",
+        "nombreSubcategoria": "Semi conductores"
+    },
+    {
+        "codigo": "FWX",
+        "descripcion": "Fusible semiconductor 250V compacto de alta velocidad",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FWX.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FWX.png",
+        "categoria": "fusibles",
+        "subcategoria": "semiconductores",
+        "nombreSubcategoria": "Semi conductores"
+    },
+    {
+        "codigo": "DMMB",
+        "descripcion": "Fusible suplementario de acción rápida para corriente nominal, no diseñado para protección de circuito derivado",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES DMMB.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES DMMB.png",
+        "categoria": "fusibles",
+        "subcategoria": "general",
+        "nombreSubcategoria": "Proposito general"
+    },
+    {
+        "codigo": "FNA",
+        "descripcion": "Fusible suplementario doble elemento 13/3' x 1 - 1/2', con pin que indica el retraso de tiempo verde, azul y gris",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES FNA.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES FNA.png",
+        "categoria": "fusibles",
+        "subcategoria": "general",
+        "nombreSubcategoria": "Proposito general"
+    },
+    {
+        "codigo": "NON",
+        "descripcion": "Fusible propósito general, Clase K5 y H no limitador de corriente 250 V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES NON.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES NON.png",
+        "categoria": "fusibles",
+        "subcategoria": "general",
+        "nombreSubcategoria": "Proposito general"
+    },
+    {
+        "codigo": "NOS",
+        "descripcion": "Fusible propósito general, Clase K5 y H no limitador de corriente 600 V",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES NOS.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES NOS.png",
+        "categoria": "fusibles",
+        "subcategoria": "general",
+        "nombreSubcategoria": "Proposito general"
+    },
+    {
+        "codigo": "JCX",
+        "descripcion": "Fusibles de virola de media tensión con clasificación E de 2,75 kV",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES JCX.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES JCX.png",
+        "categoria": "fusibles",
+        "subcategoria": "mediatension",
+        "nombreSubcategoria": "Media tensión"
+    },
+    {
+        "codigo": "PV",
+        "descripcion": "fusible Solar PV, protección a sistemas fotovoltáicos de hasta 1,000 VCD, en película delgada y silicio cristalino",
+        "urlToFichaTecnica": "BUSSMANN FUSIBLES SOLAR PV.pdf",
+        "urlToImage": "BUSSMANN FUSIBLES SOLAR PV.png",
+        "categoria": "fusibles",
+        "subcategoria": "fotovoltaicos",
+        "nombreSubcategoria": "Fotovoltaicos"
     }
 ]

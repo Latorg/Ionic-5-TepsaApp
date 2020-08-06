@@ -1,50 +1,34 @@
 [
     {
-        "name": "Banner 01",
-        "urlToImage": "BANNERS08.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/servicios",
-        "title": "Soluciones Eléctricas para el sector público",
+        "name": "Tecno Electrica Potosi",
+        "urlToImage": "B0 FACHADA.png",
+        "isButtonToRef": false,
+        "urlToRef" : "",
+        "title": "Soluciones y Material Eléctrico",
         "subtitle": ""
     },
     {
-        "name": "Banner 02",
-        "urlToImage": "BANNERS02.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/productos/tableros",
-        "title": "Tableros eléctricas de Distribución, de Control y de Automatizacón",
-        "subtitle": "Dsitribuidor Autorizado"
+        "name": "Iluminacion para hospitales",
+        "urlToImage": "B1 HOSPITAL.png",
+        "isButtonToRef": false,
+        "urlToRef" : "",
+        "title": "Sistemas de iluminación",
+        "subtitle": "HOSPITALES"
     },
     {
-        "name": "Banner 03",
-        "urlToImage": "BANNERS03.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/servicios",
-        "title": "Soluciones Eléctricas para la industria",
+        "name": "Tableros electricos de control",
+        "urlToImage": "B2 TABLERO DE CONTROL Y DISTRIBUCION.png",
+        "isButtonToRef": false,
+        "urlToRef" : "",
+        "title": "Tableros eléctricos de control",
+        "subtitle": "Distribución y automatización"
+    },
+    {
+        "name": "Eficiencia y ahorro energetico",
+        "urlToImage": "B3 LUMINARIAS.png",
+        "isButtonToRef": false,
+        "urlToRef" : "",
+        "title": "Eficiencia y ahorro energético",
         "subtitle": ""
-    },
-    {
-        "name": "Banner 04",
-        "urlToImage": "BANNERS04.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/productos/transformadores",
-        "title": "Transformadores Encapsulados",
-        "subtitle": ""
-    },
-    {
-        "name": "Banner 05",
-        "urlToImage": "BANNERS05.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/servicios",
-        "title": "Soluciones Eléctricas para la construcción",
-        "subtitle": ""
-    },
-    {
-        "name": "Banner 06",
-        "urlToImage": "BANNERS06.jpg",
-        "isButtonToRef": true,
-        "urlToRef" : "/productos/conductores",
-        "title": "Cable eléctrico",
-        "subtitle": "Distribuidor Autorizado"
     }
 ]

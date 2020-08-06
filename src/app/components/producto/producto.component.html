@@ -27,7 +27,8 @@
     </a>
   </div>
   <ion-card-content class="producto-content">
-    <p class="ion-text-center ">{{ producto.descripcion }}</p>
+    <p class="ion-text-center" [ngStyle] = "{'font-size.px': producto.descripcion.length > 135 ? 13 : 14}">{{ producto.descripcion }}</p>
+    
   </ion-card-content>
 </ion-card>
 
