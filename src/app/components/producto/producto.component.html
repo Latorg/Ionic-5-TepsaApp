@@ -6,8 +6,14 @@
       <div class="div-producto-subcategoria" *ngIf="isSearchPage">
         <div style=" display: inline-flex ">
           <a class="a-producto-subcategoria" 
+            *ngIf="producto.nombreCategoria" 
+            [routerLink] = "'/productos/' + producto.categoria">
+            {{ producto.nombreCategoria }} 
+          </a>
+          <p style="margin-top: -1%" *ngIf="producto.nombreCategoria" >&nbsp;/&nbsp;</p>
+          <a class="a-producto-subcategoria" 
             [routerLink] = "'/productos/' + producto.categoria +'/' + producto.subcategoria">
-            {{ producto.nombreSubcategoria }}
+             {{ ' ' + producto.nombreSubcategoria }}
           </a>
         </div>
         <ion-img class="expand-img" src="/assets/custom-icons/expand white.png" *ngIf="isSearchPage && isMobileResolution "></ion-img>

@@ -43,6 +43,7 @@ export interface Articulo {
     categoria: string;
     subcategoria: string;
     nombreSubcategoria: string;
+    nombreCategoria?: string;
 }
 
 export interface Categoria {

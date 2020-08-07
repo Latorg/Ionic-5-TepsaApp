@@ -361,120 +361,51 @@
         ]
     },
     {
-        "id": "industria",
+        "id": "eficiencia",
         "idServicioParent": "energia",
-        "nombre": "Industria",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA INDUSTRIA.png",
-        "header": "Desde el diagnóstico hasta el software para monitoreo y control permanente de los parámetros de código de red",
-        "description": "",
+        "nombre": "Eficencia y ahorro",
+        "nombreParent": "Eficiencia energética",
+        "urlToImageCard": "EFICIENCIA y AHORRO SCHNEIDER.png",
+        "header": "Hoy en día existen servicios y equipos eléctricos para utilizar y optimizar el consumo energético de forma más efectiva",
+        "description": "La eficiencia operativa en la industria y negocio siempre ha sido sumamente importante, lo que hace que la optimización del uso energético y la capacidad de administrar la energía de forma efectiva sean fundamentales. Cuanto más se sepa sobre la energía, mejor se podrá administrarla. Ha llegado el momento de considerar la gestión de la energía de una manera totalmente nueva; el impulsar el cambio en las instalaciones eléctricas, con la estrategia y la tecnología necesaria para mantener la operación y optimizar el rendimiento energético a corto, mediano y largo plazo, porque las empresas y comercios que operan conjuntamente con iniciativas de eficiencia energética y sostenibilidad mejoran la productividad y maximizan el impacto y los resultados. En Tepsa ofrecemos servicios potenciados, equipos y material eléctrico para ayudarlo a optimizar y maximizar el Uso eficiente y Ahorro de la Energía, la Calidad de la Potencia y la Sustentabilidad. Es momento de concebir la administración energética de una forma totalmente nueva. Para emprender el camino más rápido hacia el ahorro, nos asociamos con usted para poner en práctica una estrategia a nivel de empresa que acelere y aumente los resultados de eficiencia energética.",
         "carouselImages": [
             {
-                "name": "AHORRO DE ENERGIA INDUSTRIA 2",
-                "urlToImage": "AHORRO DE ENERGIA INDUSTRIA 2.png",
-                "dataSlideTo": "0",
-                "isButtonToRef": false
-            },
-            {
-                "name": "AHORRO DE ENERGIA INDUSTRIA 3",
-                "urlToImage": "AHORRO DE ENERGIA INDUSTRIA 3.png",
-                "dataSlideTo": "1",
-                "isButtonToRef": false
-            }
-        ]
-    },
-    {
-        "id": "construccion",
-        "idServicioParent": "energia",
-        "nombre": "Construcción",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA CONSTRUCCION.png",
-        "header": "Alternativas y soluciones para diseñar, construir, utilizar y operar una instalación eléctrica en Código Red",
-        "description": "",
-        "carouselImages": [
-            {
-                "name": "AHORRO DE ENERGIA CONSTRUCCION 2",
-                "urlToImage": "AHORRO DE ENERGIA CONSTRUCCION 2.png",
+                "name": "EFICIENCIA y AHORRO SCHNEIDER",
+                "urlToImage": "EFICIENCIA y AHORRO SCHNEIDER 2.png",
                 "dataSlideTo": "0",
                 "isButtonToRef": false
             }
         ]
     },
     {
-        "id": "gobierno",
+        "id": "calidad",
         "idServicioParent": "energia",
-        "nombre": "Gobierno",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA GOBIERNO 2.png",
-        "header": "Soluciones de energía inteligente para proyectos de distribución eléctrica en los servicios públicos",
-        "description": "",
+        "nombre": "Calidad de la energía",
+        "nombreParent": "Eficiencia energética",
+        "urlToImageCard": "CALIDAD DE LA ENERGIA.png",
+        "header": "Actualmente existen soluciones flexibles y de alto rendimiento, rentables para la estabilización de las redes eléctricas",
+        "description": "Actualmente existen soluciones flexibles y de alto rendimiento, rentables para la estabilización de las redes eléctricas, proporcionando la reducción de la componente armónica, la corrección de factor de potencia y el equilibrado de las cargas. Los problemas de calidad en la energía son una de las principales causas de paros no programados, así como daños y mal funcionamiento de equipos. La confiabilidad y continuidad del suministro eléctrico son críticas para los negocios, desde plantas industriales, instalaciones médicas, centro de datos hasta edificios de oficinas. Cuando la calidad de la energía es imperfecta debido a disturbios como interrupciones, caídas de tensión o contaminación armónica, su negocio lo padece. La calidad de la energía es un área cada vez más importante para los usuarios finales debido a la frecuencia y al impacto financiero de los problemas: hoy en día, 30 a 40% de paros no programados se relacionan con problemas de calidad de la energía. Una inversión de capital en equipo de corrección de factor de potencia y filtrado de armónicos puede resultar en un buen retorno de la inversión. Mejorar el rendimiento de su empresa ó negocio e impulsar una estrategia energética es posible, a través de inteligencia energética aplicable y en tiempo real desde dispositivos y medidores de servicios públicos integrados. Administrar de manera eficaz e integral el consumo energético, reduce la pérdida de energía, mejora la eficiencia operativa, evita los costosos tiempos de inactividad y crea una estrategia integral de energía.",
         "carouselImages": [
             {
-                "name": "AHORRO DE ENERGIA GOBIERNO",
-                "urlToImage": "AHORRO DE ENERGIA GOBIERNO.png",
+                "name": "CALIDAD DE LA ENERGIA",
+                "urlToImage": "CALIDAD DE LA ENERGIA 2.png",
                 "dataSlideTo": "0",
                 "isButtonToRef": false
             }
         ]
     },
     {
-        "id": "hospitales",
+        "id": "codigo",
         "idServicioParent": "energia",
-        "nombre": "Hospitales",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA HOSPITALES.png",
-        "header": "Reducir el consumo energético en tu centro de atención médica sin comprometer la atención al paciente",
-        "description": "",
+        "nombre": "Código de red",
+        "nombreParent": "Eficiencia energética",
+        "urlToImageCard": "CODIGO DE RED CFE SCHNEIDER.png",
+        "header": "Soluciones Código de Red y atenuadores de voltaje que disminuyen el uso de electricidad sin afectar el rendimiento",
+        "description": "¿Conoce el estatus de su sistema eléctrico? El Código de Red de México es la regulación que contiene los requerimientos técnicos de eficiencia, calidad, confiabilidad, seguridad y sustentabilidad mínimos necesarios para asegurar el correcto funcionamiento y regular las actividades de los procesos asociados con el Sistema Eléctrico Nacional (SEN) y las obligaciones que deben cumplir todos los usuarios en el desarrollo de sus actividades, para asegurar la operación, desarrollo, acceso y uso del SEN, en condiciones que promuevan la continuidad y calidad del suministro eléctrico; establece, además, el Manual Regulatorio de Requerimientos Técnicos para la Conexión de Centros de Carga, el cual determina los requisitos que deben cumplir los Centros de Carga (usuarios en Media y Alta Tensión) que se conecten al Sistema Eléctrico Nacional, para garantizar la estandarización y normalización del mismo. Para cada usuario del SEN, en función de la actividad específica que desarrolle, se establecen requerimientos técnicos particulares en el Código de Red. De esta forma, el referido documento contiene previsiones aplicables al Centro Nacional de Control de Energía (CENACE) como responsable de ejercer el control operativo del SEN y proponer anualmente el Programa de Ampliación y Modernización de la Red Nacional de Transmisión (RNT) y de las Redes Generales de Distribución (RGD) que pertenecen al Mercado Eléctrico Mayorista (MEM);  a los Transportistas y Distribuidores, como responsables del control físico de la RNT y las RGD; y a las Centrales Eléctricas y Centros de Carga, como usuarios interconectados o conectados que hacen uso del SEN.",
         "carouselImages": [
             {
-                "name": "AHORRO DE ENERGIA HOSPITALES 2",
-                "urlToImage": "AHORRO DE ENERGIA HOSPITALES 2.png",
-                "dataSlideTo": "0",
-                "isButtonToRef": false
-            },
-            {
-                "name": "AHORRO DE ENERGIA HOSPITALES 3",
-                "urlToImage": "AHORRO DE ENERGIA HOSPITALES 3.png",
-                "dataSlideTo": "1",
-                "isButtonToRef": false
-            }
-        ]
-    },
-    {
-        "id": "comercial",
-        "idServicioParent": "energia",
-        "nombre": "Comercial",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA COMERCIAL.png",
-        "header": "Servicios para código de red: Recomendaciones para cumplimiento, especificación de equipos, monitoreo y control",
-        "description": "",
-        "carouselImages": [
-            {
-                "name": "AHORRO DE ENERGIA COMERCIAL 2",
-                "urlToImage": "AHORRO DE ENERGIA COMERCIAL 2.png",
-                "dataSlideTo": "0",
-                "isButtonToRef": false
-            },
-            {
-                "name": "AHORRO DE ENERGIA COMERCIAL 3",
-                "urlToImage": "AHORRO DE ENERGIA COMERCIAL 3.png",
-                "dataSlideTo": "1",
-                "isButtonToRef": false
-            }
-        ]
-    },
-    {
-        "id": "residencial",
-        "idServicioParent": "energia",
-        "nombre": "Residencial",
-        "nombreParent": "Ahorro de energía",
-        "urlToImageCard": "AHORRO DE ENERGIA RESIDENCIAL.png",
-        "header": "Soluciones Código Red y atenuadores de voltaje que disminuyen el uso de electricidad sin afectar el rendimiento",
-        "description": "",
-        "carouselImages": [
-            {
-                "name": "AHORRO DE ENERGIA RESIDENCIAL 2",
-                "urlToImage": "AHORRO DE ENERGIA RESIDENCIAL 2.png",
+                "name": "CODIGO DE RED CFE SCHNEIDER",
+                "urlToImage": "CODIGO DE RED CFE SCHNEIDER 2.png",
                 "dataSlideTo": "0",
                 "isButtonToRef": false
             }

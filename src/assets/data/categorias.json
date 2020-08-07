@@ -59,12 +59,12 @@
         "subcategorias": [
             {
                 "id": "seco",
-                "nombre": "Secos SE",
+                "nombre": "Transformador Seco SE",
                 "urlToImageCard": "TRANSFORMADORES TIPO SECO SCHNEIDER.png" 
             },
             {
                 "id": "prolec",
-                "nombre": "Prolec",
+                "nombre": "Transformador Prolec",
                 "urlToImageCard": "TRANSFORMADORES PROLEC.png" 
             }
         ]

@@ -51,7 +51,9 @@ export class SearchPage implements OnInit {
     const wordsToSearch = this.searchValue.split(' ');
     let filterArr = [];
     wordsToSearch.forEach( x => {
-      filterArr = resArticulos.filter( y => y.nombreSubcategoria.toLowerCase().includes( x.toLowerCase() ));
+      filterArr = resArticulos.filter( y =>
+        y.nombreSubcategoria.toLowerCase().includes( x.toLowerCase()) ||
+        y.nombreCategoria.toLowerCase().includes( x.toLowerCase()));
       resTemp.push( ...filterArr );
     });
     // Delete duplicates
@@ -97,14 +99,39 @@ export class SearchPage implements OnInit {
         });
       }
       break;
-      // POR CATEGORIA
-      case 'CAT-ASC':
+      // POR SUBCATEGORIA
+      case 'SUBCAT-ASC':
       {
         this.productos  = this.productos.sort( (a, b) => {
           if (a.nombreSubcategoria.toLowerCase() > b.nombreSubcategoria.toLowerCase() ) {
             return 1;
           }
           if (a.nombreSubcategoria.toLowerCase()  < b.nombreSubcategoria.toLowerCase() ) {
+            return -1;
+          }
+          // a must be equal to b
+          return 0;
+        });
+      }
+      break;
+      // POR CATEGORIA
+      case 'CAT-ASC':
+      {
+        this.productos  = this.productos.sort( (a, b) => {
+          if ( a.nombreCategoria.toLowerCase() === b.nombreCategoria.toLowerCase() ) {
+            if (a.nombreSubcategoria.toLowerCase() > b.nombreSubcategoria.toLowerCase() ) {
+              return 1;
+            }
+            if (a.nombreSubcategoria.toLowerCase()  < b.nombreSubcategoria.toLowerCase() ) {
+              return -1;
+            }
+            // a must be equal to b
+            return 0;
+          }
+          if (a.nombreCategoria.toLowerCase() > b.nombreCategoria.toLowerCase() ) {
+            return 1;
+          }
+          if (a.nombreCategoria.toLowerCase()  < b.nombreCategoria.toLowerCase() ) {
             return -1;
           }
           // a must be equal to b

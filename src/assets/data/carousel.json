@@ -1,10 +1,10 @@
 [
     {
         "name": "Tecno Electrica Potosi",
-        "urlToImage": "B0 FACHADA.png",
+        "urlToImage": "B00 FACHADA.png",
         "isButtonToRef": false,
         "urlToRef" : "",
-        "title": "Soluciones y Material Eléctrico",
+        "title": "",
         "subtitle": ""
     },
     {
@@ -28,7 +28,7 @@
         "urlToImage": "B3 LUMINARIAS.png",
         "isButtonToRef": false,
         "urlToRef" : "",
-        "title": "Eficiencia y ahorro energético",
+        "title": "Uso eficiente, ahorro y calidad de la energía",
         "subtitle": ""
     }
 ]

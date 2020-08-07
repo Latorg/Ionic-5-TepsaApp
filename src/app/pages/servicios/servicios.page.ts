@@ -30,12 +30,12 @@ export class ServiciosPage implements OnInit {
     },
     {
       id: 'energia',
-      text: 'Ahorro de energía',
+      text: 'Eficiencia energética',
       lines: ''
     },
     {
-      id: 'equipoespecial',
-      text: 'Equipo Especial',
+      id: 'otros',
+      text: 'Otros servicios',
       lines: 'none'
     }
   ];

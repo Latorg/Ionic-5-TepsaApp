@@ -7,7 +7,8 @@
         "urlToImage": "CABLE ALTA TENSION CONDUMEX ALUMINIO.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
-        "nombreSubcategoria": "Cable de alta tensión"
+        "nombreSubcategoria": "Cable de alta tensión",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX COBRE",
@@ -16,7 +17,8 @@
         "urlToImage": "CABLE ALTA TENSION CONDUMEX COBRE.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
-        "nombreSubcategoria": "Cable de alta tensión"
+        "nombreSubcategoria": "Cable de alta tensión",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON COBRE",
@@ -25,7 +27,8 @@
         "urlToImage": "CABLE ALTA TENSION VIAKON COBRE.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
-        "nombreSubcategoria": "Cable de alta tensión"
+        "nombreSubcategoria": "Cable de alta tensión",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON ALUMINIO",
@@ -34,7 +37,8 @@
         "urlToImage": "CABLE ALTA TENSION VIAKON ALUMINIO.png",
         "categoria": "conductores",
         "subcategoria": "altatension",
-        "nombreSubcategoria": "Cable de alta tensión"
+        "nombreSubcategoria": "Cable de alta tensión",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -43,7 +47,8 @@
         "urlToImage": "CABLE ARMOFLEX VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "armoflex",
-        "nombreSubcategoria": "Cable armoflex"
+        "nombreSubcategoria": "Cable armoflex",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX",
@@ -52,7 +57,8 @@
         "urlToImage": "CABLE COBRE DESNUDO CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "desnudo",
-        "nombreSubcategoria": "Cable desnudo"
+        "nombreSubcategoria": "Cable desnudo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -61,7 +67,8 @@
         "urlToImage": "CABLE COBRE DESNUDO VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "desnudo",
-        "nombreSubcategoria": "Cable desnudo"
+        "nombreSubcategoria": "Cable desnudo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -70,7 +77,8 @@
         "urlToImage": "CABLEVMULTICONDUCTOR 3 HILOS.png",
         "categoria": "conductores",
         "subcategoria": "control",
-        "nombreSubcategoria": "Cable de control"
+        "nombreSubcategoria": "Cable de control",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX",
@@ -79,7 +87,8 @@
         "urlToImage": "CABLE NYLON VINANEL CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "nylon",
-        "nombreSubcategoria": "Cable Nylon"
+        "nombreSubcategoria": "Cable Nylon",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -88,7 +97,8 @@
         "urlToImage": "CABLE NYLON VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "nylon",
-        "nombreSubcategoria": "Cable Nylon"
+        "nombreSubcategoria": "Cable Nylon",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX",
@@ -97,7 +107,8 @@
         "urlToImage": "CABLE PORTA ELECTRODO CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "portaelectrodo",
-        "nombreSubcategoria": "Cable portaelectrodo"
+        "nombreSubcategoria": "Cable portaelectrodo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "IKURA",
@@ -106,7 +117,8 @@
         "urlToImage": "CABLE PORTA ELECTRODO IKURA.png",
         "categoria": "conductores",
         "subcategoria": "portaelectrodo",
-        "nombreSubcategoria": "Cable portaelectrodo"
+        "nombreSubcategoria": "Cable portaelectrodo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -115,7 +127,8 @@
         "urlToImage": "CABLE PORTA ELECTRODO VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "portaelectrodo",
-        "nombreSubcategoria": "Cable portaelectrodo"
+        "nombreSubcategoria": "Cable portaelectrodo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDULAC",
@@ -124,7 +137,8 @@
         "urlToImage": "CABLE DuplexTWD CONDULAC.png",
         "categoria": "conductores",
         "subcategoria": "twd",
-        "nombreSubcategoria": "Cable duplex TWD"
+        "nombreSubcategoria": "Cable duplex TWD",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDULAC",
@@ -133,7 +147,8 @@
         "urlToImage": "CABLE THW LS CONDULAC.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
-        "nombreSubcategoria": "Cable THW-LS"
+        "nombreSubcategoria": "Cable THW-LS",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX",
@@ -142,7 +157,8 @@
         "urlToImage": "CABLE THW LS CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
-        "nombreSubcategoria": "Cable THW-LS"
+        "nombreSubcategoria": "Cable THW-LS",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "KOBREX",
@@ -151,7 +167,8 @@
         "urlToImage": "CABLE THW LS KOBREX.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
-        "nombreSubcategoria": "Cable THW-LS"
+        "nombreSubcategoria": "Cable THW-LS",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -160,7 +177,8 @@
         "urlToImage": "CABLE MEDIA TENSION XLPE VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "thwls",
-        "nombreSubcategoria": "Cable THW-LS"
+        "nombreSubcategoria": "Cable THW-LS",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "CONDUMEX",
@@ -169,7 +187,8 @@
         "urlToImage": "CABLE USO RUDO CONDUMEX.png",
         "categoria": "conductores",
         "subcategoria": "usorudo",
-        "nombreSubcategoria": "Cable de uso rudo"
+        "nombreSubcategoria": "Cable de uso rudo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "VIAKON",
@@ -178,14 +197,16 @@
         "urlToImage": "CABLE USO RUDO VIAKON.png",
         "categoria": "conductores",
         "subcategoria": "usorudo",
-        "nombreSubcategoria": "Cable de uso rudo"
+        "nombreSubcategoria": "Cable de uso rudo",
+        "nombreCategoria": "Conductores"
     },
     {
         "codigo": "QO",
         "descripcion": "Centros de carga QO, de 2 a 42 circuitos derivados, la solución completa para aplicaciones comerciales y residenciales",
         "urlToFichaTecnica": "Catalogo Centro de Carga QO TEPSA.pdf",
         "urlToImage": "CENTRO DE CARGA QO SCHNEIDER.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "qo",
         "nombreSubcategoria": "Tableros QO"
     },
@@ -194,7 +215,8 @@
         "descripcion": "Centros de carga QOX, la solución más estética, funcional y segura para la distribución eléctrica en el hogar",
         "urlToFichaTecnica": "Catalogo Centro de Carga QOD TEPSA.pdf",
         "urlToImage": "CENTRO DE CARGA QOX SCHNEIDER.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "qo",
         "nombreSubcategoria": "Tableros QO"
     },
@@ -203,7 +225,8 @@
         "descripcion": "Centros de carga QOD, la solución básica para los hogares y para aplicaciones comerciales de hasta 8 circuitos",
         "urlToFichaTecnica": "Catalogo Centro de Carga QOX TEPSA.pdf",
         "urlToImage": "CENTRO DE CARGA QOD SCHNEIDER.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "qo",
         "nombreSubcategoria": "Tableros QO"
     },
@@ -212,7 +235,8 @@
         "descripcion": "Tablero NQ 14” para sistemas de 3 fases 4 hilos, acometida a interruptor de 100 a 225 A o zapatas de 100 a 225 A. Gabinete estándar NEMA 1",
         "urlToFichaTecnica": "Tableros de alumbrado y distribucion NQ 14.pdf",
         "urlToImage": "Tableros de alumbrado y distribucion NQ 14.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "nq",
         "nombreSubcategoria": "Tableros NQ"
     },
@@ -221,7 +245,8 @@
         "descripcion": "Tablero NQ 20” para sistemas de 1 fase 3 hilos o 3 fases 4 hilos, acometida a interruptor de 100 a 400 A o zapatas de 100 a 600 A. Opciones de gabinete NEMA1, 3R, 12 y 4X",
         "urlToFichaTecnica": "Tableros de alumbrado y distribucion NQ 20.pdf",
         "urlToImage": "Tableros de alumbrado y distribucion NQ 20.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "nq",
         "nombreSubcategoria": "Tableros NQ"
     },
@@ -230,7 +255,8 @@
         "descripcion": "Tablero NF para sistemas de 3 fases 4 hilos serie E, acometida a interruptor de 126 a 600 A o zapatas de 125 a 600 A. Opciones de gabinete NEMA 1, 3R, 12 y 4X",
         "urlToFichaTecnica": "leros de alumbrado y distribucion NF.pdf",
         "urlToImage": "Tableros de alumbrado y distribucion NF.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "nf",
         "nombreSubcategoria": "Tableros NF"
     },
@@ -239,7 +265,8 @@
         "descripcion": "Tableros de distribución tipo panel I-Line cometida a zapatas principales 400 A a 1200 A o interruptor principal 100 A a 1200 A",
         "urlToFichaTecnica": "Tableros de distribucion I-LINE.pdf",
         "urlToImage": "Tableros de distribucion I-LINE.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "iline",
         "nombreSubcategoria": "Tableros I-LINE"
     },
@@ -248,14 +275,16 @@
         "descripcion": "Tableros de distribución tipo autosoportado de hasta 5000 A y 200 kA., derivados de hasta 4000 A montados individualmente",
         "urlToFichaTecnica": "Tableros de distribucion QED-2 autosoportados.pdf",
         "urlToImage": "Tableros de distribucion QED-2 autosoportados.png",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "subcategoria": "qed2",
         "nombreSubcategoria": "Tableros QED-2"
     },
     {
         "codigo": "Sala de Operaciones",
         "descripcion": "Tablero aislado, tensión primaria: 120, 220 o 240 Vca, secundaria 120 Vc, en 3, 5, 7.5 y 10 KVA´s, empotrable o para sobreponer",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
         "urlToImage": "Tablero de Hospitales Schneider quirofano.png",
         "subcategoria": "hospitales",
@@ -264,7 +293,8 @@
     {
         "codigo": "Áreas de cuidados intensivos",
         "descripcion": "Tablero aislado, tensión primaria: 120, 220 o 240 Vca, secundaria 120 Vc, en 3, 5, 7.5 y 10 KVA´s, empotrable o para sobreponer",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
         "urlToImage": "Tablero de Hospitales Schneider cuidados intensivos.png",
         "subcategoria": "hospitales",
@@ -273,7 +303,8 @@
     {
         "codigo": "Alimentación de equipos de Rayos X",
         "descripcion": "Tablero aislado, tensión primaria: 240 o 480 Vca, secundaria 240 Vc, en 15 KVA´s, empotrable o para sobreponer",
-        "categoria": "tableros",
+        "categoria": "tableros", 
+        "nombreCategoria":"Tableros",
         "urlToFichaTecnica": "Tablero de Hospitales Schneider.pdf",
         "urlToImage": "Tablero de Hospitales Schneider Rayos X.png",
         "subcategoria": "hospitales",
@@ -286,7 +317,8 @@
         "urlToImage": "Transformadores de Proposito General Square D Schneider.png",
         "categoria": "transformadores",
         "subcategoria": "seco",
-        "nombreSubcategoria": "Secos SE"
+        "nombreSubcategoria": "Secos SE",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Resina Encapsulada",
@@ -295,7 +327,8 @@
         "urlToImage": "Transformadores de bajo voltaje Resina Encapsulada Square D Schneider.png",
         "categoria": "transformadores",
         "subcategoria": "seco",
-        "nombreSubcategoria": "Secos SE"
+        "nombreSubcategoria": "Secos SE",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Trihal",
@@ -304,7 +337,8 @@
         "urlToImage": "Transformadores Media Tension TRIHAL Schneider.png",
         "categoria": "transformadores",
         "subcategoria": "seco",
-        "nombreSubcategoria": "Secos SE"
+        "nombreSubcategoria": "Secos SE",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Poste Monofásico",
@@ -313,7 +347,8 @@
         "urlToImage": "ProlecGE Transformador Poste Monofasico.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Poste Trifásico",
@@ -322,7 +357,8 @@
         "urlToImage": "ProlecGE Transformador PosteTrifasico.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Pedestal monofásico",
@@ -331,7 +367,8 @@
         "urlToImage": "ProlecGE Transformador Pedestal Monofasico.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Pedestal trifásico",
@@ -340,7 +377,8 @@
         "urlToImage": "ProlecGE Transformador Pedestal Trifasico.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Subestación",
@@ -349,7 +387,8 @@
         "urlToImage": "ProlecGE Transformador Tipo Subestacion 284.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Pequeña potencia",
@@ -358,7 +397,8 @@
         "urlToImage": "ProlecGE Transformador pequena potencia LATAM.png",
         "categoria": "transformadores",
         "subcategoria": "prolec",
-        "nombreSubcategoria": "Prolec"
+        "nombreSubcategoria": "Prolec",
+        "nombreCategoria": "Transformadores"
     },
     {
         "codigo": "Sector salud",
@@ -367,7 +407,8 @@
         "urlToImage": "Iluminacion Hospitales y Salud.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Industrial",
@@ -376,7 +417,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion para la Industria.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Interior y comercial",
@@ -385,7 +427,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion Interior y comercial.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Residencial",
@@ -394,7 +437,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion Residencial.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Salidas de emergencia",
@@ -403,7 +447,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion de Emergencia.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Para exterior",
@@ -412,7 +457,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion para Exterior.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Controles y sensores",
@@ -421,7 +467,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion de Control y Sensor.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Retrofit led",
@@ -430,7 +477,8 @@
         "urlToImage": "Lithonia Lighting Iluminacion RETROFIT LED.png",
         "categoria": "iluminacion",
         "subcategoria": "lithonia",
-        "nombreSubcategoria": "Lithonia Lighting"
+        "nombreSubcategoria": "Lithonia Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Essential led profesional exterior",
@@ -439,7 +487,8 @@
         "urlToImage": "Signify Philips Essential LED Luminarios Profesionales  para Exteriores.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Essential led profesional interior",
@@ -448,7 +497,8 @@
         "urlToImage": "Signify Philips Essential LED Luminarios Profesionales  para Interiores.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Essential led residencial interior",
@@ -457,7 +507,8 @@
         "urlToImage": "Signify Philips Essential LED Luminarios Residenciales para Interiores.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Essential led lamparas para  interior",
@@ -466,7 +517,8 @@
         "urlToImage": "Signify Philips Essential LED Lamparas para Interiores.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Vialidades",
@@ -475,7 +527,8 @@
         "urlToImage": "Signify Philips Catalogo Vialidades Exterior.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Exterior",
@@ -484,7 +537,8 @@
         "urlToImage": "Signify Philips Catalogo Luminarios Profesionales de Exterior.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Solar",
@@ -493,7 +547,8 @@
         "urlToImage": "Singnify Philips Catalogo Sistemas de Iluminacion Solar.png",
         "categoria": "iluminacion",
         "subcategoria": "signify",
-        "nombreSubcategoria": "Signify (Philips)"
+        "nombreSubcategoria": "Signify (Philips)",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Dura y peligrosa killark",
@@ -502,7 +557,8 @@
         "urlToImage": "ILUMINACION HUBBELL KILLARK AREAS PELIGROSAS AREAS CLASIFICADAS.png",
         "categoria": "iluminacion",
         "subcategoria": "hubbel",
-        "nombreSubcategoria": "Hubbel"
+        "nombreSubcategoria": "Hubbel",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Lumark",
@@ -511,7 +567,8 @@
         "urlToImage": "ILUMINACION COOPER LIGTHING LUMARK.png",
         "categoria": "iluminacion",
         "subcategoria": "cooper",
-        "nombreSubcategoria": "Cooper Lighting"
+        "nombreSubcategoria": "Cooper Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Metalux",
@@ -520,7 +577,8 @@
         "urlToImage": "ILUMINACION COOPER LIGTHING METALUX.png",
         "categoria": "iluminacion",
         "subcategoria": "cooper",
-        "nombreSubcategoria": "Cooper Lighting"
+        "nombreSubcategoria": "Cooper Lighting",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Luminarias led para exteriores",
@@ -529,7 +587,8 @@
         "urlToImage": "SUPRA LUMINARIAS LED PARA EXTERIORES.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Luminarias led alto montaje e industria",
@@ -538,7 +597,8 @@
         "urlToImage": "SUPRA LUMINARIAS LED ALTO MONTAJE E INDUSTRIA.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Interior uso comercial",
@@ -547,7 +607,8 @@
         "urlToImage": "SUPRA LUMINARIAS USO COMERCIAL.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Soluciones de automatizacion",
@@ -556,7 +617,8 @@
         "urlToImage": "SUPRA SOLUCIONES DE AUTOMATIZACION.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Linea arquitectonica",
@@ -565,7 +627,8 @@
         "urlToImage": "SUPRA LUMINARIAS LINEA ARQUITECTONICA.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "Sistemas fotovoltaicos",
@@ -574,7 +637,8 @@
         "urlToImage": "SUPRA SISTEMAS FOTOVOLTAICOS.png",
         "categoria": "iluminacion",
         "subcategoria": "supra",
-        "nombreSubcategoria": "Supra"
+        "nombreSubcategoria": "Supra",
+        "nombreCategoria": "Iluminacion"
     },
     {
         "codigo": "IMCC Modelo 6",
@@ -583,7 +647,8 @@
         "urlToImage": "CCM Modelo 6 Square D.png",
         "categoria": "ccm",
         "subcategoria": "ccm",
-        "nombreSubcategoria": "CCM"
+        "nombreSubcategoria": "CCM",
+        "nombreCategoria": "CCM"
     },
     {
         "codigo": "Malla enchufable BF2R H65",
@@ -592,7 +657,8 @@
         "urlToImage": "CHAROLA BASOR BF2R H65.png",
         "categoria": "charolas",
         "subcategoria": "malla",
-        "nombreSubcategoria": "Charola malla enchufable basorfil BF2R"
+        "nombreSubcategoria": "Malla basorfil BF2R",
+        "nombreCategoria": "Charolas"
     },
     {
         "codigo": "Malla enchufable BF2R H105",
@@ -601,7 +667,8 @@
         "urlToImage": "CHAROLA BASOR BF2R H105.png",
         "categoria": "charolas",
         "subcategoria": "malla",
-        "nombreSubcategoria": "Charola malla enchufable basorfil BF2R"
+        "nombreSubcategoria": "Malla basorfil BF2R",
+        "nombreCategoria": "Charolas"
     },
     {
         "codigo": "SSPC tipo escalera",
@@ -610,7 +677,8 @@
         "urlToImage": "CHAROLA COOPER CROUSE HINDS.png",
         "categoria": "charolas",
         "subcategoria": "cooper",
-        "nombreSubcategoria": "Charola Cooper Crouse Hinds"
+        "nombreSubcategoria": "Cooper Crouse Hinds",
+        "nombreCategoria": "Charolas"
     },
     {
         "codigo": "CGL",
@@ -619,7 +687,8 @@
         "urlToImage": "BUSSMANN FUSIBLES CGL.png",
         "categoria": "fusibles",
         "subcategoria": "britanicos",
-        "nombreSubcategoria": "Britanicos & Ann"
+        "nombreSubcategoria": "Britanicos & Ann",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FRN-R",
@@ -628,7 +697,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FRN-R.png",
         "categoria": "fusibles",
         "subcategoria": "frn",
-        "nombreSubcategoria": "FRN FRS LPJ"
+        "nombreSubcategoria": "FRN FRS LPJ",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FRS-R",
@@ -637,7 +707,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FRS-R.png",
         "categoria": "fusibles",
         "subcategoria": "frn",
-        "nombreSubcategoria": "FRN FRS LPJ"
+        "nombreSubcategoria": "FRN FRS LPJ",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "KRP",
@@ -646,7 +717,8 @@
         "urlToImage": "BUSSMANN FUSIBLES KRP.png",
         "categoria": "fusibles",
         "subcategoria": "frn",
-        "nombreSubcategoria": "FRN FRS LPJ"
+        "nombreSubcategoria": "FRN FRS LPJ",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "LPJ",
@@ -655,7 +727,8 @@
         "urlToImage": "BUSSMANN FUSIBLES LPJ.png",
         "categoria": "fusibles",
         "subcategoria": "frn",
-        "nombreSubcategoria": "FRN FRS LPJ"
+        "nombreSubcategoria": "FRN FRS LPJ",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "ABC",
@@ -664,7 +737,8 @@
         "urlToImage": "BUSSMANN FUSIBLES ABC.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "AGA",
@@ -673,7 +747,8 @@
         "urlToImage": "BUSSMANN FUSIBLES AGA.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "AGC",
@@ -682,7 +757,8 @@
         "urlToImage": "BUSSMANN FUSIBLES AGC.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "AGW",
@@ -691,7 +767,8 @@
         "urlToImage": "BUSSMANN FUSIBLES AGW.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "AGX",
@@ -700,7 +777,8 @@
         "urlToImage": "BUSSMANN FUSIBLES AGX.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GBA",
@@ -709,7 +787,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GBA.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GBB",
@@ -718,7 +797,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GBB.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GDA",
@@ -727,7 +807,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GDA.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GDB",
@@ -736,7 +817,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GDB.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GDC",
@@ -745,7 +827,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GDC.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GLD",
@@ -754,7 +837,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GLD.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GLR",
@@ -763,7 +847,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GLR.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "GMA",
@@ -772,7 +857,8 @@
         "urlToImage": "BUSSMANN FUSIBLES GMA.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "MDA",
@@ -781,7 +867,8 @@
         "urlToImage": "BUSSMANN FUSIBLES MDA.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "MDL",
@@ -790,7 +877,8 @@
         "urlToImage": "BUSSMANN FUSIBLES MDL.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "MDQ",
@@ -799,7 +887,8 @@
         "urlToImage": "BUSSMANN FUSIBLES MDQ.png",
         "categoria": "fusibles",
         "subcategoria": "miniatura",
-        "nombreSubcategoria": "Fusibles miniatura"
+        "nombreSubcategoria": "Fusibles miniatura",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "BAF",
@@ -808,7 +897,8 @@
         "urlToImage": "BUSSMANN FUSIBLES BAF.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "BBS",
@@ -817,7 +907,8 @@
         "urlToImage": "BUSSMANN FUSIBLES BBS.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FNM",
@@ -826,7 +917,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FNM.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FNQ",
@@ -835,7 +927,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FNQ.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FNQ-R",
@@ -844,7 +937,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FNQ-R.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "KTK",
@@ -853,7 +947,8 @@
         "urlToImage": "BUSSMANN FUSIBLES KTK.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "KTK-R",
@@ -862,7 +957,8 @@
         "urlToImage": "BUSSMANN FUSIBLES KTK-R.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "LP-CC",
@@ -871,7 +967,8 @@
         "urlToImage": "BUSSMANN FUSIBLES LPCC.png",
         "categoria": "fusibles",
         "subcategoria": "ktk",
-        "nombreSubcategoria": "KTKs FNM"
+        "nombreSubcategoria": "KTKs FNM",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "D11",
@@ -880,7 +977,8 @@
         "urlToImage": "BUSSMANN FUSIBLES DIAZED TIPO DIN D11 BOTELLA.png",
         "categoria": "fusibles",
         "subcategoria": "nh",
-        "nombreSubcategoria": "NH-DIAZED"
+        "nombreSubcategoria": "NH-DIAZED",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "NH",
@@ -889,7 +987,8 @@
         "urlToImage": "BUSSMANN FUSIBLES NH.png",
         "categoria": "fusibles",
         "subcategoria": "nh",
-        "nombreSubcategoria": "NH-DIAZED"
+        "nombreSubcategoria": "NH-DIAZED",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "Power distribution",
@@ -898,7 +997,8 @@
         "urlToImage": "BUSSMANN FUSIBLES POWER DISTRIBUTION.png",
         "categoria": "fusibles",
         "subcategoria": "power",
-        "nombreSubcategoria": "Power distribution"
+        "nombreSubcategoria": "Power distribution",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "Power distribution covers",
@@ -907,7 +1007,8 @@
         "urlToImage": "BUSSMANN FUSIBLES POWER DISTRIBUTION.png",
         "categoria": "fusibles",
         "subcategoria": "power",
-        "nombreSubcategoria": "Power distribution"
+        "nombreSubcategoria": "Power distribution",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "170M",
@@ -916,7 +1017,8 @@
         "urlToImage": "BUSSMANN FUSIBLES 170M.png",
         "categoria": "fusibles",
         "subcategoria": "semiconductores",
-        "nombreSubcategoria": "Semi conductores"
+        "nombreSubcategoria": "Semi conductores",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FWA",
@@ -925,7 +1027,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FWA.png",
         "categoria": "fusibles",
         "subcategoria": "semiconductores",
-        "nombreSubcategoria": "Semi conductores"
+        "nombreSubcategoria": "Semi conductores",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FWH",
@@ -934,7 +1037,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FWH.png",
         "categoria": "fusibles",
         "subcategoria": "semiconductores",
-        "nombreSubcategoria": "Semi conductores"
+        "nombreSubcategoria": "Semi conductores",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FWP",
@@ -943,7 +1047,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FWP.png",
         "categoria": "fusibles",
         "subcategoria": "semiconductores",
-        "nombreSubcategoria": "Semi conductores"
+        "nombreSubcategoria": "Semi conductores",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FWX",
@@ -952,7 +1057,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FWX.png",
         "categoria": "fusibles",
         "subcategoria": "semiconductores",
-        "nombreSubcategoria": "Semi conductores"
+        "nombreSubcategoria": "Semi conductores",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "DMMB",
@@ -961,7 +1067,8 @@
         "urlToImage": "BUSSMANN FUSIBLES DMMB.png",
         "categoria": "fusibles",
         "subcategoria": "general",
-        "nombreSubcategoria": "Proposito general"
+        "nombreSubcategoria": "Proposito general",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "FNA",
@@ -970,7 +1077,8 @@
         "urlToImage": "BUSSMANN FUSIBLES FNA.png",
         "categoria": "fusibles",
         "subcategoria": "general",
-        "nombreSubcategoria": "Proposito general"
+        "nombreSubcategoria": "Proposito general",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "NON",
@@ -979,7 +1087,8 @@
         "urlToImage": "BUSSMANN FUSIBLES NON.png",
         "categoria": "fusibles",
         "subcategoria": "general",
-        "nombreSubcategoria": "Proposito general"
+        "nombreSubcategoria": "Proposito general",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "NOS",
@@ -988,7 +1097,8 @@
         "urlToImage": "BUSSMANN FUSIBLES NOS.png",
         "categoria": "fusibles",
         "subcategoria": "general",
-        "nombreSubcategoria": "Proposito general"
+        "nombreSubcategoria": "Proposito general",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "JCX",
@@ -997,7 +1107,8 @@
         "urlToImage": "BUSSMANN FUSIBLES JCX.png",
         "categoria": "fusibles",
         "subcategoria": "mediatension",
-        "nombreSubcategoria": "Media tensión"
+        "nombreSubcategoria": "Media tensión",
+        "nombreCategoria": "Fusibles"
     },
     {
         "codigo": "PV",
@@ -1006,6 +1117,7 @@
         "urlToImage": "BUSSMANN FUSIBLES SOLAR PV.png",
         "categoria": "fusibles",
         "subcategoria": "fotovoltaicos",
-        "nombreSubcategoria": "Fotovoltaicos"
+        "nombreSubcategoria": "Fotovoltaicos",
+        "nombreCategoria": "Fusibles"
     }
 ]

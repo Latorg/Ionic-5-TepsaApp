@@ -11,7 +11,7 @@
         *ngFor="let c of componentes | async ; let i = index" [class.active]="i === 0" >
       <div class="carousel-img" 
         [style]=" pathCarousel + c.urlToImage | domSanitizer : getMinHeightCarousel() " ></div>
-      <div class="carousel-div-header">
+      <div class="carousel-div-header" *ngIf="c.title.length > 0 || c.subtitle.length > 0">
         <ion-label class="carousel-lbl-header">{{ c.title }}</ion-label>
         <br>
         <div class="text-center w-100">
