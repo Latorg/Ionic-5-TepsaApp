@@ -20,19 +20,19 @@ export class ContactFabComponent implements OnInit {
 
   enviarWhatsApp() {
     if (this.platform.is('cordova')) {
-      this.iab.create('https://api.whatsapp.com/send?phone=+524448482102', '_system');
+      this.iab.create('https://api.whatsapp.com/send?phone=+524442183769', '_system');
     } else {
-      window.open('https://api.whatsapp.com/send?phone=+524448482102', '_blank');
+      window.open('https://api.whatsapp.com/send?phone=+524442183769', '_blank');
     }
   }
 
   llamarTelefono() {
     if (this.platform.is('cordova')) {
-      this.call.callNumber('+524448482102', true)
+      this.call.callNumber('+524442183769', true)
         .then(res => console.log('Launched dialer!', res))
         .catch(err => console.log('Error launching dialer', err));
     } else {
-      window.location.href = 'tel:+52-444-848-2102';
+      window.location.href = 'tel:+52-444-218-3769';
     }
   }
 
@@ -41,8 +41,8 @@ export class ContactFabComponent implements OnInit {
       this.email.open({
         to: 'ventas@tecnopotosi.com.mx',
         cc: 'sistemas@tecnopotosi.com.mx',
-        subject: 'Cordova Icons',
-        body: 'How are you? Nice greetings from Leipzig'
+        subject: 'Solicitud',
+        body: ''
       });
     } else {
       window.location.href = 'mailto:ventas@tecnopotosi.com.mx';

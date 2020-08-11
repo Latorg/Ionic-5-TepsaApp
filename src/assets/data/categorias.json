@@ -136,13 +136,20 @@
                 "id": "qo",
                 "nombre": "Tableros QO",
                 "urlToImageCard": "CENTROS DE CARGA QO SCHNEIDER.png" 
-            }]
+            }
+        ]
     },
     {
         "id": "electroducto",
         "nombre": "Electroducto & Plug in",
         "urlToImageCard": "electroducto.png",
-        "subcategorias": []
+        "subcategorias": [
+            {
+                "id": "squared",
+                "nombre": "Square D",
+                "urlToImageCard": "ELECTRODUCTO.png" 
+            }
+        ]
     },
     {
         "id": "ccm",

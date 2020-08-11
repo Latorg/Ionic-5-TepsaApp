@@ -1112,12 +1112,62 @@
     },
     {
         "codigo": "PV",
-        "descripcion": "fusible Solar PV, protección a sistemas fotovoltáicos de hasta 1,000 VCD, en película delgada y silicio cristalino",
+        "descripcion": "Fusible Solar PV, protección a sistemas fotovoltáicos de hasta 1,000 VCD, en película delgada y silicio cristalino",
         "urlToFichaTecnica": "BUSSMANN FUSIBLES SOLAR PV.pdf",
         "urlToImage": "BUSSMANN FUSIBLES SOLAR PV.png",
         "categoria": "fusibles",
         "subcategoria": "fotovoltaicos",
         "nombreSubcategoria": "Fotovoltaicos",
         "nombreCategoria": "Fusibles"
+    },
+    {
+        "codigo": "POWERBUS",
+        "descripcion": "Diseñado para atender las necesidades de distribución de baja potencia de los clientes industriales y comerciales",
+        "urlToFichaTecnica": "ELECTRODUCTO POWERBUS.pdf",
+        "urlToImage": "ELECTRODUCTO POWERBUS.png",
+        "categoria": "electroducto",
+        "subcategoria": "squared",
+        "nombreSubcategoria": "Square D",
+        "nombreCategoria": "Electroducto"
+    },
+    {
+        "codigo": "I-LINE PLUG-IN",
+        "descripcion": "Square-D ofrece una línea completa de alimentadores y accesorios de conductos de barras enchufables 225 - 600A, con el máximo de flexibilidad y facilidad de instalación",
+        "urlToFichaTecnica": "ELECTRODUCTO I-LINE.pdf",
+        "urlToImage": "ELECTRODUCTO I-LINE.png",
+        "categoria": "electroducto",
+        "subcategoria": "squared",
+        "nombreSubcategoria": "Square D",
+        "nombreCategoria": "Electroducto"
+    },
+    {
+        "codigo": "I-LINE II",
+        "descripcion": "Schneider ofrece una línea completa de alimentadores y accesorios de conductos de barras enchufables 800 - 5000A, con el máximo de flexibilidad y facilidad de instalación ",
+        "urlToFichaTecnica": "ELECTRODUCTO I-LINE II.pdf",
+        "urlToImage": "ELECTRODUCTO I-LINE II.png",
+        "categoria": "electroducto",
+        "subcategoria": "squared",
+        "nombreSubcategoria": "Square D",
+        "nombreCategoria": "Electroducto"
+    },
+    {
+        "codigo": "POWER ZONE",
+        "descripcion": "Sistemas de conductos de bus con caja metálica en: 600 V, 5Kv, 15 kV y 38 Kv. Diseñados y fabricados a la medida",
+        "urlToFichaTecnica": "ELECTRODUCTO POWERZONE.pdf",
+        "urlToImage": "ELECTRODUCTO POWERZONE.png",
+        "categoria": "electroducto",
+        "subcategoria": "squared",
+        "nombreSubcategoria": "Square D",
+        "nombreCategoria": "Electroducto"
+    },
+    {
+        "codigo": "UNIDADES I-LINE PLUG-IN",
+        "descripcion": "Unidades enchufables I-Line (Interruptores fusibles de 30, 60 y 100 A) para uso en electroductos I-Line & I-Line II",
+        "urlToFichaTecnica": "UNIDADES PARA ELECTRODUCTO I-LINE PLUG IN.pdf",
+        "urlToImage": "UNIDADES PARA ELECTRODUCTO I-LINE PLUG IN.png",
+        "categoria": "electroducto",
+        "subcategoria": "squared",
+        "nombreSubcategoria": "Square D",
+        "nombreCategoria": "Electroducto"
     }
 ]

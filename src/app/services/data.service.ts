@@ -21,7 +21,7 @@ export class DataService {
 
   getCarousel() {
     return this.http.get<CarouselSlide[]>('/assets/data/carousel.json');
-    // return this.http.get<CarouselSlide[]>('http://localhost:3000/carousel');
+    // return this.http.get<CarouselSlide[]>('https://apitepsa.xyz/carousel');
   }
 
   getCategorias() {
